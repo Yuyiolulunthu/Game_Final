@@ -1,0 +1,222 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.5f1 (40eb3a945986) revision 4254522'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'zh' Physical Memory: 16153 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+C:/Game Programming/Final
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+13813
+Successfully changed project path to: C:/Game Programming/Final
+C:/Game Programming/Final
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 83.94 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.5f1 (40eb3a945986)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Game Programming/Final/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4050 Laptop GPU (ID=0x28a1)
+    Vendor:   NVIDIA
+    VRAM:     5921 MB
+    Driver:   32.0.15.6614
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56628
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.005442 seconds.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for AppleTV target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 94.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.607 seconds
+Domain Reload Profiling:
+	ReloadAssembly (607ms)
+		BeginReloadAssembly (64ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (448ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (95ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (24ms)
+			SetupLoadedEditorAssemblies (285ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (66ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (94ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (84ms)
+				ProcessInitializeOnLoadMethodAttributes (38ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004860 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Game Programming\Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Game Programming\Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.269 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1270ms)
+		BeginReloadAssembly (312ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (175ms)
+		EndReloadAssembly (847ms)
+			LoadAssemblies (128ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (256ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (47ms)
+			SetupLoadedEditorAssemblies (359ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (27ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (218ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (7ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.23 seconds
+Refreshing native plugins compatible for Editor in 1.06 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3375 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (55.3 KB). Loaded Objects now: 3835.
+Memory consumption went from 122.1 MB to 122.0 MB.
+Total: 8.372700 ms (FindLiveObjects: 0.469900 ms CreateObjectMapping: 0.216000 ms MarkObjects: 7.585000 ms  DeleteObjects: 0.100000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 10139.770502 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Terrain/Terrain_Modular_Tiles_Grass_Dirt_Stairs_02_Atlased.prefab
+  artifactKey: Guid(29cc18d827696644a998c0b8d4a917ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Terrain/Terrain_Modular_Tiles_Grass_Dirt_Stairs_02_Atlased.prefab using Guid(29cc18d827696644a998c0b8d4a917ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '56c37ea5f156ffa45b44aa20478cf770') in 0.814898 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Terrain/Terrain_Modular_Tiles_Dirt_Stairs_03_Atlased.prefab
+  artifactKey: Guid(8a618186dc39d5d42a1573451969492d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Terrain/Terrain_Modular_Tiles_Dirt_Stairs_03_Atlased.prefab using Guid(8a618186dc39d5d42a1573451969492d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '29a51f20ceb1afde41829ff6ab95678b') in 0.036757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Terrain/Terrain_Modular_Tiles_Rock_Stairs_01_Atlased.prefab
+  artifactKey: Guid(f6009a34401a05f4898b95b6f265f88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Terrain/Terrain_Modular_Tiles_Rock_Stairs_01_Atlased.prefab using Guid(f6009a34401a05f4898b95b6f265f88e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b49afa2d0cab0f67a20367bdec8395e') in 0.044962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Terrain/Terrain_Modular_Tiles_Ice_Stairs_03_Atlased.prefab
+  artifactKey: Guid(5dd35e091df24ac418bf66004d15e520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Terrain/Terrain_Modular_Tiles_Ice_Stairs_03_Atlased.prefab using Guid(5dd35e091df24ac418bf66004d15e520) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b5d87a45199d61aa71540a786bbdf24') in 0.070713 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Terrain/Terrain_Modular_Tiles_Ice_Stairs_02_Atlased.prefab
+  artifactKey: Guid(7bcd99ac7cde23d44bffab40fec2525a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Terrain/Terrain_Modular_Tiles_Ice_Stairs_02_Atlased.prefab using Guid(7bcd99ac7cde23d44bffab40fec2525a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f501350ad6a90f134a0aac394066ff3') in 0.040032 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Terrain/Terrain_Modular_Tiles_Grass_Dirt_Stairs_03_Atlased.prefab
+  artifactKey: Guid(4f4f6479ccd305c43b3eb612d28a1bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Terrain/Terrain_Modular_Tiles_Grass_Dirt_Stairs_03_Atlased.prefab using Guid(4f4f6479ccd305c43b3eb612d28a1bf1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '574a982158beaa9a3309aae70e0caa82') in 0.040297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000057 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Terrain/Terrain_Modular_Tiles_Sand_Dirt_Stairs_02_Atlased.prefab
+  artifactKey: Guid(5a22d36badbb5904e9b2fe360e7be5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Terrain/Terrain_Modular_Tiles_Sand_Dirt_Stairs_02_Atlased.prefab using Guid(5a22d36badbb5904e9b2fe360e7be5f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72bd99349aca825fed0731c5ae66eea0') in 0.049948 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

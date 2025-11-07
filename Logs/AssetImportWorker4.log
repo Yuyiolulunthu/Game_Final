@@ -1,0 +1,726 @@
+Using pre-set license
+Built from '2021.3/staging' branch; Version is '2021.3.5f1 (40eb3a945986) revision 4254522'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'zh' Physical Memory: 16153 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2021.3.5f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker4
+-projectPath
+C:/Game Programming/Final
+-logFile
+Logs/AssetImportWorker4.log
+-srvPort
+13813
+Successfully changed project path to: C:/Game Programming/Final
+C:/Game Programming/Final
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 110.56 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.5f1 (40eb3a945986)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Game Programming/Final/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 4050 Laptop GPU (ID=0x28a1)
+    Vendor:   NVIDIA
+    VRAM:     5921 MB
+    Driver:   32.0.15.6614
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56456
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.006082 seconds.
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for AppleTV target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 97.04 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.646 seconds
+Domain Reload Profiling:
+	ReloadAssembly (646ms)
+		BeginReloadAssembly (75ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (466ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (102ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (26ms)
+			SetupLoadedEditorAssemblies (292ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (67ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (97ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (87ms)
+				ProcessInitializeOnLoadMethodAttributes (39ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.004141 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Game Programming\Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Game Programming\Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.146 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1147ms)
+		BeginReloadAssembly (352ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (208ms)
+		EndReloadAssembly (698ms)
+			LoadAssemblies (126ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (221ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (43ms)
+			SetupLoadedEditorAssemblies (328ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (73ms)
+				ProcessInitializeOnLoadAttributes (201ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (4ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (5ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.08 seconds
+Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3375 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (55.3 KB). Loaded Objects now: 3835.
+Memory consumption went from 122.1 MB to 122.0 MB.
+Total: 4.523900 ms (FindLiveObjects: 0.299000 ms CreateObjectMapping: 0.121500 ms MarkObjects: 3.993000 ms  DeleteObjects: 0.108400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 10388.662474 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Water Planes/Water_Plane_Circle_Large_01_Atlased.prefab
+  artifactKey: Guid(7da4f403e848f634ea9bdcf02f18ac8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Water Planes/Water_Plane_Circle_Large_01_Atlased.prefab using Guid(7da4f403e848f634ea9bdcf02f18ac8a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ce10e8291492f03150b93b04c864954') in 0.277763 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.745190 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Statues/Prop_Statue_Aphrodite_01_Atlased.prefab
+  artifactKey: Guid(044fd8713734ded4e9025b2d06824210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Statues/Prop_Statue_Aphrodite_01_Atlased.prefab using Guid(044fd8713734ded4e9025b2d06824210) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c656464ff9d7935361a8821a3b868609') in 0.062793 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Statues/Prop_Statue_Head_Tribal_01_Atlased.prefab
+  artifactKey: Guid(b6fe959aab63bea48bda03d0ebad4977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Statues/Prop_Statue_Head_Tribal_01_Atlased.prefab using Guid(b6fe959aab63bea48bda03d0ebad4977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5538f93034c855bb2c46c6a46bb96ee9') in 0.098764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Statues/Prop_Statue_Horse_01_Atlased.prefab
+  artifactKey: Guid(a92921ccfa238064c9992ca0da3c57af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Statues/Prop_Statue_Horse_01_Atlased.prefab using Guid(a92921ccfa238064c9992ca0da3c57af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9723544d7025a3746443648af1a4711a') in 0.064408 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.669239 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Rocks/Rock_Boulder_01_Atlased.prefab
+  artifactKey: Guid(4ade072de3fb845498b1b47124443004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Rocks/Rock_Boulder_01_Atlased.prefab using Guid(4ade072de3fb845498b1b47124443004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b143fddcb7d6b1b336b67360b39fa496') in 0.079241 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Rocks/Rock_Large_12_Atlased.prefab
+  artifactKey: Guid(ccdff8974460a0e4fafea3140c30cd71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Rocks/Rock_Large_12_Atlased.prefab using Guid(ccdff8974460a0e4fafea3140c30cd71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76ca3e4a5cd6c062a2969ba7f0f9caf8') in 0.078627 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Rocks/Rock_Shard_08_Atlased.prefab
+  artifactKey: Guid(96678f164fbf13542bd8ecf7128312f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Rocks/Rock_Shard_08_Atlased.prefab using Guid(96678f164fbf13542bd8ecf7128312f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2153754f960567f5dac08508592d42c0') in 0.058562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Rocks/Rock_Geometric_Square_12_Atlased.prefab
+  artifactKey: Guid(f20f91cde98999c4e9343db310dada61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Rocks/Rock_Geometric_Square_12_Atlased.prefab using Guid(f20f91cde98999c4e9343db310dada61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21145b65f4e23cb77d6dd4e85861af66') in 0.062470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Rocks/Rock_Large_14_Atlased.prefab
+  artifactKey: Guid(dcce0ad05ac45c44d8667c0c8ee1d93f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Rocks/Rock_Large_14_Atlased.prefab using Guid(dcce0ad05ac45c44d8667c0c8ee1d93f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6aaca2b7602e64d3672cf45a0d8ad41a') in 0.055055 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Rocks/Rock_Shard_07_Atlased.prefab
+  artifactKey: Guid(d98e21d5e44a3354e93c956cc950cfae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Rocks/Rock_Shard_07_Atlased.prefab using Guid(d98e21d5e44a3354e93c956cc950cfae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d0c19dd0678d31b9c4b9dae47ba801e') in 0.046046 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Rocks/Rock_Medium_Dirt_03_Atlased.prefab
+  artifactKey: Guid(c6e74e1e17da248438a86f68529bdb59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Rocks/Rock_Medium_Dirt_03_Atlased.prefab using Guid(c6e74e1e17da248438a86f68529bdb59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83243221b596f358f655ce04b6d0b6f8') in 0.055646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Rocks/Rock_Large_Dirt_05_Atlased.prefab
+  artifactKey: Guid(5d06596aa17097a43bfde3e9eef972e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Rocks/Rock_Large_Dirt_05_Atlased.prefab using Guid(5d06596aa17097a43bfde3e9eef972e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c533ca4f328a75db15c0df2fc695e454') in 0.086168 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Rocks/Rock_Small_06_Atlased.prefab
+  artifactKey: Guid(7bf2aaeac8904ff4c9ec1c656c849dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Rocks/Rock_Small_06_Atlased.prefab using Guid(7bf2aaeac8904ff4c9ec1c656c849dd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e190d4405abcdfadc29903666927e945') in 0.052243 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Rocks/Rock_Large_15_Atlased.prefab
+  artifactKey: Guid(fc8e2ac604ff5cd4e826bd4d934ec158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Rocks/Rock_Large_15_Atlased.prefab using Guid(fc8e2ac604ff5cd4e826bd4d934ec158) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd43a40728c2671d89559e4749ef5b738') in 0.064504 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Rocks/Rock_Medium_Dirt_05_Atlased.prefab
+  artifactKey: Guid(a3c8ed03f5ea5114aa8dc8cabecab386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Rocks/Rock_Medium_Dirt_05_Atlased.prefab using Guid(a3c8ed03f5ea5114aa8dc8cabecab386) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '369d3a92282e1099a343cad121d366dd') in 0.044275 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Rocks/Rock_Geometric_Square_07_Atlased.prefab
+  artifactKey: Guid(84e21a997926d31418413bd8b4aebbf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Rocks/Rock_Geometric_Square_07_Atlased.prefab using Guid(84e21a997926d31418413bd8b4aebbf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e29bc6c3d286887590eb58657ad6c71') in 0.038428 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.516010 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Rocks/Rock_Small_08_Atlased.prefab
+  artifactKey: Guid(c79433d762ce71e40b086d2b27b26c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Rocks/Rock_Small_08_Atlased.prefab using Guid(c79433d762ce71e40b086d2b27b26c6b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '792a0af28c9efca51a93552b7347a815') in 0.338578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.299365 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Ruins/Prop_Ruins_Archway_Sandstone_Half_01_Atlased.prefab
+  artifactKey: Guid(0066c211bc607c141b9e8137fda6426a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Ruins/Prop_Ruins_Archway_Sandstone_Half_01_Atlased.prefab using Guid(0066c211bc607c141b9e8137fda6426a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6a920a6dd02fa34728b89932ad4f936') in 0.093886 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Ruins/Prop_Ruins_Bridge_Stone_Piece_01_Atlased.prefab
+  artifactKey: Guid(4203f91c141c2a843b0bb41fe5f0819a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Ruins/Prop_Ruins_Bridge_Stone_Piece_01_Atlased.prefab using Guid(4203f91c141c2a843b0bb41fe5f0819a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a41a6299ff59d3b9640fe7d5419504b') in 0.165353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Ruins/Prop_Ruins_Column_Stone_01_Atlased.prefab
+  artifactKey: Guid(990d953df49da4b4db8347b93acc0e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Ruins/Prop_Ruins_Column_Stone_01_Atlased.prefab using Guid(990d953df49da4b4db8347b93acc0e41) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f0fd8bfa90298ac7389315642f3ff79c') in 0.075459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.712633 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Props General/Prop_Anvil_01_Atlased.prefab
+  artifactKey: Guid(da72f968aa6dbc249a7137df857e541c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Props General/Prop_Anvil_01_Atlased.prefab using Guid(da72f968aa6dbc249a7137df857e541c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68652d2454f9a8bbae2da13fe3a377d2') in 0.083087 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Props General/Prop_Ornament_Pagoda_02_Atlased.prefab
+  artifactKey: Guid(dfbad49b7cc7ed14cbd081112b873f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Props General/Prop_Ornament_Pagoda_02_Atlased.prefab using Guid(dfbad49b7cc7ed14cbd081112b873f4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7dee0c0c1e69340a0d3d84979b38029') in 0.112369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Props General/Prop_Fire_Static_01_Atlased.prefab
+  artifactKey: Guid(f6032e4b0c06aea4a96d60304420a941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Props General/Prop_Fire_Static_01_Atlased.prefab using Guid(f6032e4b0c06aea4a96d60304420a941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b6022d369a86c4aac0ac7e8f6360820') in 0.072858 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Props General/Prop_Mantle_Deer_Stone_01_Atlased.prefab
+  artifactKey: Guid(2e4d1afb8a387f54ebacbac062551dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Props General/Prop_Mantle_Deer_Stone_01_Atlased.prefab using Guid(2e4d1afb8a387f54ebacbac062551dc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '096b32012595a5c0fb4f86d42ee8d7cd') in 0.066124 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Props General/Prop_Urn_01_Atlased.prefab
+  artifactKey: Guid(dd4f5cc1b63d0b54dbb5b4fdeb6619ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Props General/Prop_Urn_01_Atlased.prefab using Guid(dd4f5cc1b63d0b54dbb5b4fdeb6619ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d1cdac4811e43fc939e5b266a6a0eb0') in 0.052394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.224282 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Handrails/Prop_Handrail_Stone_01_Atlased.prefab
+  artifactKey: Guid(f219bf8814b82664ca31251f59a571af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Handrails/Prop_Handrail_Stone_01_Atlased.prefab using Guid(f219bf8814b82664ca31251f59a571af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cb83b0d1ae0ca108beabb41ac7c937b') in 0.063141 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Handrails/Prop_Handrail_Stone_08_Atlased.prefab
+  artifactKey: Guid(43cc2e919cdfa5b4e9e662a5668272f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Handrails/Prop_Handrail_Stone_08_Atlased.prefab using Guid(43cc2e919cdfa5b4e9e662a5668272f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd09f9f85589e301b0da9c51661a5035') in 0.096383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.291665 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Fruit & Veg/Prop_Fruit_Apple_Red_01_Atlased.prefab
+  artifactKey: Guid(8fe7c55189430ea42965b49ea054a263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Fruit & Veg/Prop_Fruit_Apple_Red_01_Atlased.prefab using Guid(8fe7c55189430ea42965b49ea054a263) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51662fbd94d9f1fd5867cb6feaf7dfc2') in 0.080410 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Fruit & Veg/Prop_Fruit_Pineapple_01_Atlased.prefab
+  artifactKey: Guid(74bb727e56380484a86e858eaf783a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Fruit & Veg/Prop_Fruit_Pineapple_01_Atlased.prefab using Guid(74bb727e56380484a86e858eaf783a8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bbbd85592969bad7595aabaf1bb8f27') in 0.110448 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.373326 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Fences/Prop_Fence_Stone_Column_01_Atlased.prefab
+  artifactKey: Guid(6306d3abc96e75c498b62486bbc543d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Fences/Prop_Fence_Stone_Column_01_Atlased.prefab using Guid(6306d3abc96e75c498b62486bbc543d0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74f11237af2601016a095a6a03d7adfd') in 0.072085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Fences/Prop_Fence_Wooden_Small_02_Atlased.prefab
+  artifactKey: Guid(db14830fe1db660429d8e265e2bc746e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Fences/Prop_Fence_Wooden_Small_02_Atlased.prefab using Guid(db14830fe1db660429d8e265e2bc746e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c06c0832a8a7b55406c1a0d25094b110') in 0.107356 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.795468 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Dungeon/Dungeon_Tiles_Modular_Stairs_Spiral_Large_Stone_01_Atlased.prefab
+  artifactKey: Guid(4826ac05fe46c444e81a7507a6fb01fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Dungeon/Dungeon_Tiles_Modular_Stairs_Spiral_Large_Stone_01_Atlased.prefab using Guid(4826ac05fe46c444e81a7507a6fb01fa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1759c5b369d9ee989f45f71546f40099') in 0.068324 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Dungeon/Dungeon_Tiles_Modular_Stairs_Spiral_Small_Timber_03_Atlased.prefab
+  artifactKey: Guid(2637736dfcce0814da17619bb2b3e27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Dungeon/Dungeon_Tiles_Modular_Stairs_Spiral_Small_Timber_03_Atlased.prefab using Guid(2637736dfcce0814da17619bb2b3e27b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d0f19b9f8acfb112d3d3571e3860e49') in 0.093157 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Dungeon/Dungeon_Tiles_Modular_Stairs_Spiral_Small_Stone_03_Atlased.prefab
+  artifactKey: Guid(7a92b7f73c2e9684ab277d8c521e9df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Dungeon/Dungeon_Tiles_Modular_Stairs_Spiral_Small_Stone_03_Atlased.prefab using Guid(7a92b7f73c2e9684ab277d8c521e9df3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a251800fb69730c33969712e7f96a813') in 0.065835 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Dungeon/Prop_Trimming_Textured_Corner_Stone_Dungeon_01_Atlased.prefab
+  artifactKey: Guid(b6ca2466fe8fb944d91120bf7b079ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Dungeon/Prop_Trimming_Textured_Corner_Stone_Dungeon_01_Atlased.prefab using Guid(b6ca2466fe8fb944d91120bf7b079ca9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a3ba245f215b09b096234a38193b342') in 0.053714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.755235 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Crystals/Prop_Crystal_Dark_Blue_01_Atlased.prefab
+  artifactKey: Guid(358ad2e069be2f547a80c70036d80e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Crystals/Prop_Crystal_Dark_Blue_01_Atlased.prefab using Guid(358ad2e069be2f547a80c70036d80e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcfd854503596e780e649a02e8e12160') in 0.074038 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Crystals/Prop_Gem_Purple_02_Atlased.prefab
+  artifactKey: Guid(b8ea6b88a2d8678489fd35449ef3bb5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Crystals/Prop_Gem_Purple_02_Atlased.prefab using Guid(b8ea6b88a2d8678489fd35449ef3bb5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f72484e0435546d007ac3740f2d87f73') in 0.064129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Crystals/Prop_Gem_Purple_06_Atlased.prefab
+  artifactKey: Guid(557abdc9ccd2b0b43aafe9ce21863f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Crystals/Prop_Gem_Purple_06_Atlased.prefab using Guid(557abdc9ccd2b0b43aafe9ce21863f8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd919bc99d3a03ecf44d6f8c80ac786fb') in 0.056088 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Crystals/Prop_Crystal_Purple_01_Atlased.prefab
+  artifactKey: Guid(2f915f73af681074b934319e939c32aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Crystals/Prop_Crystal_Purple_01_Atlased.prefab using Guid(2f915f73af681074b934319e939c32aa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57eb6fbc7d4ffc30053cec7210a2bab6') in 0.056022 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Crystals/Prop_Gem_Purple_05_Atlased.prefab
+  artifactKey: Guid(1d65ed781a4f2364f94babee2315a1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Crystals/Prop_Gem_Purple_05_Atlased.prefab using Guid(1d65ed781a4f2364f94babee2315a1cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32873a1406ff332e76e3aa87254fb7fd') in 0.052383 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Crystals/Prop_Gem_Purple_03_Atlased.prefab
+  artifactKey: Guid(339604dbb88647d42926d0668c698687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Crystals/Prop_Gem_Purple_03_Atlased.prefab using Guid(339604dbb88647d42926d0668c698687) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '559d13939f8cb5c609bd438ca5bffe46') in 0.053245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Crystals/Prop_Crystal_Singular_Purple_13_Atlased.prefab
+  artifactKey: Guid(f35794db48ddad14fb07c48a3024f103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Crystals/Prop_Crystal_Singular_Purple_13_Atlased.prefab using Guid(f35794db48ddad14fb07c48a3024f103) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7193c609e72bec7d37dadf7686b547eb') in 0.050643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Crystals/Prop_Crystal_Singular_Purple_03_Atlased.prefab
+  artifactKey: Guid(f3972b49a834ad94fa1843f5bf49a76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Crystals/Prop_Crystal_Singular_Purple_03_Atlased.prefab using Guid(f3972b49a834ad94fa1843f5bf49a76c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6292ee80ebda042efe0e229ede7c1c4') in 0.053406 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Crystals/Prop_Gem_Purple_11_Atlased.prefab
+  artifactKey: Guid(9890f844a6beee54e932457aa0c7a44e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Crystals/Prop_Gem_Purple_11_Atlased.prefab using Guid(9890f844a6beee54e932457aa0c7a44e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6306560a852284a31821e40cb18444e8') in 0.039587 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.777809 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Clouds/Cloud_01_Atlased.prefab
+  artifactKey: Guid(ffad9348f27286049a94d5bc90745d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Clouds/Cloud_01_Atlased.prefab using Guid(ffad9348f27286049a94d5bc90745d97) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b3716e4142779fc7fc2dbfe8387fc1') in 0.064481 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Clouds/Cloud_Wisp_02_Atlased.prefab
+  artifactKey: Guid(64955fc2ab6e3ac4491b609d09c9816d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Clouds/Cloud_Wisp_02_Atlased.prefab using Guid(64955fc2ab6e3ac4491b609d09c9816d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '009e089fec924897f04e66352001a494') in 0.093918 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Clouds/Cloud_06_Atlased.prefab
+  artifactKey: Guid(6efc8ddeae46eb84ea912df58234f6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Clouds/Cloud_06_Atlased.prefab using Guid(6efc8ddeae46eb84ea912df58234f6bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3f0209072c18c842e12555d0ed11a83') in 0.055315 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Clouds/Cloud_Wisp_Half_05_Atlased.prefab
+  artifactKey: Guid(7496a938930185a438d4439f7327a5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Clouds/Cloud_Wisp_Half_05_Atlased.prefab using Guid(7496a938930185a438d4439f7327a5f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ba5a84c1e70524c2790e4eebd685b47') in 0.074226 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.855211 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Buildings/Building_Castle_Joining_Bridge_01_Atlased.prefab
+  artifactKey: Guid(2804dcd5b4d9a9445bd14dba2bf218a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Buildings/Building_Castle_Joining_Bridge_01_Atlased.prefab using Guid(2804dcd5b4d9a9445bd14dba2bf218a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7887cacac02b41c3ba93e1d090cdbd0e') in 0.084985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Buildings/Building_Temple_Indian_Top_01_Atlased.prefab
+  artifactKey: Guid(39128779281be3146938c405011a78f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Buildings/Building_Temple_Indian_Top_01_Atlased.prefab using Guid(39128779281be3146938c405011a78f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a3b05856518eee63bc34080de09894b') in 0.101156 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Buildings/Prop_Brick_Stone_Dungeon_01_Atlased.prefab
+  artifactKey: Guid(e510103e0d1d9494eb371e99518aa730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Buildings/Prop_Brick_Stone_Dungeon_01_Atlased.prefab using Guid(e510103e0d1d9494eb371e99518aa730) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9300d031bddd81ea10a1045af0e1b22f') in 0.057004 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Buildings/Building_Castle_Tower_Base_Small_01_Atlased.prefab
+  artifactKey: Guid(73dc17c3125b99d4b8112c2ae13013f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Buildings/Building_Castle_Tower_Base_Small_01_Atlased.prefab using Guid(73dc17c3125b99d4b8112c2ae13013f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffd1fe349533788e1cb553ce912ccdc4') in 0.060470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Buildings/Building_Temple_Indian_Top_Tall_02_Atlased.prefab
+  artifactKey: Guid(3a912e79e19fa0c479c4c478f17b95cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Buildings/Building_Temple_Indian_Top_Tall_02_Atlased.prefab using Guid(3a912e79e19fa0c479c4c478f17b95cd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79fe2457856615d1b6bd92e42a199d01') in 0.057866 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Buildings/Prop_Archway_Roof_Stone_Castle_Dungeon_01_Atlased.prefab
+  artifactKey: Guid(e94397b75ac83b949ab3d5105fdbcd4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Buildings/Prop_Archway_Roof_Stone_Castle_Dungeon_01_Atlased.prefab using Guid(e94397b75ac83b949ab3d5105fdbcd4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30a9f873dc71834a15ec040adfa53d4c') in 0.053019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000110 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Buildings/Prop_Column_Half_Bottom_Stone_Castle_Dungeon_01_Atlased.prefab
+  artifactKey: Guid(22e443a7579f449479a923f2379340f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Buildings/Prop_Column_Half_Bottom_Stone_Castle_Dungeon_01_Atlased.prefab using Guid(22e443a7579f449479a923f2379340f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c880d8fb24eed3bdce01083859bbf19') in 0.054435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Buildings/Prop_Brick_Stone_Dungeon_04_Atlased.prefab
+  artifactKey: Guid(0108505347da85442b3b4a77870df7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Buildings/Prop_Brick_Stone_Dungeon_04_Atlased.prefab using Guid(0108505347da85442b3b4a77870df7c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1b9030c55b4c2006f44527d841572bb') in 0.054966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.853983 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Bridges/Prop_Bridge_Stone_01_Atlased.prefab
+  artifactKey: Guid(f94ca3a33b709c3478b856c316a243f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Bridges/Prop_Bridge_Stone_01_Atlased.prefab using Guid(f94ca3a33b709c3478b856c316a243f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad81bbb3d156aa033632248f332ef123') in 0.038668 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.591152 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Boardgame/Boardgame_Chess_Piece_Bishop_Black_01_Atlased.prefab
+  artifactKey: Guid(a003dac537ec7ac4180cd9c9bba5d887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Boardgame/Boardgame_Chess_Piece_Bishop_Black_01_Atlased.prefab using Guid(a003dac537ec7ac4180cd9c9bba5d887) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4da2a7d28268b0291b68deeafd39ed84') in 0.069896 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Boardgame/Boardgame_Chess_Piece_Pawn_Black_01_Atlased.prefab
+  artifactKey: Guid(8e18c0fea3c23fe43a1eee32ec8b915a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Boardgame/Boardgame_Chess_Piece_Pawn_Black_01_Atlased.prefab using Guid(8e18c0fea3c23fe43a1eee32ec8b915a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c712283c65909750aca2721a628c41ef') in 0.085917 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Boardgame/Boardgame_Token_Flag_Purple_01_Atlased.prefab
+  artifactKey: Guid(1abb16da133f5bd4592fc7d273370521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Boardgame/Boardgame_Token_Flag_Purple_01_Atlased.prefab using Guid(1abb16da133f5bd4592fc7d273370521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '516cb646b0244571624281be38509a3f') in 0.101650 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Boardgame/Boardgame_Token_Red_01_Atlased.prefab
+  artifactKey: Guid(449887ea0eec11c4e9e2820ce1ee27b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Boardgame/Boardgame_Token_Red_01_Atlased.prefab using Guid(449887ea0eec11c4e9e2820ce1ee27b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c7d0bdaf9c2bdd71a85d6b31f6ae58f7') in 0.046061 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Boardgame/Boardgame_Token_Black_01_Atlased.prefab
+  artifactKey: Guid(d1dd61647e6c81e43ade86725789feb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Boardgame/Boardgame_Token_Black_01_Atlased.prefab using Guid(d1dd61647e6c81e43ade86725789feb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5010e70f0bf521b845a8914724a6ad44') in 0.048826 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Boardgame/Boardgame_Chess_Piece_Queen_Black_01_Atlased.prefab
+  artifactKey: Guid(75ef26b948b74bd4383b0536352db0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Boardgame/Boardgame_Chess_Piece_Queen_Black_01_Atlased.prefab using Guid(75ef26b948b74bd4383b0536352db0e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b7d73f1d9d279951dac452f00d46716') in 0.045796 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Boardgame/Boardgame_Token_Blue_01_Atlased.prefab
+  artifactKey: Guid(f5492532bea11b046a0e7874f5dc0655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Boardgame/Boardgame_Token_Blue_01_Atlased.prefab using Guid(f5492532bea11b046a0e7874f5dc0655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89d2c209f6f9c88ea8ac86c5d35e47a0') in 0.041470 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Boardgame/Boardgame_Token_Green_01_Atlased.prefab
+  artifactKey: Guid(bf95206287126dd4c82ecd13b610f867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Boardgame/Boardgame_Token_Green_01_Atlased.prefab using Guid(bf95206287126dd4c82ecd13b610f867) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6a16d3c1e37942ed4824f7935f632a1') in 0.031170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.706801 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Animals/Animal_Fish_01_Atlased.prefab
+  artifactKey: Guid(a40bf7aa688a3d64aa08d67dff4e6463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Animals/Animal_Fish_01_Atlased.prefab using Guid(a40bf7aa688a3d64aa08d67dff4e6463) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c0f2db0fc801f98e02a32d59a1362876') in 0.041190 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.368486 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Alcove_Base_1.0_Beige_01_Atlased.prefab
+  artifactKey: Guid(943f96515b8406e4c908704fa7e3f555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Alcove_Base_1.0_Beige_01_Atlased.prefab using Guid(943f96515b8406e4c908704fa7e3f555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3ed2ad1535956796c2d4a782288cd53') in 0.058959 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Battlements_1.0_Beige_01_Atlased.prefab
+  artifactKey: Guid(2fbe1a462d0e092418694f1455151f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Battlements_1.0_Beige_01_Atlased.prefab using Guid(2fbe1a462d0e092418694f1455151f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a3d4bf0f33b5c0e54f9c466e94eccc2') in 0.048399 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_1.0_Red_01_Atlased.prefab
+  artifactKey: Guid(94a0fa517cc8da8489721e9c88f04889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_1.0_Red_01_Atlased.prefab using Guid(94a0fa517cc8da8489721e9c88f04889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '311dbdeca8e54cf2b0110dcab48c40bb') in 0.051394 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Battlements_Right_Tall_1.0_Beige_01_Atlased.prefab
+  artifactKey: Guid(e9e7adb25289eba4999c91200fad0fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Battlements_Right_Tall_1.0_Beige_01_Atlased.prefab using Guid(e9e7adb25289eba4999c91200fad0fc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '278120db0e4239143077c57508688c36') in 0.046248 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Battlements_Back_1.0_Beige_01_Atlased.prefab
+  artifactKey: Guid(e9145bc6f57789040a438b7908f8b41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Battlements_Back_1.0_Beige_01_Atlased.prefab using Guid(e9145bc6f57789040a438b7908f8b41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86e1379dfe3e37e82c46f24d706c4357') in 0.055166 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_0.125_Pink_01_Atlased.prefab
+  artifactKey: Guid(8742a5390bf3cbd4b8c30b8ad1405cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_0.125_Pink_01_Atlased.prefab using Guid(8742a5390bf3cbd4b8c30b8ad1405cc6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c7ac8f31c05e58397d5eb15cc74d655') in 0.057815 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Battlements_Front_Right_1.0_Beige_01_Atlased.prefab
+  artifactKey: Guid(5bc5ca4c4724267409bc3f5f5b162bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Battlements_Front_Right_1.0_Beige_01_Atlased.prefab using Guid(5bc5ca4c4724267409bc3f5f5b162bd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'add92d63ddaeff8a99fbeba4e2f4f8fb') in 0.055093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_0.125_Beige_01_Atlased.prefab
+  artifactKey: Guid(d0b0b3804ce1c2148b0e98f93f87b987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_0.125_Beige_01_Atlased.prefab using Guid(d0b0b3804ce1c2148b0e98f93f87b987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6c51852ac3888e405dac482711b5db0') in 0.068245 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_0.5_Blue_01_Atlased.prefab
+  artifactKey: Guid(ccf113ca1e6a1c24bb27bca551ad3daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_0.5_Blue_01_Atlased.prefab using Guid(ccf113ca1e6a1c24bb27bca551ad3daa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4a02a17a67ff13615c34ca64948f360') in 0.070619 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Archway_Single_1.5_Beige_01_Atlased.prefab
+  artifactKey: Guid(ac7eedfea0ebadd4da06e2364e881203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Archway_Single_1.5_Beige_01_Atlased.prefab using Guid(ac7eedfea0ebadd4da06e2364e881203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b57fc56cf2b85718b664ed172c0ebea8') in 0.051271 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_1.0_Orange_01_Atlased.prefab
+  artifactKey: Guid(42d09f37ed1861348b3f60a07749d874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_1.0_Orange_01_Atlased.prefab using Guid(42d09f37ed1861348b3f60a07749d874) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e0f2b300e9acdd621726e99b4fe8e9e') in 0.049099 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Battlements_Back_Right_Tall_1.0_Beige_01_Atlased.prefab
+  artifactKey: Guid(68e2458c7130dc143aa5c8d3b7cb4df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Battlements_Back_Right_Tall_1.0_Beige_01_Atlased.prefab using Guid(68e2458c7130dc143aa5c8d3b7cb4df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c4358339e7ef7f853ea4e5eb4388c1a') in 0.046588 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.984242 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_1.5_Orange_01_Atlased.prefab
+  artifactKey: Guid(8fbd1881480f3cd408244fdfda76c928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_1.5_Orange_01_Atlased.prefab using Guid(8fbd1881480f3cd408244fdfda76c928) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71364a826f32e3bed38dce101803a0a6') in 0.118663 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Columns_1.0_Beige_01_Atlased.prefab
+  artifactKey: Guid(6e1502e8cd059344fae72fd3b24ab655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Columns_1.0_Beige_01_Atlased.prefab using Guid(6e1502e8cd059344fae72fd3b24ab655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdfccc90b247acbae53606344cc91c96') in 0.098161 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_2.0_Grey_01_Atlased.prefab
+  artifactKey: Guid(428a853b255a39b4f92dd1a2bd7ae6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_2.0_Grey_01_Atlased.prefab using Guid(428a853b255a39b4f92dd1a2bd7ae6ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fd118f9b9990d6b60741a0363dcf44e') in 0.054077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.625402 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Door_Gate_1.0_Beige_01_Atlased.prefab
+  artifactKey: Guid(b39e9ca2a862b33408fe11cbfe472e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Door_Gate_1.0_Beige_01_Atlased.prefab using Guid(b39e9ca2a862b33408fe11cbfe472e71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad077d33c85575749c50999fbf129a7d') in 0.158890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Roof_1.0_Beige_02_Atlased.prefab
+  artifactKey: Guid(8b079f69901f8484f954490f59e0fd4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Roof_1.0_Beige_02_Atlased.prefab using Guid(8b079f69901f8484f954490f59e0fd4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b048b6109d7b1d8d15b912cac9f5b45') in 0.087296 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Penrose_Stairs_Beige_01_Atlased.prefab
+  artifactKey: Guid(1f59ece924701114ab0d6ba18ae66626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Penrose_Stairs_Beige_01_Atlased.prefab using Guid(1f59ece924701114ab0d6ba18ae66626) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2d01d1002de9b79755adaee0caceb29') in 0.052948 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 103.051973 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Stairs_0.5_Beige_01_Atlased.prefab
+  artifactKey: Guid(056b20928cf1a9c47a1deb0c79680529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Stairs_0.5_Beige_01_Atlased.prefab using Guid(056b20928cf1a9c47a1deb0c79680529) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8a55bd38112e5069c860a08b9c6c7d0') in 0.040553 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Switch_Beige_01_Atlased.prefab
+  artifactKey: Guid(0fe01505a925f3b44a0abfe8b97a7d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Switch_Beige_01_Atlased.prefab using Guid(0fe01505a925f3b44a0abfe8b97a7d48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1efafb7cf022649c13bf310a2929fcd2') in 0.059646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Window_1.0_Beige_02_Atlased.prefab
+  artifactKey: Guid(735cb498efc58ab42a5268c74373464d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Window_1.0_Beige_02_Atlased.prefab using Guid(735cb498efc58ab42a5268c74373464d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01e5a578ea46d7a74a5358c0aced7e00') in 0.043844 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Window_Quad_1.0_Beige_01_Atlased.prefab
+  artifactKey: Guid(e54824318161303408b0afa5c6bd009d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Window_Quad_1.0_Beige_01_Atlased.prefab using Guid(e54824318161303408b0afa5c6bd009d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3ddd82fb1812ee22893b914befba91ef') in 0.037292 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Stairs_Doorway_Beige_01_Atlased.prefab
+  artifactKey: Guid(88cc441e104588a439064f0110f8e3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Stairs_Doorway_Beige_01_Atlased.prefab using Guid(88cc441e104588a439064f0110f8e3c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '878afd4675e1d2860b3d74531e6e10e8') in 0.028803 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Window_Archway_Dual_1.5_Beige_01_Atlased.prefab
+  artifactKey: Guid(0c790524e5168894092b9b7c7770ba74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Window_Archway_Dual_1.5_Beige_01_Atlased.prefab using Guid(0c790524e5168894092b9b7c7770ba74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8442182676c22e19e4e6b43d2f46c0e') in 0.054856 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.434217 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Window_Quad_1.0_Beige_02_Atlased.prefab
+  artifactKey: Guid(f2e6010894e4ede4c9c9d5abacb0885d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Window_Quad_1.0_Beige_02_Atlased.prefab using Guid(f2e6010894e4ede4c9c9d5abacb0885d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d2ec6f84b44bd31b3a6268bce262934') in 0.062880 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
