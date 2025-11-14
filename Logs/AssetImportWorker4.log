@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.5f1 (40eb3a945986) revision 4254522'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'zh' Physical Memory: 32159 MB
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'zh' Physical Memory: 32437 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.5f1\Editor\Unity.exe
 -name
 AssetImportWorker4
 -projectPath
-C:/Users/User/Desktop/final/Game_Final
+D:/遊程_finalproject/Game_Final
 -logFile
 Logs/AssetImportWorker4.log
 -srvPort
-60525
-Successfully changed project path to: C:/Users/User/Desktop/final/Game_Final
-C:/Users/User/Desktop/final/Game_Final
+55874
+Successfully changed project path to: D:/遊程_finalproject/Game_Final
+D:/遊程_finalproject/Game_Final
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,238 +47,20 @@ C:/Users/User/Desktop/final/Game_Final
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 101.71 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 2330.51 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.5f1 (40eb3a945986)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/User/Desktop/final/Game_Final/Assets
+[Subsystems] Discovering subsystems at path D:/遊程_finalproject/Game_Final/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
-    Vendor:   NVIDIA
-    VRAM:     6010 MB
-    Driver:   31.0.15.4680
+    Renderer: Intel(R) Arc(TM) Pro Graphics (ID=0x7d55)
+    Vendor:   Intel
+    VRAM:     16218 MB
+    Driver:   32.0.101.5768
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56936
-Begin MonoManager ReloadAssembly
-Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.010642 seconds.
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 106.36 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  0.685 seconds
-Domain Reload Profiling:
-	ReloadAssembly (685ms)
-		BeginReloadAssembly (78ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (0ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (486ms)
-			LoadAssemblies (75ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (97ms)
-			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (26ms)
-			SetupLoadedEditorAssemblies (304ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (9ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (106ms)
-				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (134ms)
-				ProcessInitializeOnLoadMethodAttributes (53ms)
-				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (0ms)
-Platform modules already initialized, skipping
-Registering precompiled user dll's ...
-Registered in 0.007722 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\final\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\final\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.74 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.087 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1088ms)
-		BeginReloadAssembly (125ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (25ms)
-		EndReloadAssembly (838ms)
-			LoadAssemblies (96ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (259ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (393ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (7ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (98ms)
-				ProcessInitializeOnLoadAttributes (250ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
-				AfterProcessingInitializeOnLoad (11ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.98 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3379 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (55.7 KB). Loaded Objects now: 3842.
-Memory consumption went from 126.7 MB to 126.6 MB.
-Total: 3.684000 ms (FindLiveObjects: 0.266500 ms CreateObjectMapping: 0.399600 ms MarkObjects: 2.937500 ms  DeleteObjects: 0.079300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 189883.654896 seconds.
-  path: Assets/Suriyun/Floor
-  artifactKey: Guid(264d8269acc2f2742bcca6bd08fd2043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suriyun/Floor using Guid(264d8269acc2f2742bcca6bd08fd2043) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c08cb333d1b812cfdaab2c77f6d53f3') in 0.015375 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.133520 seconds.
-  path: Assets/Suriyun/Floor/Floor2.mat
-  artifactKey: Guid(b4b7da7c0be5fd24da9842505cc83376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suriyun/Floor/Floor2.mat using Guid(b4b7da7c0be5fd24da9842505cc83376) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0474c0cd6b88263dafb24f8fd4958e4d') in 0.100164 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.397913 seconds.
-  path: Assets/Suriyun/Scripts
-  artifactKey: Guid(fa6bf1c0947d31b4f99435555358ef8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suriyun/Scripts using Guid(fa6bf1c0947d31b4f99435555358ef8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67afbbdcf92812cf0cd886e4e6961132') in 0.010114 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.909333 seconds.
-  path: Assets/Suriyun/Scripts/AnimatorController.cs
-  artifactKey: Guid(12fbad4f288a3b341a698f8dd388614c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suriyun/Scripts/AnimatorController.cs using Guid(12fbad4f288a3b341a698f8dd388614c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d9e96c6230c09d722849800146bbcf4') in 0.015453 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.088461 seconds.
-  path: Assets/Suriyun/Scripts/Swapper.cs
-  artifactKey: Guid(99931277e84427e45ab2be1c69c7e497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suriyun/Scripts/Swapper.cs using Guid(99931277e84427e45ab2be1c69c7e497) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e955d93ccf5e5ddd4e0986fd29e48345') in 0.010680 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.508218 seconds.
-  path: Assets/Suriyun/Scripts/Camera Scripts
-  artifactKey: Guid(f13e203515c8f714b8d99c80554b28ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suriyun/Scripts/Camera Scripts using Guid(f13e203515c8f714b8d99c80554b28ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2707c1bd28d8aa146b57a8c321763e1') in 0.016071 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.026922 seconds.
-  path: Assets/Suriyun/Scripts/Camera Scripts/MouseOrbitImproved.cs
-  artifactKey: Guid(910c94d472b153f41b52c47affc32478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suriyun/Scripts/Camera Scripts/MouseOrbitImproved.cs using Guid(910c94d472b153f41b52c47affc32478) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34c6611c1b5649ae9d931692f7c1e1a4') in 0.010482 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 56.506674 seconds.
-  path: Assets/Suriyun/Dragons_SD/Materials/T_Dragon_4.mat
-  artifactKey: Guid(a6c4216e6df7dae4d9ffc18485b9e43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suriyun/Dragons_SD/Materials/T_Dragon_4.mat using Guid(a6c4216e6df7dae4d9ffc18485b9e43d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32bd5c6263c76ebedb3e7b86e0a116b1') in 0.035807 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.003554 seconds.
-  path: Assets/Suriyun/Dragons_SD/Materials/Dino_Face/Dino_Face01.mat
-  artifactKey: Guid(fd522d915c89c234185aa429839595a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suriyun/Dragons_SD/Materials/Dino_Face/Dino_Face01.mat using Guid(fd522d915c89c234185aa429839595a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c02db6a97a755ea29cf0745852f9698') in 0.020482 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Suriyun/Dragons_SD/Materials/Dino_Face/Dino_Face03.mat
-  artifactKey: Guid(caee383e1324db842b3afdc5a1e9e6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suriyun/Dragons_SD/Materials/Dino_Face/Dino_Face03.mat using Guid(caee383e1324db842b3afdc5a1e9e6b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7cd97067e3d6f3f4a4a859c74db2f3a0') in 0.021020 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Suriyun/Dragons_SD/Materials/Dino_Face/Dino_Face07.mat
-  artifactKey: Guid(d6a6872e6d28c7348ade0c8f39652e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suriyun/Dragons_SD/Materials/Dino_Face/Dino_Face07.mat using Guid(d6a6872e6d28c7348ade0c8f39652e34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c84643d474690c466d66f6b7925c3e2a') in 0.015877 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Suriyun/Dragons_SD/Materials/Dino_Face/Dino_Face11.mat
-  artifactKey: Guid(c80bc9e16d760434c94eef8f0be85a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suriyun/Dragons_SD/Materials/Dino_Face/Dino_Face11.mat using Guid(c80bc9e16d760434c94eef8f0be85a27) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4c1b857f74d846d48470d1d60d4aa8b') in 0.018033 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Suriyun/Dragons_SD/Materials/Dino_Face/Dino_Face10.mat
-  artifactKey: Guid(0dcca73c7d73bd6488fceacc696d18b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suriyun/Dragons_SD/Materials/Dino_Face/Dino_Face10.mat using Guid(0dcca73c7d73bd6488fceacc696d18b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bec0e9566560f75d3129dcf730491f5e') in 0.017551 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Suriyun/Dragons_SD/Materials/Dino_Face/Dino_Face05.mat
-  artifactKey: Guid(3b6b75e079be3564286de279f7559717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suriyun/Dragons_SD/Materials/Dino_Face/Dino_Face05.mat using Guid(3b6b75e079be3564286de279f7559717) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e080bd71d649f390675d02799ab5dc57') in 0.018775 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Suriyun/Dragons_SD/Materials/Dino_Face/Dino_Face12.mat
-  artifactKey: Guid(0bd2604ce7f274643bb8a8189a93a739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suriyun/Dragons_SD/Materials/Dino_Face/Dino_Face12.mat using Guid(0bd2604ce7f274643bb8a8189a93a739) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d158e16ad39b97fa1fc8bd63f09c78b') in 0.018882 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Suriyun/Dragons_SD/Materials/Dino_Face/Dino_Face24.mat
-  artifactKey: Guid(5c21e228e039f39469bec6954a75278b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suriyun/Dragons_SD/Materials/Dino_Face/Dino_Face24.mat using Guid(5c21e228e039f39469bec6954a75278b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6d4e13eb76401fae5ab7a414c518fe8') in 0.017396 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Suriyun/Dragons_SD/Materials/Dino_Face/Dino_Face19.mat
-  artifactKey: Guid(edfbd73491c1c8f49bac6a632c4e1954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suriyun/Dragons_SD/Materials/Dino_Face/Dino_Face19.mat using Guid(edfbd73491c1c8f49bac6a632c4e1954) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dd865bcb1beb47cab4371c2074e5f8c') in 0.017808 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Suriyun/Dragons_SD/Materials/Dino_Face/Dino_Face13.mat
-  artifactKey: Guid(55328f24364377e4fb3de022f59cfaef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suriyun/Dragons_SD/Materials/Dino_Face/Dino_Face13.mat using Guid(55328f24364377e4fb3de022f59cfaef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a4931a7d282bd2978104097c9831038') in 0.018506 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Suriyun/Dragons_SD/Materials/Dino_Face/Dino_Face25.mat
-  artifactKey: Guid(12837b7de23aee14a8c5f237e67252c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suriyun/Dragons_SD/Materials/Dino_Face/Dino_Face25.mat using Guid(12837b7de23aee14a8c5f237e67252c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '516262c96704f39f4ed07310cdb15c8b') in 0.020078 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Suriyun/Dragons_SD/Materials/Dino_Face/Dino_Face20.mat
-  artifactKey: Guid(e08b0fd9fa225a7439d39100bef37f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suriyun/Dragons_SD/Materials/Dino_Face/Dino_Face20.mat using Guid(e08b0fd9fa225a7439d39100bef37f67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1df3888366750f403a35d8cc234fbc18') in 0.018861 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56364
