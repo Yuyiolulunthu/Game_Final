@@ -1,0 +1,59 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &2043276292885133986
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 9007672829610171910, guid: 06ee08880226154478d40fb57137a8a7, type: 3}
+      propertyPath: m_RootOrder
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9007672829610171910, guid: 06ee08880226154478d40fb57137a8a7, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9007672829610171910, guid: 06ee08880226154478d40fb57137a8a7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9007672829610171910, guid: 06ee08880226154478d40fb57137a8a7, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0.49366
+      objectReference: {fileID: 0}
+    - target: {fileID: 9007672829610171910, guid: 06ee08880226154478d40fb57137a8a7, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9007672829610171910, guid: 06ee08880226154478d40fb57137a8a7, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9007672829610171910, guid: 06ee08880226154478d40fb57137a8a7, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9007672829610171910, guid: 06ee08880226154478d40fb57137a8a7, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9007672829610171910, guid: 06ee08880226154478d40fb57137a8a7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9007672829610171910, guid: 06ee08880226154478d40fb57137a8a7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9007672829610171910, guid: 06ee08880226154478d40fb57137a8a7, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9007672829610394150, guid: 06ee08880226154478d40fb57137a8a7, type: 3}
+      propertyPath: m_Name
+      value: Small_roof_lamp_big
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 06ee08880226154478d40fb57137a8a7, type: 3}
