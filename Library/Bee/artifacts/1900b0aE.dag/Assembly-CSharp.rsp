@@ -356,6 +356,7 @@
 "Assets/Off Axis Studios/Polyworks/Stylized Water BIR/Scripts/DepthTextureEnable.cs"
 "Assets/ResourcePack/UVPanner.cs"
 "Assets/Script/AimTargetController.cs"
+"Assets/Script/LightTrigger.cs"
 "Assets/Script/PlayerMove.cs"
 "Assets/Script/PlayerShadowFromObject.cs"
 "Assets/Script/Shadow.cs"
