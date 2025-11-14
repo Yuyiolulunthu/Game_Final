@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -900,8 +900,8 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0.008070609, y: -0.9878232, z: 0.14535628, w: 0.05487916}
-  m_LocalPosition: {x: 0.5680134, y: 2.1517973, z: 1.8999466}
+  m_LocalRotation: {x: -0.07084888, y: 0.91677374, z: -0.18822654, w: -0.34507564}
+  m_LocalPosition: {x: 1.4873246, y: 3.0295753, z: 1.356393}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1176,7 +1176,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   lightObject: {fileID: 1231081849}
   moveSpeedY: 3
-  localYClamp: {x: -3, y: 5}
+  localYClamp: {x: -2.5, y: -1.1}
   followLerp: 15
 --- !u!1 &1231081848
 GameObject:
@@ -1190,6 +1190,7 @@ GameObject:
   - component: {fileID: 1231081852}
   - component: {fileID: 1231081851}
   - component: {fileID: 1231081850}
+  - component: {fileID: 1231081853}
   m_Layer: 0
   m_Name: Torch
   m_TagString: Untagged
@@ -1276,6 +1277,21 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1231081848}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1231081853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1231081848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da653e8867d97b94bb7a7628895d559b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  player: {fileID: 2018130347}
+  rotationSpeed: 90
+  distanceFromPlayer: 2
 --- !u!1 &1431757229
 GameObject:
   m_ObjectHideFlags: 0
@@ -1553,6 +1569,7 @@ MonoBehaviour:
     m_Bits: 264
   footRayHeight: 2
   footLift: 0.03
+  dynamicShadow: {fileID: 2018130348}
   animator: {fileID: 2018130341}
   speedParam: MovingSpeed
 --- !u!4 &2018130347 stripped

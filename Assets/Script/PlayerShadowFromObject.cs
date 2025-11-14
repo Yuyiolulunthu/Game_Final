@@ -148,4 +148,18 @@ public class PlayerShadowFromObject : MonoBehaviour
             if (cur == root) return true;
         return false;
     }
+    public bool IsPointOnShadow(Vector3 worldPos)
+    {
+        if (!shadowInstance || !shadowInstance.activeSelf) return false;
+        Vector3 local = shadowInstance.transform.InverseTransformPoint(worldPos);
+        float rx = shadowInstance.transform.localScale.x * 0.5f; 
+        float rz = shadowInstance.transform.localScale.z * 0.5f; 
+
+        if (Mathf.Abs(local.y) > 0.05f) return false;
+        if (rx <= 1e-5f || rz <= 1e-5f) return false;
+        float val = (local.x * local.x) / (rx * rx) + (local.z * local.z) / (rz * rz);
+
+        return val <= 0.1f;
+    }
+
 }

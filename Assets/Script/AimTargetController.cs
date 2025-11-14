@@ -8,7 +8,7 @@ public class AimTargetController : MonoBehaviour
 
     [Header("鍵盤控制參數（垂直位移）")]
     public float moveSpeedY = 3f;                       // I/K 垂直位移速度（單位/秒）
-    public Vector2 localYClamp = new Vector2(-3f, 5f);  // 在父座標下的高度範圍（最小~最大）
+    public Vector2 localYClamp = new Vector2(-2.5f, -1.1f);  // 在父座標下的高度範圍（最小~最大）
 
     [Header("Smooth 移動")]
     public float followLerp = 15f;    // 平滑度，越大越快
@@ -64,9 +64,9 @@ public class AimTargetController : MonoBehaviour
         if (!hasStarted)
             return;
 
-        // 按下瞬間決定起始方向：I 先往下(-1)，K 先往上(+1)
-        if (Input.GetKeyDown(KeyCode.I)) vertDir = -1;
-        if (Input.GetKeyDown(KeyCode.K)) vertDir = +1;
+        // I向下 K向上
+        if (Input.GetKeyDown(KeyCode.I)) vertDir = +1;
+        if (Input.GetKeyDown(KeyCode.K)) vertDir = -1;
 
         // 若兩鍵同時按或都沒按，則不動
         if (!(holdI ^ holdK)) vertDir = 0;
@@ -76,16 +76,16 @@ public class AimTargetController : MonoBehaviour
         {
             localY += vertDir * moveSpeedY * dt;
 
-            // 觸頂/觸底就反彈
+            // 邊界不動
             if (localY >= localYClamp.y)
             {
                 localY = localYClamp.y;
-                vertDir = -1; // 改為往下
+                vertDir = 0; // 靜止
             }
             else if (localY <= localYClamp.x)
             {
                 localY = localYClamp.x;
-                vertDir = +1; // 改為往上
+                vertDir = 0; // 靜止
             }
         }
 

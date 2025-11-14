@@ -12,7 +12,8 @@ public class PlayerMove : MonoBehaviour
     public Shadow shadowChecker;       
     public LayerMask groundMask = ~0;  
     public float footRayHeight = 2.0f; 
-    public float footLift = 0.03f;    
+    public float footLift = 0.01f;    
+    public PlayerShadowFromObject dynamicShadow;
 
     [Header("animation (Animator)")]
     public Animator animator;                 
@@ -79,11 +80,20 @@ public class PlayerMove : MonoBehaviour
 
         Vector3 footPoint = hit.point + Vector3.up * footLift;
 
-        // 3) in shadow
-        if (shadowChecker && !shadowChecker.IsInShadow(footPoint))
+        // 3) check in shadow
+        bool inShadow = true;
+        if (shadowChecker) inShadow = shadowChecker.IsInShadow(footPoint);
+        if (!inShadow && dynamicShadow && dynamicShadow.IsFrozen)
+        {
+            if (dynamicShadow.IsPointOnShadow(footPoint))
+                inShadow = true;
+        }
+
+        if (!inShadow)
         {
             rb.velocity = new Vector3(0f, rb.velocity.y, 0f);
-            blocked = true; return;
+            blocked = true;
+            return;
         }
 
         // 4) move
