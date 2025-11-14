@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.5f1 (40eb3a945986) revision 4254522'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26200) 64bit Professional' Language: 'en' Physical Memory: 32468 MB
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'zh' Physical Memory: 16153 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.5f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-D:/114_1_Game/FinalV5/Game_Final
+C:/Game Programming/Game_Final
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61147
-Successfully changed project path to: D:/114_1_Game/FinalV5/Game_Final
-D:/114_1_Game/FinalV5/Game_Final
+11938
+Successfully changed project path to: C:/Game Programming/Game_Final
+C:/Game Programming/Game_Final
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,108 +47,121 @@ D:/114_1_Game/FinalV5/Game_Final
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 71.80 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 93.39 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.5f1 (40eb3a945986)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path D:/114_1_Game/FinalV5/Game_Final/Assets
+[Subsystems] Discovering subsystems at path C:/Game Programming/Game_Final/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28a0)
+    Renderer: NVIDIA GeForce RTX 4050 Laptop GPU (ID=0x28a1)
     Vendor:   NVIDIA
-    VRAM:     7957 MB
-    Driver:   32.0.15.8097
+    VRAM:     5921 MB
+    Driver:   32.0.15.6614
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56436
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56228
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.AppleTV.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006788 seconds.
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.006122 seconds.
+Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for AppleTV target not found
+[usbmuxd] Start listen thread
+[usbmuxd] Listen thread started
+Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 74.81 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 88.91 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.544 seconds
+- Completed reload, in  0.659 seconds
 Domain Reload Profiling:
-	ReloadAssembly (544ms)
-		BeginReloadAssembly (61ms)
+	ReloadAssembly (660ms)
+		BeginReloadAssembly (72ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (390ms)
-			LoadAssemblies (60ms)
+		EndReloadAssembly (482ms)
+			LoadAssemblies (71ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (82ms)
+			SetupTypeCache (99ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (21ms)
-			SetupLoadedEditorAssemblies (244ms)
+			RebuildScriptCaches (27ms)
+			SetupLoadedEditorAssemblies (304ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (47ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (75ms)
+				InitializePlatformSupportModulesInManaged (72ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (89ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (80ms)
-				ProcessInitializeOnLoadMethodAttributes (40ms)
+				ProcessInitializeOnLoadAttributes (96ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002979 seconds.
+Registered in 0.005627 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\114_1_Game\FinalV5\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\114_1_Game\FinalV5\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Game Programming\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Game Programming\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.63 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.70 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.914 seconds
+- Completed reload, in  1.100 seconds
 Domain Reload Profiling:
-	ReloadAssembly (915ms)
-		BeginReloadAssembly (193ms)
+	ReloadAssembly (1101ms)
+		BeginReloadAssembly (211ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (114ms)
-		EndReloadAssembly (622ms)
-			LoadAssemblies (63ms)
+			CreateAndSetChildDomain (121ms)
+		EndReloadAssembly (781ms)
+			LoadAssemblies (83ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (208ms)
+			SetupTypeCache (241ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (38ms)
-			SetupLoadedEditorAssemblies (281ms)
+			RebuildScriptCaches (48ms)
+			SetupLoadedEditorAssemblies (365ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (12ms)
-				SetLoadedEditorAssemblies (0ms)
+				InitializePlatformSupportModulesInManaged (37ms)
+				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (62ms)
-				ProcessInitializeOnLoadAttributes (179ms)
-				ProcessInitializeOnLoadMethodAttributes (22ms)
-				AfterProcessingInitializeOnLoad (6ms)
+				BeforeProcessingInitializeOnLoad (74ms)
+				ProcessInitializeOnLoadAttributes (222ms)
+				ProcessInitializeOnLoadMethodAttributes (27ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
-Refreshing native plugins compatible for Editor in 0.60 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
+Refreshing native plugins compatible for Editor in 0.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3434 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 25 unused Assets / (55.3 KB). Loaded Objects now: 3894.
 Memory consumption went from 125.6 MB to 125.5 MB.
-Total: 2.543100 ms (FindLiveObjects: 0.175100 ms CreateObjectMapping: 0.068300 ms MarkObjects: 2.211100 ms  DeleteObjects: 0.087300 ms)
+Total: 3.122000 ms (FindLiveObjects: 0.189700 ms CreateObjectMapping: 0.076100 ms MarkObjects: 2.774200 ms  DeleteObjects: 0.080900 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -163,56 +176,181 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 106988.668992 seconds.
-  path: Assets/Scenes/Scene_Intro.unity
-  artifactKey: Guid(d7a28500fcebb474fa60aac4fff04469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene_Intro.unity using Guid(d7a28500fcebb474fa60aac4fff04469) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1787194ab485e230fac7819a04214e7e') in 0.005460 seconds 
+  Time since last request: 56295.307062 seconds.
+  path: Assets/Scenes/Scene_Menu.unity
+  artifactKey: Guid(38f1ddabc86bd154fb8e482429cea64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene_Menu.unity using Guid(38f1ddabc86bd154fb8e482429cea64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ac6564dc62757b0e7ba1904b5e04306') in 0.062593 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.002861 seconds.
+Registered in 0.005273 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\114_1_Game\FinalV5\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\114_1_Game\FinalV5\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Game Programming\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Game Programming\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.870 seconds
+- Completed reload, in  1.075 seconds
 Domain Reload Profiling:
-	ReloadAssembly (871ms)
-		BeginReloadAssembly (115ms)
+	ReloadAssembly (1075ms)
+		BeginReloadAssembly (123ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (4ms)
+			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (30ms)
-		EndReloadAssembly (680ms)
-			LoadAssemblies (69ms)
+			CreateAndSetChildDomain (39ms)
+		EndReloadAssembly (847ms)
+			LoadAssemblies (72ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (223ms)
+			SetupTypeCache (293ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (32ms)
-			SetupLoadedEditorAssemblies (317ms)
+			RebuildScriptCaches (40ms)
+			SetupLoadedEditorAssemblies (381ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (22ms)
+				InitializePlatformSupportModulesInManaged (42ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (54ms)
-				ProcessInitializeOnLoadAttributes (201ms)
-				ProcessInitializeOnLoadMethodAttributes (29ms)
-				AfterProcessingInitializeOnLoad (9ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (236ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.76 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.98 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 3413 Unused Serialized files (Serialized files now loaded: 0)
 Unloading 18 unused Assets / (24.7 KB). Loaded Objects now: 3897.
 Memory consumption went from 124.0 MB to 124.0 MB.
-Total: 2.866600 ms (FindLiveObjects: 0.202600 ms CreateObjectMapping: 0.074300 ms MarkObjects: 2.559200 ms  DeleteObjects: 0.029200 ms)
+Total: 3.333000 ms (FindLiveObjects: 0.175300 ms CreateObjectMapping: 0.065200 ms MarkObjects: 3.061400 ms  DeleteObjects: 0.029900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.005949 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Game Programming\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Game Programming\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.80 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.011 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1012ms)
+		BeginReloadAssembly (129ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (785ms)
+			LoadAssemblies (76ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (254ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (39ms)
+			SetupLoadedEditorAssemblies (363ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (47ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (65ms)
+				ProcessInitializeOnLoadAttributes (216ms)
+				ProcessInitializeOnLoadMethodAttributes (29ms)
+				AfterProcessingInitializeOnLoad (5ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.81 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3414 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (24.7 KB). Loaded Objects now: 3901.
+Memory consumption went from 124.1 MB to 124.0 MB.
+Total: 2.540100 ms (FindLiveObjects: 0.187000 ms CreateObjectMapping: 0.075000 ms MarkObjects: 2.250200 ms  DeleteObjects: 0.026900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003855 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Game Programming\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Game Programming\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.66 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.076 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1077ms)
+		BeginReloadAssembly (133ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (849ms)
+			LoadAssemblies (84ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (283ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (374ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (42ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (62ms)
+				ProcessInitializeOnLoadAttributes (228ms)
+				ProcessInitializeOnLoadMethodAttributes (34ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.64 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3414 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (24.6 KB). Loaded Objects now: 3904.
+Memory consumption went from 124.1 MB to 124.0 MB.
+Total: 3.115600 ms (FindLiveObjects: 0.187800 ms CreateObjectMapping: 0.127100 ms MarkObjects: 2.773300 ms  DeleteObjects: 0.026300 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -227,56 +365,71 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 60.850834 seconds.
-  path: Assets/Script/LightTrigger.cs
-  artifactKey: Guid(7b576970ec1dab6468ed78a4a7cf4140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/LightTrigger.cs using Guid(7b576970ec1dab6468ed78a4a7cf4140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81d84f5f5010fdd3162baea6dc01b36e') in 0.018980 seconds 
+  Time since last request: 284.208376 seconds.
+  path: Assets/Video/GP_HW2.mp4
+  artifactKey: Guid(03f9cdb1b0e16fe41b64cd8d570b4247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Video/GP_HW2.mp4 using Guid(03f9cdb1b0e16fe41b64cd8d570b4247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '247d90f3825ae3654c692af9e57f48d0') in 0.315770 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 14.010105 seconds.
+  path: Assets/Video/Morning.mp3
+  artifactKey: Guid(a96f3a3473d85ac4f96d4e92c464cbba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Video/Morning.mp3 using Guid(a96f3a3473d85ac4f96d4e92c464cbba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '937688b7e4545b6e428305b23ef0f71e') in 0.156153 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.833848 seconds.
+  path: Assets/Video/bgm.mp3
+  artifactKey: Guid(a96f3a3473d85ac4f96d4e92c464cbba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Video/bgm.mp3 using Guid(a96f3a3473d85ac4f96d4e92c464cbba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cfc49c109bd758713c8f613e6c59c57c') in 0.058536 seconds 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.003328 seconds.
+Registered in 0.004149 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image D:\114_1_Game\FinalV5\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image D:\114_1_Game\FinalV5\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Game Programming\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Game Programming\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
 Native extension for Android target not found
-Refreshing native plugins compatible for Editor in 0.82 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.53 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.939 seconds
+- Completed reload, in  1.094 seconds
 Domain Reload Profiling:
-	ReloadAssembly (939ms)
-		BeginReloadAssembly (106ms)
+	ReloadAssembly (1095ms)
+		BeginReloadAssembly (127ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (749ms)
-			LoadAssemblies (64ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (871ms)
+			LoadAssemblies (79ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (238ms)
+			SetupTypeCache (275ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (337ms)
+			RebuildScriptCaches (46ms)
+			SetupLoadedEditorAssemblies (405ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (26ms)
-				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (1ms)
+				InitializePlatformSupportModulesInManaged (42ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
 				BeforeProcessingInitializeOnLoad (64ms)
-				ProcessInitializeOnLoadAttributes (206ms)
-				ProcessInitializeOnLoadMethodAttributes (30ms)
-				AfterProcessingInitializeOnLoad (10ms)
+				ProcessInitializeOnLoadAttributes (257ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (7ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.47 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 1.84 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3413 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (24.6 KB). Loaded Objects now: 3900.
-Memory consumption went from 124.0 MB to 124.0 MB.
-Total: 3.077800 ms (FindLiveObjects: 0.326000 ms CreateObjectMapping: 0.083200 ms MarkObjects: 2.637000 ms  DeleteObjects: 0.029700 ms)
+Unloading 3414 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (24.6 KB). Loaded Objects now: 3915.
+Memory consumption went from 128.5 MB to 128.4 MB.
+Total: 3.001100 ms (FindLiveObjects: 0.217200 ms CreateObjectMapping: 0.325600 ms MarkObjects: 2.428500 ms  DeleteObjects: 0.028500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -291,310 +444,348 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 11.580403 seconds.
-  path: Assets/Script/LightTrigger.cs
-  artifactKey: Guid(7b576970ec1dab6468ed78a4a7cf4140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Script/LightTrigger.cs using Guid(7b576970ec1dab6468ed78a4a7cf4140) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f69f366600ac0eec5ec5765481bc9e3') in 0.005369 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 35.453197 seconds.
-  path: Assets/Scenes/Scene_Stage_1.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene_Stage_1.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7595faeb7676385573a671ace0dce58') in 0.001157 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.521829 seconds.
+  Time since last request: 42.813779 seconds.
   path: Assets/Scenes/Scene_Menu.unity
   artifactKey: Guid(38f1ddabc86bd154fb8e482429cea64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene_Menu.unity using Guid(38f1ddabc86bd154fb8e482429cea64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ac6564dc62757b0e7ba1904b5e04306') in 0.000997 seconds 
+Start importing Assets/Scenes/Scene_Menu.unity using Guid(38f1ddabc86bd154fb8e482429cea64d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26620696f336b69f1b043e836d8e8222') in 0.008866 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 31.322318 seconds.
-  path: Assets/Video/GP_HW2.mp4
-  artifactKey: Guid(03f9cdb1b0e16fe41b64cd8d570b4247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Video/GP_HW2.mp4 using Guid(03f9cdb1b0e16fe41b64cd8d570b4247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '247d90f3825ae3654c692af9e57f48d0') in 0.018281 seconds 
+  Time since last request: 3.382201 seconds.
+  path: Assets/Scenes/Scene_Stage_1.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene_Stage_1.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f62f3ddd6af7b91818e65ba6b7e094b2') in 0.024753 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.003796 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Game Programming\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Game Programming\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.69 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.062 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1063ms)
+		BeginReloadAssembly (125ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (847ms)
+			LoadAssemblies (74ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (272ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (51ms)
+			SetupLoadedEditorAssemblies (389ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (45ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (64ms)
+				ProcessInitializeOnLoadAttributes (241ms)
+				ProcessInitializeOnLoadMethodAttributes (32ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.82 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3414 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (24.7 KB). Loaded Objects now: 3918.
+Memory consumption went from 128.5 MB to 128.4 MB.
+Total: 3.214400 ms (FindLiveObjects: 0.195700 ms CreateObjectMapping: 0.101400 ms MarkObjects: 2.882400 ms  DeleteObjects: 0.033700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.006680 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image C:\Game Programming\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Game Programming\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for AppleTV target not found
+Native extension for iOS target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.72 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.071 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1072ms)
+		BeginReloadAssembly (117ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (29ms)
+		EndReloadAssembly (851ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (273ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (391ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (42ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (61ms)
+				ProcessInitializeOnLoadAttributes (248ms)
+				ProcessInitializeOnLoadMethodAttributes (33ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.91 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3414 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (24.6 KB). Loaded Objects now: 3921.
+Memory consumption went from 128.5 MB to 128.4 MB.
+Total: 2.690500 ms (FindLiveObjects: 0.204400 ms CreateObjectMapping: 0.081600 ms MarkObjects: 2.381000 ms  DeleteObjects: 0.022200 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 486.426074 seconds.
-  path: Packages/com.unity.textmeshpro/package.json
-  artifactKey: Guid(220e9325710f4235a43492dd1ee4980d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.textmeshpro/package.json using Guid(220e9325710f4235a43492dd1ee4980d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f445814511be1caffb984507b3a4793') in 0.004994 seconds 
+  Time since last request: 126.197098 seconds.
+  path: Assets/Minimalist/Map Builder
+  artifactKey: Guid(2420bb81f2a8dfd4db334471a0023ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Minimalist/Map Builder using Guid(2420bb81f2a8dfd4db334471a0023ba0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5fff6b7f6bf16ba4c32b236d88ef648') in 0.029261 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.765454 seconds.
-  path: Packages/com.unity.test-framework/package.json
-  artifactKey: Guid(d6a2e6e4803de7b43baacdc355fc144d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.test-framework/package.json using Guid(d6a2e6e4803de7b43baacdc355fc144d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e18898ccc8b096ee8f2e6704cc6568de') in 0.002771 seconds 
+  Time since last request: 1.489631 seconds.
+  path: Assets/Minimalist/Map Builder/Prefabs
+  artifactKey: Guid(aec305f73c8300d44ad3b7ef843a300d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Minimalist/Map Builder/Prefabs using Guid(aec305f73c8300d44ad3b7ef843a300d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86434e015b20e06bf3dcf97ddb4b7ffd') in 0.018537 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.615171 seconds.
-  path: Packages/com.unity.settings-manager/package.json
-  artifactKey: Guid(3001f7491ac66e34a9694543d9f8b1ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.settings-manager/package.json using Guid(3001f7491ac66e34a9694543d9f8b1ee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b16afbc5e1c81e578532a459c23bac45') in 0.002462 seconds 
+  Time since last request: 7.460115 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs
+  artifactKey: Guid(865eaa8bc1f4e8746ab202148e538f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs using Guid(865eaa8bc1f4e8746ab202148e538f64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b810bff55db012aadbd320349d9b109') in 0.003125 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.491245 seconds.
-  path: Packages/com.unity.performance.profile-analyzer/package.json
-  artifactKey: Guid(478e38cbe30254f8c868840b4e2f32e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.performance.profile-analyzer/package.json using Guid(478e38cbe30254f8c868840b4e2f32e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a311d5b8c448599d509848ed5332cd71') in 0.002461 seconds 
+  Time since last request: 1.327760 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased
+  artifactKey: Guid(0d85ce8b1dc766b4a8d6e69f09ef64a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased using Guid(0d85ce8b1dc766b4a8d6e69f09ef64a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cc463fe584ef10846139ce9bb704b068') in 0.018898 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.466207 seconds.
-  path: Packages/com.unity.ide.rider/package.json
-  artifactKey: Guid(66c95bb3c74257f41bae2622511dc02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.ide.rider/package.json using Guid(66c95bb3c74257f41bae2622511dc02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50ce222370ea608aa42630e13250f7dc') in 0.002726 seconds 
+  Time since last request: 1.403992 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract
+  artifactKey: Guid(9457e8425e0181f438d37eb6c90fc5dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract using Guid(9457e8425e0181f438d37eb6c90fc5dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd339b31a6b381b84068fb13660b331e') in 0.018406 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.434035 seconds.
-  path: Packages/com.unity.ext.nunit/package.json
-  artifactKey: Guid(8143d3a8390f2c64685e3bc272bd9e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.ext.nunit/package.json using Guid(8143d3a8390f2c64685e3bc272bd9e90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b40fc5629c4141466786b845dfe4fc31') in 0.002816 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.432220 seconds.
-  path: Packages/com.unity.testtools.codecoverage/package.json
-  artifactKey: Guid(ba7d60725b0ec604698819352642be89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Packages/com.unity.testtools.codecoverage/package.json using Guid(ba7d60725b0ec604698819352642be89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd2dd2fcfb070eff30dd06220f902a2a') in 0.002545 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.225858 seconds.
-  path: Assets/ResourcePack/Cloud.png
-  artifactKey: Guid(22ced5862c7a4064097e3474eab0bbd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ResourcePack/Cloud.png using Guid(22ced5862c7a4064097e3474eab0bbd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ac726cd7b310e181ede98865f092e09') in 0.044506 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/ResourcePack/ShadoeEllipse.prefab
-  artifactKey: Guid(38a7f831c5f276b4996d3f296a329027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ResourcePack/ShadoeEllipse.prefab using Guid(38a7f831c5f276b4996d3f296a329027) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3a7de1145a3842bbb99cf573986af91') in 0.080827 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000062 seconds.
-  path: Assets/ResourcePack/Player_shadow.png
-  artifactKey: Guid(f864d4c7cb10d20458f101a18d14f85b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ResourcePack/Player_shadow.png using Guid(f864d4c7cb10d20458f101a18d14f85b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '761110552a3e46530df1434eed7138ea') in 0.008718 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/ResourcePack/New Material.mat
-  artifactKey: Guid(39932e9a6e523794eb4df43a3f69c629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ResourcePack/New Material.mat using Guid(39932e9a6e523794eb4df43a3f69c629) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a45ec0261e61ca95eeeb639143cc3ddb') in 0.191433 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 11.565479 seconds.
-  path: Assets/New Solution Studio/PBR Lamps Pack/Classic fluorescent lamp/Maps (Specular) [Unity]/Classic_fluorescent_lamp_diffuse.png
-  artifactKey: Guid(41cbee60103c1fe4d8666f8b4185c1cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Solution Studio/PBR Lamps Pack/Classic fluorescent lamp/Maps (Specular) [Unity]/Classic_fluorescent_lamp_diffuse.png using Guid(41cbee60103c1fe4d8666f8b4185c1cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '599bc29deea0fd673fb7ba0763228ece') in 0.025347 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 30.789074 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf
-  artifactKey: Guid(5dd49b3eacc540408c98eee0de38e0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Bangers.ttf using Guid(5dd49b3eacc540408c98eee0de38e0f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8143402d22029970b128b219e5fbb318') in 0.019483 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf
-  artifactKey: Guid(4beb055f07aaff244873dec698d0363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/TextMesh Pro/Examples & Extras/Fonts/Roboto-Bold.ttf using Guid(4beb055f07aaff244873dec698d0363e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '556b69e757dbe8e2339a7e8575587732') in 0.010792 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.102081 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Animals/Animal_Snail_01_Atlased.prefab
-  artifactKey: Guid(8acf24cd528cb7344b8d6dc242fe33bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Animals/Animal_Snail_01_Atlased.prefab using Guid(8acf24cd528cb7344b8d6dc242fe33bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b238202ff60392729e2d29e0710b150') in 0.010886 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.922281 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Alcove_Top_1.0_Beige_01_Atlased.prefab
-  artifactKey: Guid(b68cc8dfd4a8fa84db453d2170a970b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Alcove_Top_1.0_Beige_01_Atlased.prefab using Guid(b68cc8dfd4a8fa84db453d2170a970b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '958bc1d937024a3d8ed4c1491031c5e4') in 0.006503 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.002362 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Archway_Support_1.0_Beige_01_Atlased.prefab
-  artifactKey: Guid(a2bcf636969878d4a9aa1f6c714a4f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Archway_Support_1.0_Beige_01_Atlased.prefab using Guid(a2bcf636969878d4a9aa1f6c714a4f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4c43185c632daa245d5dd6b826651a3') in 0.008707 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Battlements_1.0_Beige_01_Atlased.prefab
-  artifactKey: Guid(2fbe1a462d0e092418694f1455151f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Battlements_1.0_Beige_01_Atlased.prefab using Guid(2fbe1a462d0e092418694f1455151f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e28b751b9399c8c188e7572d006027c7') in 0.008910 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_1.0_Blue_01_Atlased.prefab
-  artifactKey: Guid(62e944ffb34831743ad2f6098e45255a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_1.0_Blue_01_Atlased.prefab using Guid(62e944ffb34831743ad2f6098e45255a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e80b159bb2e738dfbf4ffbdc35efc971') in 0.008593 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_1.0_Red_01_Atlased.prefab
-  artifactKey: Guid(94a0fa517cc8da8489721e9c88f04889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_1.0_Red_01_Atlased.prefab using Guid(94a0fa517cc8da8489721e9c88f04889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7176a4d28f9308d70351a9f71432111') in 0.015480 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Battlements_Back_Left_1.0_Beige_01_Atlased.prefab
-  artifactKey: Guid(e98c772af10cc774499dbda62e98ddd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Battlements_Back_Left_1.0_Beige_01_Atlased.prefab using Guid(e98c772af10cc774499dbda62e98ddd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8088eee381b89f1dafc0253a97db10a') in 0.009957 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Battlements_Back_Tall_1.0_Beige_01_Atlased.prefab
-  artifactKey: Guid(47d227e20e5d2064c9e7f621b964d8c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Battlements_Back_Tall_1.0_Beige_01_Atlased.prefab using Guid(47d227e20e5d2064c9e7f621b964d8c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffa34fcb24e6376f033e25fe20db317f') in 0.010466 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Columns_1.0_Beige_01_Atlased.prefab
-  artifactKey: Guid(6e1502e8cd059344fae72fd3b24ab655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Columns_1.0_Beige_01_Atlased.prefab using Guid(6e1502e8cd059344fae72fd3b24ab655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2474f937bd3e458c1e98fe75cc213041') in 0.014685 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_2.0_Pink_01_Atlased.prefab
-  artifactKey: Guid(b307d72348513434c9a0ec5a5d256b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_2.0_Pink_01_Atlased.prefab using Guid(b307d72348513434c9a0ec5a5d256b53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '861a63f23763cd9cb8aabf43a25695e1') in 0.009252 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Battlements_Back_1.0_Beige_01_Atlased.prefab
-  artifactKey: Guid(e9145bc6f57789040a438b7908f8b41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Battlements_Back_1.0_Beige_01_Atlased.prefab using Guid(e9145bc6f57789040a438b7908f8b41e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06741c0023a7b6feca7a16f103053601') in 0.015121 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_1.5_Grey_01_Atlased.prefab
-  artifactKey: Guid(acdab31c6ea30584ca0a9b2405159c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_1.5_Grey_01_Atlased.prefab using Guid(acdab31c6ea30584ca0a9b2405159c9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32738195d582b32c275e9799e32c898c') in 0.010837 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_2.0_Orange_01_Atlased.prefab
-  artifactKey: Guid(c48ad71589a5f934dab2c5d5a6746f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_2.0_Orange_01_Atlased.prefab using Guid(c48ad71589a5f934dab2c5d5a6746f6d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f12fed2702b620fdc2190e6064822ce') in 0.013450 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_0.5_Red_01_Atlased.prefab
-  artifactKey: Guid(d567f3eaee5313a49b1fff07d94e6081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_0.5_Red_01_Atlased.prefab using Guid(d567f3eaee5313a49b1fff07d94e6081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '415e9b2402084f15dcf8adf8e204ff71') in 0.018541 seconds 
+  Time since last request: 0.117410 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Alcove_Base_1.0_Beige_01_Atlased.prefab
+  artifactKey: Guid(943f96515b8406e4c908704fa7e3f555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Alcove_Base_1.0_Beige_01_Atlased.prefab using Guid(943f96515b8406e4c908704fa7e3f555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cc2fc547c7dfc0a2a754405f5f1e46b') in 0.339867 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000022 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Flag_Beige_01_Atlased.prefab
-  artifactKey: Guid(8088072cfaa3b9c45992b4dddf82adc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Flag_Beige_01_Atlased.prefab using Guid(8088072cfaa3b9c45992b4dddf82adc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b46ec9a33a5fda8fc1146ee04a8b3176') in 0.012533 seconds 
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Battlements_1.0_Beige_01_Atlased.prefab
+  artifactKey: Guid(2fbe1a462d0e092418694f1455151f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Battlements_1.0_Beige_01_Atlased.prefab using Guid(2fbe1a462d0e092418694f1455151f08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e28b751b9399c8c188e7572d006027c7') in 0.033924 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_1.0_Blue_01_Atlased.prefab
+  artifactKey: Guid(62e944ffb34831743ad2f6098e45255a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_1.0_Blue_01_Atlased.prefab using Guid(62e944ffb34831743ad2f6098e45255a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e80b159bb2e738dfbf4ffbdc35efc971') in 0.025937 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Battlements_Left_1.0_Beige_01_Atlased.prefab
+  artifactKey: Guid(c24bbb2000a390545a28216da9501dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Battlements_Left_1.0_Beige_01_Atlased.prefab using Guid(c24bbb2000a390545a28216da9501dd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cb0e390ce851336078e78936bdd31c7') in 0.033266 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Battlements_Back_Left_1.0_Beige_01_Atlased.prefab
+  artifactKey: Guid(e98c772af10cc774499dbda62e98ddd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Battlements_Back_Left_1.0_Beige_01_Atlased.prefab using Guid(e98c772af10cc774499dbda62e98ddd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd8088eee381b89f1dafc0253a97db10a') in 0.040163 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_1.5_Blue_01_Atlased.prefab
+  artifactKey: Guid(4a703654c5b257645995e21d0dac3f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_1.5_Blue_01_Atlased.prefab using Guid(4a703654c5b257645995e21d0dac3f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ef32904b39c32006fd41267cc94ddfa') in 0.082258 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Columns_1.0_Beige_01_Atlased.prefab
+  artifactKey: Guid(6e1502e8cd059344fae72fd3b24ab655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Columns_1.0_Beige_01_Atlased.prefab using Guid(6e1502e8cd059344fae72fd3b24ab655) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2474f937bd3e458c1e98fe75cc213041') in 0.037167 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_2.0_Beige_01_Atlased.prefab
+  artifactKey: Guid(fdc3e12ad855d1a4fa22c45b17ef6e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_2.0_Beige_01_Atlased.prefab using Guid(fdc3e12ad855d1a4fa22c45b17ef6e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4fb8507f38bcc24c9c9ed335f0c8fb1f') in 0.037020 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Battlements_Front_Left_1.0_Beige_01_Atlased.prefab
+  artifactKey: Guid(1b4f6f87d9cca6f46b3f2a49e9132d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Battlements_Front_Left_1.0_Beige_01_Atlased.prefab using Guid(1b4f6f87d9cca6f46b3f2a49e9132d38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b3ad152bc01f63fe18b068db25408ca7') in 0.028143 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Battlements_Front_Right_Tall_1.0_Beige_01_Atlased.prefab
+  artifactKey: Guid(e42be0ac874dfd84d9c493f8e50fb87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Battlements_Front_Right_Tall_1.0_Beige_01_Atlased.prefab using Guid(e42be0ac874dfd84d9c493f8e50fb87a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ceb3f96990ca7068f053a9a1555afdde') in 0.028724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Roof_1.0_Beige_03_Atlased.prefab
+  artifactKey: Guid(0eeb4a78e63506c4fb98351226a9c09a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Roof_1.0_Beige_03_Atlased.prefab using Guid(0eeb4a78e63506c4fb98351226a9c09a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c676072f64e050ded0e7ce8f0591097b') in 0.029164 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_0.5_Red_01_Atlased.prefab
+  artifactKey: Guid(d567f3eaee5313a49b1fff07d94e6081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_0.5_Red_01_Atlased.prefab using Guid(d567f3eaee5313a49b1fff07d94e6081) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '415e9b2402084f15dcf8adf8e204ff71') in 0.027259 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Archway_Support_1.0_Beige_01_Atlased.prefab
+  artifactKey: Guid(a2bcf636969878d4a9aa1f6c714a4f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Archway_Support_1.0_Beige_01_Atlased.prefab using Guid(a2bcf636969878d4a9aa1f6c714a4f68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4c43185c632daa245d5dd6b826651a3') in 0.024376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_0.125_Green_01_Atlased.prefab
+  artifactKey: Guid(ba1de1217e4ff1b4186ff3199acd3700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_0.125_Green_01_Atlased.prefab using Guid(ba1de1217e4ff1b4186ff3199acd3700) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ab5653459061a43d7232137b443b341') in 0.029380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Roof_1.0_Beige_01_Atlased.prefab
+  artifactKey: Guid(0b24a7b23d447e94092bede05f0d9cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Roof_1.0_Beige_01_Atlased.prefab using Guid(0b24a7b23d447e94092bede05f0d9cef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd910d0606567ae1c41314d603d442089') in 0.028347 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000023 seconds.
   path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_0.125_Red_01_Atlased.prefab
   artifactKey: Guid(f60c539a554cbab44b073f8c3b33e4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_0.125_Red_01_Atlased.prefab using Guid(f60c539a554cbab44b073f8c3b33e4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8d81b7fa68a3287b76534e4d2ee69fa') in 0.019548 seconds 
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_0.125_Red_01_Atlased.prefab using Guid(f60c539a554cbab44b073f8c3b33e4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8d81b7fa68a3287b76534e4d2ee69fa') in 0.025486 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Battlements_Back_Right_1.0_Beige_01_Atlased.prefab
-  artifactKey: Guid(0908151572c4c074a93d4a62258a4bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Battlements_Back_Right_1.0_Beige_01_Atlased.prefab using Guid(0908151572c4c074a93d4a62258a4bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a56689253c5a7bedf926195c835a7746') in 0.009499 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_1.0_Grey_01_Atlased.prefab
-  artifactKey: Guid(d59aa7d84b1d2b8489ab4b67c1cb9cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_1.0_Grey_01_Atlased.prefab using Guid(d59aa7d84b1d2b8489ab4b67c1cb9cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b157ec9f2375091b0580120b83be03c') in 0.012467 seconds 
+  Time since last request: 0.000032 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_0.125_Beige_01_Atlased.prefab
+  artifactKey: Guid(d0b0b3804ce1c2148b0e98f93f87b987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_0.125_Beige_01_Atlased.prefab using Guid(d0b0b3804ce1c2148b0e98f93f87b987) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c36047b33577c4527f7048a8d85a3a84') in 0.023922 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000022 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_0.5_Beige_01_Atlased.prefab
-  artifactKey: Guid(66ea335cfb7a9ee4ba3eb9d1adc3c2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_0.5_Beige_01_Atlased.prefab using Guid(66ea335cfb7a9ee4ba3eb9d1adc3c2a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f19102cd8a3d32662ab824fc203707d2') in 0.009805 seconds 
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Battlements_Back_Right_1.0_Beige_01_Atlased.prefab
+  artifactKey: Guid(0908151572c4c074a93d4a62258a4bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Battlements_Back_Right_1.0_Beige_01_Atlased.prefab using Guid(0908151572c4c074a93d4a62258a4bfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a56689253c5a7bedf926195c835a7746') in 0.023159 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_2.0_Green_01_Atlased.prefab
-  artifactKey: Guid(3aa2f2afc6aa961419494aef3efa0ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_2.0_Green_01_Atlased.prefab using Guid(3aa2f2afc6aa961419494aef3efa0ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd1d3879024cebc85e0b7962c4c42460') in 0.011344 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_2.0_Red_01_Atlased.prefab
-  artifactKey: Guid(5582974f67f160f47b46bb5f0c790cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_2.0_Red_01_Atlased.prefab using Guid(5582974f67f160f47b46bb5f0c790cb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7af8e671427879f8eb77f42341358d7d') in 0.012545 seconds 
+  Time since last request: 0.000022 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_0.125_Blue_01_Atlased.prefab
+  artifactKey: Guid(086665a1701531d4199c2dda20e3bce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_0.125_Blue_01_Atlased.prefab using Guid(086665a1701531d4199c2dda20e3bce4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4248da22fe2573a8923ae55b888a978e') in 0.031055 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000035 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_1.0_Green_01_Atlased.prefab
-  artifactKey: Guid(9eb691f07200ae1418912fa721ac1de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_1.0_Green_01_Atlased.prefab using Guid(9eb691f07200ae1418912fa721ac1de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31451dff66989183de89a07923dd77ba') in 0.009803 seconds 
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_2.0_Blue_01_Atlased.prefab
+  artifactKey: Guid(1a600630f1765b14e91d2c3a174e1e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_2.0_Blue_01_Atlased.prefab using Guid(1a600630f1765b14e91d2c3a174e1e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6331b90558ffca9c2fd7ba517cbd8c4') in 0.025761 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000040 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Corridor_Walls_1.0_Beige_01_Atlased.prefab
-  artifactKey: Guid(8a138aeda9a55754f8d5e9de2e54005c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Corridor_Walls_1.0_Beige_01_Atlased.prefab using Guid(8a138aeda9a55754f8d5e9de2e54005c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2b154b603efb913e26707a48e1deb11') in 0.009085 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Doorway_Facade_1.0_Beige_01_Atlased.prefab
-  artifactKey: Guid(91ef857143b30e746a80ad8521d1d7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Doorway_Facade_1.0_Beige_01_Atlased.prefab using Guid(91ef857143b30e746a80ad8521d1d7a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fa48fc9b2d6e68836fb92739350dd9b') in 0.010610 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Archway_Quad_1.0_Beige_01_Atlased.prefab
-  artifactKey: Guid(75010f5a70889544f9038186ac806324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Archway_Quad_1.0_Beige_01_Atlased.prefab using Guid(75010f5a70889544f9038186ac806324) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '409fac1aa422865dad9ece6bdb6659d9') in 0.008332 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 13.928710 seconds.
-  path: Assets/New Solution Studio/PBR Lamps Pack/Prefabs/Large_round_lamp.prefab
-  artifactKey: Guid(63595670e1005b644a5d30b65484a33d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/New Solution Studio/PBR Lamps Pack/Prefabs/Large_round_lamp.prefab using Guid(63595670e1005b644a5d30b65484a33d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6299c9be35e505e59c1e114f6df684f1') in 0.190208 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 123.363358 seconds.
-  path: Assets/Suriyun/Dragons_SD/FBX/DragonSD_D.fbx
-  artifactKey: Guid(da73972856a5c4f46a8a6ad30b003c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suriyun/Dragons_SD/FBX/DragonSD_D.fbx using Guid(da73972856a5c4f46a8a6ad30b003c69) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3fb75d1cf61d704b70f9c2d28768d9f') in 0.125149 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 12.033844 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Stylized Water BIR/Meshes/SW_Water_Plane_Square_Large_01.fbx
-  artifactKey: Guid(b7aa521af980a68458b40764c7e161d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Stylized Water BIR/Meshes/SW_Water_Plane_Square_Large_01.fbx using Guid(b7aa521af980a68458b40764c7e161d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a60f9b79e9638bd7b902680b6b72fa6') in 0.019404 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/Atlased/Water Planes/Water_Plane_Square_Small_01_Atlased.fbx
-  artifactKey: Guid(59932540bbeab484397edcb7a17b1e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/Atlased/Water Planes/Water_Plane_Square_Small_01_Atlased.fbx using Guid(59932540bbeab484397edcb7a17b1e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ca504e7eaf4095f2bfbb39d79b17a56') in 0.014941 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Water Planes/Water_Plane_Square_Small_01.fbx
-  artifactKey: Guid(7e7b2c19ce8d0a145a32fa289e2cb45f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Water Planes/Water_Plane_Square_Small_01.fbx using Guid(7e7b2c19ce8d0a145a32fa289e2cb45f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b1761f90e184ef6b3025503790661bf') in 0.076637 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.363300 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Stylized Water BIR/Meshes/SW_Water_Plane_Rectangle_Small_01.fbx
-  artifactKey: Guid(d738be980022f9b4d9cf32a57717499f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Stylized Water BIR/Meshes/SW_Water_Plane_Rectangle_Small_01.fbx using Guid(d738be980022f9b4d9cf32a57717499f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc4c92f82187533794277ecb9e1c1538') in 0.014016 seconds 
+  Time since last request: 0.000021 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Battlements_Front_1.0_Beige_01_Atlased.prefab
+  artifactKey: Guid(8ff2f807ffb7e364eb73283662702585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Battlements_Front_1.0_Beige_01_Atlased.prefab using Guid(8ff2f807ffb7e364eb73283662702585) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddc6b05897c8a2a47aad290bbbbef288') in 0.024097 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000023 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Stylized Water BIR/Meshes/SW_Water_Plane_Semicircle_Small_01.fbx
-  artifactKey: Guid(fc02c81c92c24b7498ea73a25208b5e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Stylized Water BIR/Meshes/SW_Water_Plane_Semicircle_Small_01.fbx using Guid(fc02c81c92c24b7498ea73a25208b5e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa9bffb50ac9b28c49ae236382aa3059') in 0.015429 seconds 
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_2.0_Green_01_Atlased.prefab
+  artifactKey: Guid(3aa2f2afc6aa961419494aef3efa0ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_2.0_Green_01_Atlased.prefab using Guid(3aa2f2afc6aa961419494aef3efa0ae8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd1d3879024cebc85e0b7962c4c42460') in 0.033392 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/Atlased/Water Planes/Water_Plane_Semicircle_Small_01_Atlased.fbx
-  artifactKey: Guid(afbc0067027604e428c378f00a826035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/Atlased/Water Planes/Water_Plane_Semicircle_Small_01_Atlased.fbx using Guid(afbc0067027604e428c378f00a826035) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '134309db7bb676837f4563297dcc38cc') in 0.013228 seconds 
+  Time since last request: 0.000035 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Archway_Single_1.5_Beige_01_Atlased.prefab
+  artifactKey: Guid(ac7eedfea0ebadd4da06e2364e881203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Archway_Single_1.5_Beige_01_Atlased.prefab using Guid(ac7eedfea0ebadd4da06e2364e881203) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '694698a4bfb62a4fdf1ce72c55e604ea') in 0.026170 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Flag_Beige_02_Atlased.prefab
+  artifactKey: Guid(b658533d93f441a4096cbbe3b36f2d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Flag_Beige_02_Atlased.prefab using Guid(b658533d93f441a4096cbbe3b36f2d74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '58bc50be767e1bad29b0cfb1b28119a0') in 0.026862 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Doorway_1.0_Beige_01_Atlased.prefab
+  artifactKey: Guid(321a05e4583aac3449e96f36f95c7e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Doorway_1.0_Beige_01_Atlased.prefab using Guid(321a05e4583aac3449e96f36f95c7e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '481fed7f108bc6f9c4f8b5215acb2fb9') in 0.024904 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_1.0_Green_01_Atlased.prefab
+  artifactKey: Guid(9eb691f07200ae1418912fa721ac1de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_1.0_Green_01_Atlased.prefab using Guid(9eb691f07200ae1418912fa721ac1de0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31451dff66989183de89a07923dd77ba') in 0.026316 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Corridor_Walls_1.0_Beige_01_Atlased.prefab
+  artifactKey: Guid(8a138aeda9a55754f8d5e9de2e54005c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Corridor_Walls_1.0_Beige_01_Atlased.prefab using Guid(8a138aeda9a55754f8d5e9de2e54005c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2b154b603efb913e26707a48e1deb11') in 0.033730 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Battlements_Back_Left_Tall_1.0_Beige_01_Atlased.prefab
+  artifactKey: Guid(9cd8501471bbf6245985ab78f38aa0d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Battlements_Back_Left_Tall_1.0_Beige_01_Atlased.prefab using Guid(9cd8501471bbf6245985ab78f38aa0d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75d2c81cc51327fcd473d77108b29522') in 0.028757 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_0.5_Green_01_Atlased.prefab
+  artifactKey: Guid(c9397ab51a4647f489fddaa09dfd18ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Block_0.5_Green_01_Atlased.prefab using Guid(c9397ab51a4647f489fddaa09dfd18ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '330c7ee82d87c73cd2c09ab0f9751d61') in 0.033135 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Battlements_Back_Right_Tall_1.0_Beige_01_Atlased.prefab
+  artifactKey: Guid(68e2458c7130dc143aa5c8d3b7cb4df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/Atlased/Abstract/Abstract_Modular_Battlements_Back_Right_Tall_1.0_Beige_01_Atlased.prefab using Guid(68e2458c7130dc143aa5c8d3b7cb4df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b1cdeef2779d03e6623c9e3078f5437') in 0.038726 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
 AssetImportWorker is now disconnected from the server
 Process exiting
