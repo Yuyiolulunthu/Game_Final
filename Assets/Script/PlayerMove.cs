@@ -15,6 +15,13 @@ public class PlayerMove : MonoBehaviour
     public float footLift = 0.01f;    
     public PlayerShadowFromObject dynamicShadow;
 
+    [Header("push settings")]
+    public float pushCheckDistance = 30f;
+    public LayerMask pushableMask;
+    public string pushingParam = "IsPushing";
+
+    private bool isPushing = false;
+
     [Header("animation (Animator)")]
     public Animator animator;                 
     public string speedParam = "MovingSpeed"; 
@@ -109,6 +116,44 @@ public class PlayerMove : MonoBehaviour
                              out var hit, footRayHeight * 2f, groundMask))
             here = shadowChecker ? shadowChecker.IsInShadow(hit.point + Vector3.up * footLift) : true;
 
-        GUI.Label(new Rect(10,10,520,24), $"Here Shadow: {(here ? "YES":"NO")} | Blocked: {(blocked?"YES":"NO")}");
+        GUI.Label(new Rect(10,10,520,24), $"Here Shadow: {(here ? "YES":"NO")} | Blocked: {(blocked?"YES":"NO")} | Pushing: {(isPushing ? "YES" : "NO")}");
     }
+
+    void OnCollisionStay(Collision other)
+    {
+        // 判斷對方是不是在 pushableMask 裡
+        if ((pushableMask.value & (1 << other.gameObject.layer)) != 0)
+        {
+            // 有在輸入方向才算在推
+            if (moveDir.sqrMagnitude > 0.01f)
+            {
+                SetPushing(true);
+            }
+            else
+            {
+                SetPushing(false);
+            }
+        }
+    }
+
+    void OnCollisionExit(Collision other)
+    {
+        if ((pushableMask.value & (1 << other.gameObject.layer)) != 0)
+        {
+            SetPushing(false);
+        }
+    }
+
+    void SetPushing(bool value)
+    {
+        if (isPushing == value) return;
+
+        isPushing = value;
+        if (animator)
+            animator.SetBool(pushingParam, isPushing);
+
+        if (isPushing)
+            animator.SetFloat(speedParam, 0f);
+    }
+
 }
