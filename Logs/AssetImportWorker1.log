@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.5f1 (40eb3a945986) revision 4254522'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 10  (10.0.19045) 64bit Core' Language: 'zh' Physical Memory: 32159 MB
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'zh' Physical Memory: 32437 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.5f1\Editor\Unity.exe
 -name
 AssetImportWorker1
 -projectPath
-C:/Users/User/Desktop/gamefinal/Game_Final
+C:/Users/user/Downloads/遊程期末/Game_Final
 -logFile
 Logs/AssetImportWorker1.log
 -srvPort
-55328
-Successfully changed project path to: C:/Users/User/Desktop/gamefinal/Game_Final
-C:/Users/User/Desktop/gamefinal/Game_Final
+61845
+Successfully changed project path to: C:/Users/user/Downloads/遊程期末/Game_Final
+C:/Users/user/Downloads/遊程期末/Game_Final
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,1442 +47,112 @@ C:/Users/User/Desktop/gamefinal/Game_Final
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Refreshing native plugins compatible for Editor in 103.26 ms, found 3 plugins.
+Unable to join player connection multicast group.
+Refreshing native plugins compatible for Editor in 79.72 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.5f1 (40eb3a945986)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/User/Desktop/gamefinal/Game_Final/Assets
+[Subsystems] Discovering subsystems at path C:/Users/user/Downloads/遊程期末/Game_Final/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: NVIDIA GeForce RTX 3060 Laptop GPU (ID=0x2520)
-    Vendor:   NVIDIA
-    VRAM:     6010 MB
-    Driver:   31.0.15.4680
+    Renderer: Intel(R) Arc(TM) Pro Graphics (ID=0x7d55)
+    Vendor:   Intel
+    VRAM:     16218 MB
+    Driver:   32.0.101.5768
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56308
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56908
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.008493 seconds.
+Registered in 0.003070 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 91.65 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 71.15 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.642 seconds
+- Completed reload, in  0.546 seconds
 Domain Reload Profiling:
-	ReloadAssembly (642ms)
-		BeginReloadAssembly (88ms)
+	ReloadAssembly (547ms)
+		BeginReloadAssembly (82ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (429ms)
-			LoadAssemblies (85ms)
+		EndReloadAssembly (375ms)
+			LoadAssemblies (81ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (93ms)
+			SetupTypeCache (81ms)
 			ReleaseScriptCaches (0ms)
 			RebuildScriptCaches (24ms)
-			SetupLoadedEditorAssemblies (262ms)
+			SetupLoadedEditorAssemblies (225ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (8ms)
+				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (92ms)
+				RefreshPlugins (71ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (117ms)
-				ProcessInitializeOnLoadMethodAttributes (43ms)
+				ProcessInitializeOnLoadAttributes (106ms)
+				ProcessInitializeOnLoadMethodAttributes (40ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.006717 seconds.
+Registered in 0.003263 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\gamefinal\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\gamefinal\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Downloads\遊程期末\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image C:\Users\user\Downloads\遊程期末\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.93 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 0.76 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.027 seconds
+- Completed reload, in  0.881 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1028ms)
-		BeginReloadAssembly (113ms)
+	ReloadAssembly (882ms)
+		BeginReloadAssembly (95ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (5ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (18ms)
-		EndReloadAssembly (791ms)
-			LoadAssemblies (87ms)
+			CreateAndSetChildDomain (16ms)
+		EndReloadAssembly (693ms)
+			LoadAssemblies (68ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (252ms)
+			SetupTypeCache (223ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (378ms)
+			RebuildScriptCaches (42ms)
+			SetupLoadedEditorAssemblies (323ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (4ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (90ms)
-				ProcessInitializeOnLoadAttributes (243ms)
-				ProcessInitializeOnLoadMethodAttributes (27ms)
-				AfterProcessingInitializeOnLoad (10ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (5ms)
-Platform modules already initialized, skipping
-========================================================================
-Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.89 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3435 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (55.3 KB). Loaded Objects now: 3893.
-Memory consumption went from 129.8 MB to 129.7 MB.
-Total: 3.651000 ms (FindLiveObjects: 0.310700 ms CreateObjectMapping: 0.255000 ms MarkObjects: 3.011200 ms  DeleteObjects: 0.073300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Import Request.
-  Time since last request: 1595308.200693 seconds.
-  path: Assets/Scenes/Scene_Stage_1.unity
-  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene_Stage_1.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8636979c5653a8e898421e3ccbd5b04') in 0.016751 seconds 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007344 seconds.
-Begin MonoManager ReloadAssembly
-IOException: Sharing violation on path C:\Users\User\Desktop\gamefinal\Game_Final\ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
-  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
-  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
-  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
-  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
-  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <e40e5a8f982c4b618a930d29f9bd091c>:0 
-  at UnityEditor.SettingsManagement.PackageSettingsRepository.Save () [0x00070] in C:\Users\User\Desktop\gamefinal\Game_Final\Library\PackageCache\com.unity.settings-manager@1.0.3\Editor\PackageSettingsRepository.cs:144 
-  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in <1f0be198f5164d2489de92f22c998266>:0 
-
-(Filename: Library/PackageCache/com.unity.settings-manager@1.0.3/Editor/PackageSettingsRepository.cs Line: 144)
-
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\gamefinal\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\gamefinal\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.00 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.061 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1061ms)
-		BeginReloadAssembly (145ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (815ms)
-			LoadAssemblies (91ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (270ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (371ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (78ms)
-				ProcessInitializeOnLoadAttributes (230ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.12 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3414 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (24.6 KB). Loaded Objects now: 3896.
-Memory consumption went from 128.3 MB to 128.3 MB.
-Total: 3.619000 ms (FindLiveObjects: 0.252000 ms CreateObjectMapping: 0.103500 ms MarkObjects: 3.228300 ms  DeleteObjects: 0.034200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007298 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\gamefinal\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\gamefinal\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.16 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.050 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1051ms)
-		BeginReloadAssembly (137ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (40ms)
-		EndReloadAssembly (813ms)
-			LoadAssemblies (88ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (241ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (386ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (79ms)
-				ProcessInitializeOnLoadAttributes (242ms)
-				ProcessInitializeOnLoadMethodAttributes (33ms)
-				AfterProcessingInitializeOnLoad (13ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.88 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3414 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (24.6 KB). Loaded Objects now: 3899.
-Memory consumption went from 128.3 MB to 128.3 MB.
-Total: 3.341700 ms (FindLiveObjects: 0.253400 ms CreateObjectMapping: 0.200000 ms MarkObjects: 2.864000 ms  DeleteObjects: 0.023100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009707 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\gamefinal\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\gamefinal\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.055 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1056ms)
-		BeginReloadAssembly (133ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (823ms)
-			LoadAssemblies (88ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (242ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (386ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (81ms)
-				ProcessInitializeOnLoadAttributes (234ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
-				AfterProcessingInitializeOnLoad (18ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.46 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3414 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (24.6 KB). Loaded Objects now: 3902.
-Memory consumption went from 128.3 MB to 128.2 MB.
-Total: 3.691300 ms (FindLiveObjects: 0.287600 ms CreateObjectMapping: 0.218400 ms MarkObjects: 3.152400 ms  DeleteObjects: 0.031800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007578 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\gamefinal\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\gamefinal\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.03 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.031 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1032ms)
-		BeginReloadAssembly (135ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (795ms)
-			LoadAssemblies (90ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (253ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (363ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (81ms)
-				ProcessInitializeOnLoadAttributes (223ms)
-				ProcessInitializeOnLoadMethodAttributes (31ms)
-				AfterProcessingInitializeOnLoad (12ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.10 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3414 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (24.7 KB). Loaded Objects now: 3905.
-Memory consumption went from 128.4 MB to 128.3 MB.
-Total: 4.447900 ms (FindLiveObjects: 0.264700 ms CreateObjectMapping: 0.265600 ms MarkObjects: 3.891000 ms  DeleteObjects: 0.025600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008439 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\gamefinal\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\gamefinal\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.35 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.092 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1093ms)
-		BeginReloadAssembly (141ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (851ms)
-			LoadAssemblies (98ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (257ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (398ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (87ms)
-				ProcessInitializeOnLoadAttributes (241ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.47 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3414 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (24.7 KB). Loaded Objects now: 3908.
-Memory consumption went from 128.4 MB to 128.3 MB.
-Total: 3.859000 ms (FindLiveObjects: 0.334500 ms CreateObjectMapping: 0.117000 ms MarkObjects: 3.363800 ms  DeleteObjects: 0.042100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007196 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\gamefinal\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\gamefinal\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.23 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.140 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1141ms)
-		BeginReloadAssembly (151ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (42ms)
-		EndReloadAssembly (871ms)
-			LoadAssemblies (101ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (279ms)
-			ReleaseScriptCaches (4ms)
-			RebuildScriptCaches (39ms)
-			SetupLoadedEditorAssemblies (396ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (83ms)
-				ProcessInitializeOnLoadAttributes (244ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
-				AfterProcessingInitializeOnLoad (13ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.59 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3414 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (24.6 KB). Loaded Objects now: 3911.
-Memory consumption went from 128.3 MB to 128.3 MB.
-Total: 4.092200 ms (FindLiveObjects: 0.290400 ms CreateObjectMapping: 0.212100 ms MarkObjects: 3.559500 ms  DeleteObjects: 0.029100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008722 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\gamefinal\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\gamefinal\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.10 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.138 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1138ms)
-		BeginReloadAssembly (143ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (888ms)
-			LoadAssemblies (100ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (276ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (409ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (85ms)
-				ProcessInitializeOnLoadAttributes (249ms)
-				ProcessInitializeOnLoadMethodAttributes (39ms)
-				AfterProcessingInitializeOnLoad (16ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.53 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3414 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (24.7 KB). Loaded Objects now: 3914.
-Memory consumption went from 128.4 MB to 128.4 MB.
-Total: 4.294300 ms (FindLiveObjects: 0.397000 ms CreateObjectMapping: 0.238800 ms MarkObjects: 3.616700 ms  DeleteObjects: 0.040600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009141 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\gamefinal\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\gamefinal\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.28 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.106 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1106ms)
-		BeginReloadAssembly (146ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (852ms)
-			LoadAssemblies (100ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (262ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (398ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (87ms)
-				ProcessInitializeOnLoadAttributes (245ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
-				AfterProcessingInitializeOnLoad (13ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.65 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3414 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (24.7 KB). Loaded Objects now: 3917.
-Memory consumption went from 128.4 MB to 128.4 MB.
-Total: 4.005200 ms (FindLiveObjects: 0.297500 ms CreateObjectMapping: 0.127000 ms MarkObjects: 3.545300 ms  DeleteObjects: 0.034000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007250 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\gamefinal\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\gamefinal\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 2.11 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.125 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1126ms)
-		BeginReloadAssembly (143ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (872ms)
-			LoadAssemblies (98ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (256ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (426ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (98ms)
-				ProcessInitializeOnLoadAttributes (253ms)
-				ProcessInitializeOnLoadMethodAttributes (38ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.39 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3414 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (24.7 KB). Loaded Objects now: 3920.
-Memory consumption went from 128.3 MB to 128.3 MB.
-Total: 3.766100 ms (FindLiveObjects: 0.267700 ms CreateObjectMapping: 0.245100 ms MarkObjects: 3.216000 ms  DeleteObjects: 0.036100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008479 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\gamefinal\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\gamefinal\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.07 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.162 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1163ms)
-		BeginReloadAssembly (140ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (908ms)
-			LoadAssemblies (94ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (266ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (432ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (84ms)
-				ProcessInitializeOnLoadAttributes (260ms)
-				ProcessInitializeOnLoadMethodAttributes (47ms)
-				AfterProcessingInitializeOnLoad (22ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (11ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.61 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3414 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (24.7 KB). Loaded Objects now: 3923.
-Memory consumption went from 128.4 MB to 128.4 MB.
-Total: 4.081400 ms (FindLiveObjects: 0.275800 ms CreateObjectMapping: 0.204200 ms MarkObjects: 3.554300 ms  DeleteObjects: 0.045700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008520 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\gamefinal\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\gamefinal\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.13 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.113 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1114ms)
-		BeginReloadAssembly (135ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (31ms)
-		EndReloadAssembly (873ms)
-			LoadAssemblies (94ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (303ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (380ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (15ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (85ms)
-				ProcessInitializeOnLoadAttributes (232ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
-				AfterProcessingInitializeOnLoad (13ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.98 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3414 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (24.6 KB). Loaded Objects now: 3926.
-Memory consumption went from 128.4 MB to 128.4 MB.
-Total: 3.494300 ms (FindLiveObjects: 0.283000 ms CreateObjectMapping: 0.231600 ms MarkObjects: 2.949700 ms  DeleteObjects: 0.028800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007782 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\gamefinal\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\gamefinal\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.02 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.071 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1072ms)
-		BeginReloadAssembly (138ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (825ms)
-			LoadAssemblies (95ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (244ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (41ms)
-			SetupLoadedEditorAssemblies (392ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (89ms)
-				ProcessInitializeOnLoadAttributes (237ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
-				AfterProcessingInitializeOnLoad (13ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.89 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3414 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (24.6 KB). Loaded Objects now: 3929.
-Memory consumption went from 128.4 MB to 128.4 MB.
-Total: 3.626000 ms (FindLiveObjects: 0.261200 ms CreateObjectMapping: 0.196600 ms MarkObjects: 3.134000 ms  DeleteObjects: 0.032600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.007213 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\gamefinal\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\gamefinal\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.24 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.053 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1054ms)
-		BeginReloadAssembly (135ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (812ms)
-			LoadAssemblies (90ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (237ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (43ms)
-			SetupLoadedEditorAssemblies (398ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (84ms)
-				ProcessInitializeOnLoadAttributes (252ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
-				AfterProcessingInitializeOnLoad (12ms)
+				BeforeProcessingInitializeOnLoad (86ms)
+				ProcessInitializeOnLoadAttributes (201ms)
+				ProcessInitializeOnLoadMethodAttributes (25ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (6ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 2.86 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3414 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (24.7 KB). Loaded Objects now: 3932.
-Memory consumption went from 128.4 MB to 128.4 MB.
-Total: 3.859000 ms (FindLiveObjects: 0.348900 ms CreateObjectMapping: 0.122600 ms MarkObjects: 3.356200 ms  DeleteObjects: 0.029700 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008212 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\gamefinal\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\gamefinal\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.44 ms, found 3 plugins.
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.13 seconds
+Refreshing native plugins compatible for Editor in 0.71 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.081 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1082ms)
-		BeginReloadAssembly (139ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (835ms)
-			LoadAssemblies (94ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (261ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (392ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (84ms)
-				ProcessInitializeOnLoadAttributes (239ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
-				AfterProcessingInitializeOnLoad (16ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.01 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3414 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (24.8 KB). Loaded Objects now: 3935.
-Memory consumption went from 128.3 MB to 128.3 MB.
-Total: 4.278400 ms (FindLiveObjects: 0.268600 ms CreateObjectMapping: 0.341500 ms MarkObjects: 3.637700 ms  DeleteObjects: 0.029300 ms)
+Unloading 3436 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (55.4 KB). Loaded Objects now: 3896.
+Memory consumption went from 126.2 MB to 126.1 MB.
+Total: 2.839400 ms (FindLiveObjects: 0.215500 ms CreateObjectMapping: 0.051800 ms MarkObjects: 2.494600 ms  DeleteObjects: 0.076200 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008258 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\gamefinal\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\gamefinal\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.14 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.062 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1063ms)
-		BeginReloadAssembly (138ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (32ms)
-		EndReloadAssembly (824ms)
-			LoadAssemblies (92ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (239ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (405ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (17ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (87ms)
-				ProcessInitializeOnLoadAttributes (249ms)
-				ProcessInitializeOnLoadMethodAttributes (34ms)
-				AfterProcessingInitializeOnLoad (16ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.15 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3414 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (24.7 KB). Loaded Objects now: 3938.
-Memory consumption went from 128.5 MB to 128.4 MB.
-Total: 4.541600 ms (FindLiveObjects: 0.350000 ms CreateObjectMapping: 0.363900 ms MarkObjects: 3.789600 ms  DeleteObjects: 0.036200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008403 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\gamefinal\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\gamefinal\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.48 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.164 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1165ms)
-		BeginReloadAssembly (140ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (913ms)
-			LoadAssemblies (92ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (266ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (42ms)
-			SetupLoadedEditorAssemblies (444ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (90ms)
-				ProcessInitializeOnLoadAttributes (277ms)
-				ProcessInitializeOnLoadMethodAttributes (36ms)
-				AfterProcessingInitializeOnLoad (17ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.50 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3414 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (24.7 KB). Loaded Objects now: 3941.
-Memory consumption went from 128.5 MB to 128.4 MB.
-Total: 4.138000 ms (FindLiveObjects: 0.301100 ms CreateObjectMapping: 0.252400 ms MarkObjects: 3.546900 ms  DeleteObjects: 0.036300 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008651 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\gamefinal\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\gamefinal\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.172 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1173ms)
-		BeginReloadAssembly (142ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (924ms)
-			LoadAssemblies (94ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (276ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (51ms)
-			SetupLoadedEditorAssemblies (431ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (91ms)
-				ProcessInitializeOnLoadAttributes (266ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
-				AfterProcessingInitializeOnLoad (16ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.34 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3414 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (24.7 KB). Loaded Objects now: 3944.
-Memory consumption went from 128.4 MB to 128.3 MB.
-Total: 4.062700 ms (FindLiveObjects: 0.316300 ms CreateObjectMapping: 0.241700 ms MarkObjects: 3.468500 ms  DeleteObjects: 0.034600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009093 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\gamefinal\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\gamefinal\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.46 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.212 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1213ms)
-		BeginReloadAssembly (152ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (7ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (953ms)
-			LoadAssemblies (102ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (277ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (47ms)
-			SetupLoadedEditorAssemblies (455ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (93ms)
-				ProcessInitializeOnLoadAttributes (275ms)
-				ProcessInitializeOnLoadMethodAttributes (42ms)
-				AfterProcessingInitializeOnLoad (23ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (13ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.20 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3414 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (24.6 KB). Loaded Objects now: 3947.
-Memory consumption went from 128.5 MB to 128.5 MB.
-Total: 3.883700 ms (FindLiveObjects: 0.314400 ms CreateObjectMapping: 0.119400 ms MarkObjects: 3.427000 ms  DeleteObjects: 0.021600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.008726 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\gamefinal\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\gamefinal\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.31 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.237 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1238ms)
-		BeginReloadAssembly (148ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (36ms)
-		EndReloadAssembly (971ms)
-			LoadAssemblies (96ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (278ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (49ms)
-			SetupLoadedEditorAssemblies (474ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (94ms)
-				ProcessInitializeOnLoadAttributes (282ms)
-				ProcessInitializeOnLoadMethodAttributes (59ms)
-				AfterProcessingInitializeOnLoad (19ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.42 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3414 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (24.7 KB). Loaded Objects now: 3950.
-Memory consumption went from 128.5 MB to 128.5 MB.
-Total: 4.222800 ms (FindLiveObjects: 0.300600 ms CreateObjectMapping: 0.278700 ms MarkObjects: 3.611100 ms  DeleteObjects: 0.031000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009429 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\gamefinal\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\gamefinal\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.27 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.152 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1153ms)
-		BeginReloadAssembly (142ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (35ms)
-		EndReloadAssembly (905ms)
-			LoadAssemblies (90ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (258ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (44ms)
-			SetupLoadedEditorAssemblies (446ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (98ms)
-				ProcessInitializeOnLoadAttributes (274ms)
-				ProcessInitializeOnLoadMethodAttributes (37ms)
-				AfterProcessingInitializeOnLoad (16ms)
-				EditorAssembliesLoaded (1ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (9ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.66 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3414 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (24.7 KB). Loaded Objects now: 3953.
-Memory consumption went from 128.5 MB to 128.5 MB.
-Total: 4.960300 ms (FindLiveObjects: 0.377300 ms CreateObjectMapping: 0.267500 ms MarkObjects: 4.278700 ms  DeleteObjects: 0.035100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.006417 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\gamefinal\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\gamefinal\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.38 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.052 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1052ms)
-		BeginReloadAssembly (136ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (33ms)
-		EndReloadAssembly (818ms)
-			LoadAssemblies (93ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (247ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (383ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (16ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (78ms)
-				ProcessInitializeOnLoadAttributes (241ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
-				AfterProcessingInitializeOnLoad (13ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (7ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.13 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3414 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (24.7 KB). Loaded Objects now: 3956.
-Memory consumption went from 128.5 MB to 128.5 MB.
-Total: 3.658900 ms (FindLiveObjects: 0.269400 ms CreateObjectMapping: 0.210200 ms MarkObjects: 3.151500 ms  DeleteObjects: 0.026800 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009213 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\gamefinal\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\gamefinal\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.67 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.208 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1209ms)
-		BeginReloadAssembly (152ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (925ms)
-			LoadAssemblies (111ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (301ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (46ms)
-			SetupLoadedEditorAssemblies (418ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (2ms)
-				BeforeProcessingInitializeOnLoad (90ms)
-				ProcessInitializeOnLoadAttributes (250ms)
-				ProcessInitializeOnLoadMethodAttributes (41ms)
-				AfterProcessingInitializeOnLoad (15ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.32 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3414 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (24.8 KB). Loaded Objects now: 3959.
-Memory consumption went from 128.5 MB to 128.5 MB.
-Total: 4.173900 ms (FindLiveObjects: 0.326900 ms CreateObjectMapping: 0.339700 ms MarkObjects: 3.475800 ms  DeleteObjects: 0.029600 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.009737 seconds.
-Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\gamefinal\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\User\Desktop\gamefinal\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
-Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 1.15 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.227 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1228ms)
-		BeginReloadAssembly (147ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (6ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (34ms)
-		EndReloadAssembly (968ms)
-			LoadAssemblies (104ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (298ms)
-			ReleaseScriptCaches (2ms)
-			RebuildScriptCaches (48ms)
-			SetupLoadedEditorAssemblies (457ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (19ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (93ms)
-				ProcessInitializeOnLoadAttributes (294ms)
-				ProcessInitializeOnLoadMethodAttributes (35ms)
-				AfterProcessingInitializeOnLoad (14ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 3.36 ms, found 3 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3414 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 18 unused Assets / (24.7 KB). Loaded Objects now: 3962.
-Memory consumption went from 128.5 MB to 128.5 MB.
-Total: 4.176400 ms (FindLiveObjects: 0.395000 ms CreateObjectMapping: 0.233900 ms MarkObjects: 3.512700 ms  DeleteObjects: 0.033200 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -1490,53 +160,1032 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 840.481820 seconds.
-  path: Assets/Suriyun/Dragons_SD/Animations/Anim_Dra_Fly_Up.fbx
-  artifactKey: Guid(d1ea70e1349845b4fa771600b24e6b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suriyun/Dragons_SD/Animations/Anim_Dra_Fly_Up.fbx using Guid(d1ea70e1349845b4fa771600b24e6b70) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49b938eb3b9dc81a2702f5cc63fb1b51') in 0.141347 seconds 
+  Time since last request: 376302.867380 seconds.
+  path: Assets/Scenes/Scene_Stage_2 2.unity
+  artifactKey: Guid(d676e24e47e6f9b41bc842ae62b6184d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene_Stage_2 2.unity using Guid(d676e24e47e6f9b41bc842ae62b6184d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1fd873b495496e62c97fc2919b15bc9d') in 0.774345 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Suriyun/Dragons_SD/Animations/Anim_Dra_Idle.fbx
-  artifactKey: Guid(e90fb7829e1df964a940ca135a44e094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suriyun/Dragons_SD/Animations/Anim_Dra_Idle.fbx using Guid(e90fb7829e1df964a940ca135a44e094) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '79896c593cd75e883ccbe3d941c26529') in 0.019124 seconds 
+  Time since last request: 0.000045 seconds.
+  path: Assets/Scenes/Scene_Stage_3.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/Scene_Stage_3.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '844a887a1da885ed0c104e06c75d12c5') in 0.771167 seconds 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Suriyun/Dragons_SD/Animations/Anim_Dra_Rest.fbx
-  artifactKey: Guid(0cbe56e545652b049bc7723fc5ebd85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suriyun/Dragons_SD/Animations/Anim_Dra_Rest.fbx using Guid(0cbe56e545652b049bc7723fc5ebd85d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '629ae6164884396283c69ebbae64e4fe') in 0.019033 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000224 seconds.
-  path: Assets/Suriyun/Dragons_SD/Animations/Anim_Dra_Run_L.fbx
-  artifactKey: Guid(a928c9180fafa1d4987868a3c5d3b439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suriyun/Dragons_SD/Animations/Anim_Dra_Run_L.fbx using Guid(a928c9180fafa1d4987868a3c5d3b439) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b4bd0680d377d44b6b6ea13858db739') in 0.019546 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000031 seconds.
-  path: Assets/Suriyun/Dragons_SD/Animations/Anim_Dra_Roar.fbx
-  artifactKey: Guid(f96c5541ec874cb4ea42f6bc6474c3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suriyun/Dragons_SD/Animations/Anim_Dra_Roar.fbx using Guid(f96c5541ec874cb4ea42f6bc6474c3ac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e31c35d595239d6f974dcff3ecec33ad') in 0.016955 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Suriyun/Dragons_SD/Animations/Anim_Dra_Run.fbx
-  artifactKey: Guid(350a76b739c5bd0438cb0ac1df48bcc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suriyun/Dragons_SD/Animations/Anim_Dra_Run.fbx using Guid(350a76b739c5bd0438cb0ac1df48bcc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '636538e65744c045b42805740f8d9e33') in 0.019972 seconds 
+  Time since last request: 72.369828 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Crystal_Green_01.fbx
+  artifactKey: Guid(fb568bba6e06d454cb3ca77936ec92a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Crystal_Green_01.fbx using Guid(fb568bba6e06d454cb3ca77936ec92a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb83ed26c271d41764a1ec850fbf1cbc') in 0.293050 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000024 seconds.
-  path: Assets/Suriyun/Dragons_SD/Animations/Anim_Dra_Jump.fbx
-  artifactKey: Guid(dc2c429e748ab68488dcbdb7b53da827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suriyun/Dragons_SD/Animations/Anim_Dra_Jump.fbx using Guid(dc2c429e748ab68488dcbdb7b53da827) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff8dc9dff283185f66bbedd155c7733e') in 0.021844 seconds 
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Crystal_Singular_Purple_05.fbx
+  artifactKey: Guid(e5bea4a6336ebac49a665b02e5f58da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Crystal_Singular_Purple_05.fbx using Guid(e5bea4a6336ebac49a665b02e5f58da9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b8ce130cd10d0d4d661daa984a2b3b9d') in 0.103945 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Gem_Purple_03.fbx
+  artifactKey: Guid(3861fe2e8d53b8a4886e9f0acd6e6a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Gem_Purple_03.fbx using Guid(3861fe2e8d53b8a4886e9f0acd6e6a8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f751e2ba08948ef74554e541b7dfbeb6') in 0.129122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000568 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Crystal_Singular_Purple_11.fbx
+  artifactKey: Guid(67d8b77e17a52cd4790c27cb09e5824c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Crystal_Singular_Purple_11.fbx using Guid(67d8b77e17a52cd4790c27cb09e5824c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8d6e6eb642783f20bf52320a735e4e6') in 0.064322 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Crystal_Yellow_01.fbx
+  artifactKey: Guid(205e3944ac44e8c40b25da4769820290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Crystal_Yellow_01.fbx using Guid(205e3944ac44e8c40b25da4769820290) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c9c4621258947521e3f1663ade6165a') in 0.076434 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000050 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Gem_Purple_13.fbx
+  artifactKey: Guid(acb74713593b9fb41bd3f46f1a8108fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Gem_Purple_13.fbx using Guid(acb74713593b9fb41bd3f46f1a8108fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07947aa46ba6939f48ca9405e03aabbc') in 0.110615 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000060 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Crystal_Singular_Purple_03.fbx
+  artifactKey: Guid(8278b72b28b01a74980d4d163358a6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Crystal_Singular_Purple_03.fbx using Guid(8278b72b28b01a74980d4d163358a6d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95ba0c75d684b530c2c72091bf39420f') in 0.090790 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Gem_Purple_11.fbx
+  artifactKey: Guid(304eb1ccaa8067440bfe009d81881877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Gem_Purple_11.fbx using Guid(304eb1ccaa8067440bfe009d81881877) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8539227976dcc0c7cb47c8eb3c973227') in 0.088682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Gem_Purple_07.fbx
+  artifactKey: Guid(0c0b0504a00b71049aa930de024c8f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Gem_Purple_07.fbx using Guid(0c0b0504a00b71049aa930de024c8f4f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9cb6548646892c071fc09301a041f8db') in 0.102519 seconds 
 ========================================================================
 Received Import Request.
   Time since last request: 0.000028 seconds.
-  path: Assets/Suriyun/Dragons_SD/Animations/Anim_Dra_Walk.fbx
-  artifactKey: Guid(0f9a1676d37847f4fbb1374ebd2a6331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Suriyun/Dragons_SD/Animations/Anim_Dra_Walk.fbx using Guid(0f9a1676d37847f4fbb1374ebd2a6331) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e79b065f2780d06a7496f8ea8c7b5b2') in 0.020230 seconds 
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Gem_Purple_09.fbx
+  artifactKey: Guid(d7d890032b076be4593f8909ae56d59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Gem_Purple_09.fbx using Guid(d7d890032b076be4593f8909ae56d59c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5ec49df9082b4f0b83d21a302c8585b') in 0.049890 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Crystal_Singular_Purple_14.fbx
+  artifactKey: Guid(1711a1854bf8d5d47ba83492a189d0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Crystal_Singular_Purple_14.fbx using Guid(1711a1854bf8d5d47ba83492a189d0d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd0c9843d850dae5d378a5e7aed8c9689') in 0.086721 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Crystal_Light_Blue_01.fbx
+  artifactKey: Guid(813fd669b72d0a14f809e428f3e39afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Crystal_Light_Blue_01.fbx using Guid(813fd669b72d0a14f809e428f3e39afb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b8c93ff0f07e336ade5aafb1ac15b84') in 0.165298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Crystal_Singular_Purple_02.fbx
+  artifactKey: Guid(f58930df730d00247ad3f1d972df461f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Crystal_Singular_Purple_02.fbx using Guid(f58930df730d00247ad3f1d972df461f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '688104a64a30b719b30c7b862c1d8b74') in 0.165845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Crystal_Singular_Purple_12.fbx
+  artifactKey: Guid(ba4f5ddf16444914caa6076567057e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Crystal_Singular_Purple_12.fbx using Guid(ba4f5ddf16444914caa6076567057e1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2c384c8a482cae068108164241ec2ec') in 0.102375 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Crystal_Orange_01.fbx
+  artifactKey: Guid(3b33e5a6596d49d4db579d2b09809bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Crystal_Orange_01.fbx using Guid(3b33e5a6596d49d4db579d2b09809bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3b21f59cc3cd7338f3e8796f610e549') in 0.086380 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Crystal_Singular_Purple_07.fbx
+  artifactKey: Guid(317a9f937dd8c12439fd638b40ea5745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Crystal_Singular_Purple_07.fbx using Guid(317a9f937dd8c12439fd638b40ea5745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f62035e6e9ed4ea4c7840c629a6ecc61') in 0.053738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Crystal_Singular_Purple_08.fbx
+  artifactKey: Guid(c9161ac2c87c5054bad8fa0758f18fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Crystal_Singular_Purple_08.fbx using Guid(c9161ac2c87c5054bad8fa0758f18fd2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c96f4039f7f678479394025833713f5') in 0.049820 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Gem_Purple_04.fbx
+  artifactKey: Guid(fba10bbc06ac73b4abc3f9f81fb02c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Gem_Purple_04.fbx using Guid(fba10bbc06ac73b4abc3f9f81fb02c61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffa8f97d0903c6382faf3254b9941b39') in 0.046250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 4.900998 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Building_Castle_Platform_Building_01.fbx
+  artifactKey: Guid(65d9aba2218c42d4b8ce09450de7ef4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Building_Castle_Platform_Building_01.fbx using Guid(65d9aba2218c42d4b8ce09450de7ef4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2070cf5005455195c9281b30f27bd5d6') in 0.121237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Building_Temple_Indian_Top_01.fbx
+  artifactKey: Guid(cdf190f24a655b54eb54ae8e420c36d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Building_Temple_Indian_Top_01.fbx using Guid(cdf190f24a655b54eb54ae8e420c36d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9ea60786752545032f1017a21ad2a0e') in 0.268263 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Prop_Archway_Roof_Stone_Castle_Dungeon_01.fbx
+  artifactKey: Guid(2c6b417d1e89235488e177d97035ab08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Prop_Archway_Roof_Stone_Castle_Dungeon_01.fbx using Guid(2c6b417d1e89235488e177d97035ab08) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '395aaf75dd3d54a823ddebfe52783094') in 0.137205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Prop_Aqueduct_Castle_Dungeon_01.fbx
+  artifactKey: Guid(7b14007cfd1d3834ea01568bafff0a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Prop_Aqueduct_Castle_Dungeon_01.fbx using Guid(7b14007cfd1d3834ea01568bafff0a75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c87e9b0880e1c995b60cdabe64cf56df') in 0.093823 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002042 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Prop_Brick_Stone_Dungeon_04.fbx
+  artifactKey: Guid(df8e63be65559be4ebdfa5af78e57fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Prop_Brick_Stone_Dungeon_04.fbx using Guid(df8e63be65559be4ebdfa5af78e57fab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1dc0c168ede81fac5b1771b79ca2dd79') in 0.090085 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002077 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Building_Castle_Tower_Base_Small_01.fbx
+  artifactKey: Guid(155eb867f622d434b9ea06a90e455c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Building_Castle_Tower_Base_Small_01.fbx using Guid(155eb867f622d434b9ea06a90e455c11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a505a0dfa0c4d0aac88cdb11d42d858') in 0.126024 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Prop_Column_Half_Top_Stone_Castle_Dungeon_01.fbx
+  artifactKey: Guid(d0fa46eab926779488a65498af25ae65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Prop_Column_Half_Top_Stone_Castle_Dungeon_01.fbx using Guid(d0fa46eab926779488a65498af25ae65) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '450ac97bf16c30efb87d098cd59e4af7') in 0.189951 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Building_Facade_Modular_Wall_Brick_Corner_03.fbx
+  artifactKey: Guid(1341160b58b3e8b4a914f8af6c99a15e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Building_Facade_Modular_Wall_Brick_Corner_03.fbx using Guid(1341160b58b3e8b4a914f8af6c99a15e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07a22037fd73f46f9b145d144e3f9fb5') in 0.138357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.773487 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Boardgame/Boardgame_Chess_Piece_Castle_Rook_Black_01.fbx
+  artifactKey: Guid(acef0e7fd2bab9644b73e4be73b4ee99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Boardgame/Boardgame_Chess_Piece_Castle_Rook_Black_01.fbx using Guid(acef0e7fd2bab9644b73e4be73b4ee99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4b2d820499e6018b227be27a772676af') in 0.139128 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000383 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Boardgame/Boardgame_Token_Flag_Green_01.fbx
+  artifactKey: Guid(12de9706997cb5343aa6f5a69200a31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Boardgame/Boardgame_Token_Flag_Green_01.fbx using Guid(12de9706997cb5343aa6f5a69200a31e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84d32ff2aca65c51bd545170f596555b') in 0.270042 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Boardgame/Boardgame_Token_White_01.fbx
+  artifactKey: Guid(02ba6bb03a41bad4894ebacf14ddb023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Boardgame/Boardgame_Token_White_01.fbx using Guid(02ba6bb03a41bad4894ebacf14ddb023) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b7a76d43299401dc2f4f79a1b040974') in 0.228556 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Boardgame/Boardgame_Chess_Piece_Pawn_Black_01.fbx
+  artifactKey: Guid(2a8841f59cbd84e4bbe0ea4e4f3053f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Boardgame/Boardgame_Chess_Piece_Pawn_Black_01.fbx using Guid(2a8841f59cbd84e4bbe0ea4e4f3053f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e50564a3d0feb86ca619969bd76163ff') in 0.133297 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Boardgame/Boardgame_Token_Black_01.fbx
+  artifactKey: Guid(be25439979dbea34eb2780b504c70422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Boardgame/Boardgame_Token_Black_01.fbx using Guid(be25439979dbea34eb2780b504c70422) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fe90fab28f109a079ed0b5d989c78fdf') in 0.248518 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Boardgame/Boardgame_Token_Blue_01.fbx
+  artifactKey: Guid(824bda2acf361b340a3757c6508abdec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Boardgame/Boardgame_Token_Blue_01.fbx using Guid(824bda2acf361b340a3757c6508abdec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40e24014bc64466f04400b5f3d6a89ad') in 0.277416 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.022783 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Boardgame/Boardgame_Piece_Anagram_Letter_C_01.fbx
+  artifactKey: Guid(480c18f00dc8e824cbcb321d99251339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Boardgame/Boardgame_Piece_Anagram_Letter_C_01.fbx using Guid(480c18f00dc8e824cbcb321d99251339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c48b518450a991e14a4878b4a128dcd') in 0.138503 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Boardgame/Boardgame_Piece_Anagram_Letter_B_01.fbx
+  artifactKey: Guid(09455045cafd4514abf305a60b481e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Boardgame/Boardgame_Piece_Anagram_Letter_B_01.fbx using Guid(09455045cafd4514abf305a60b481e92) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e558fcd594e2c43289e4db9f4b6cecaa') in 0.123998 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.447344 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Animals/Materials/Brown57.mat
+  artifactKey: Guid(d99bd10a0b8e57b4788454f0dc389ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Animals/Materials/Brown57.mat using Guid(d99bd10a0b8e57b4788454f0dc389ce1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d0bd16a74720be781cbcd64715d8af') in 0.204155 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.346102 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Archway_Dual_1.0_Beige_01.fbx
+  artifactKey: Guid(f9a159b4963bbe349b32143ac7189722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Archway_Dual_1.0_Beige_01.fbx using Guid(f9a159b4963bbe349b32143ac7189722) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c06b6101bd3d0f8d8595d9a08aa594e8') in 0.372357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000430 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Block_0.125_Beige_01.fbx
+  artifactKey: Guid(5d653d27beab56a438e7a4d5f45e4bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Block_0.125_Beige_01.fbx using Guid(5d653d27beab56a438e7a4d5f45e4bff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c02f622ac6b319f7977d80519bf882a') in 0.301920 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Battlements_Front_Right_Tall_1.0_Beige_01.fbx
+  artifactKey: Guid(537bd4ce3ca4f0d448d4ac40c6ec1dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Battlements_Front_Right_Tall_1.0_Beige_01.fbx using Guid(537bd4ce3ca4f0d448d4ac40c6ec1dbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd4cf625e5a3bf8394f4d4422290b67f') in 0.615546 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007945 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Battlements_Back_Right_1.0_Beige_01.fbx
+  artifactKey: Guid(d5fa21726d3867742b5d0ae64457bd73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Battlements_Back_Right_1.0_Beige_01.fbx using Guid(d5fa21726d3867742b5d0ae64457bd73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e272ba1dbd76b39639a3d644a2ec2342') in 0.585222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002385 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Battlements_Back_1.0_Beige_01.fbx
+  artifactKey: Guid(35f2b4a3b4cf975449cfb4949c2863c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Battlements_Back_1.0_Beige_01.fbx using Guid(35f2b4a3b4cf975449cfb4949c2863c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7fbbde13cab8508b7bda9385120603b') in 0.827989 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Block_1.0_Pink_01.fbx
+  artifactKey: Guid(cdc3e1c61d22fb24ab1ed64a7f6a7d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Block_1.0_Pink_01.fbx using Guid(cdc3e1c61d22fb24ab1ed64a7f6a7d3e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e265714a2f482a3bf96956b13f0b8ee') in 0.514013 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000528 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Battlements_Left_1.0_Beige_01.fbx
+  artifactKey: Guid(179a69882c21e9e48ba0e36464e32a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Battlements_Left_1.0_Beige_01.fbx using Guid(179a69882c21e9e48ba0e36464e32a7d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afb177d2d4385cc39f9d17e425294266') in 0.643778 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.039291 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Battlements_1.0_Beige_01.fbx
+  artifactKey: Guid(ab7b72b6495d727449049e5d09c2a752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Battlements_1.0_Beige_01.fbx using Guid(ab7b72b6495d727449049e5d09c2a752) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76ea1158d967113c33797437c4cb7762') in 0.118498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.002196 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Block_1.0_Beige_01.fbx
+  artifactKey: Guid(327a95f8bf5f08b4cb737e7a570d0b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Block_1.0_Beige_01.fbx using Guid(327a95f8bf5f08b4cb737e7a570d0b12) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '363d0878739a3a39dc3753a226016cb3') in 0.624495 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000335 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Battlements_Left_Tall_1.0_Beige_01.fbx
+  artifactKey: Guid(adad239b560b3d6428572f834271451f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Battlements_Left_Tall_1.0_Beige_01.fbx using Guid(adad239b560b3d6428572f834271451f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b712415727dbc56645af410f39992a7') in 0.216228 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.013168 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Block_0.125_Grey_01.fbx
+  artifactKey: Guid(0b1825944d664274aab90ccb93cea120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Block_0.125_Grey_01.fbx using Guid(0b1825944d664274aab90ccb93cea120) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1155658a146f87bebd0cfbef72bf6ed') in 0.094871 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.762151 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Block_1.5_Blue_01.fbx
+  artifactKey: Guid(6afa802e2da414147895ed106f63cce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Block_1.5_Blue_01.fbx using Guid(6afa802e2da414147895ed106f63cce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da8fdebfb8f4059d912fc76202aa3105') in 0.078221 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Block_2.0_Green_01.fbx
+  artifactKey: Guid(9c666d543644a8e44b853a43db9faacf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Block_2.0_Green_01.fbx using Guid(9c666d543644a8e44b853a43db9faacf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39af715dedba4a86b7f6359edc9f88ff') in 0.063727 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Block_2.0_Red_01.fbx
+  artifactKey: Guid(b3a3f0580544e6b43a9473d30323172a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Block_2.0_Red_01.fbx using Guid(b3a3f0580544e6b43a9473d30323172a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0975af663959349ebaa561185cea2af') in 0.052625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Block_2.0_Pink_01.fbx
+  artifactKey: Guid(393ab4b5c8ca708478c796a95035ac51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Block_2.0_Pink_01.fbx using Guid(393ab4b5c8ca708478c796a95035ac51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04a794f4bcdd4e53e0d1cf2720bb21aa') in 0.053417 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Doorway_1.0_Beige_01.fbx
+  artifactKey: Guid(e69969a57ae72d949bf6199f8cde3513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Doorway_1.0_Beige_01.fbx using Guid(e69969a57ae72d949bf6199f8cde3513) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c1ebc176c5f1410802ea446b23c1f23') in 0.050714 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Flag_Beige_01.fbx
+  artifactKey: Guid(1216e4cac8e50ca4f8a15ab20b874774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Flag_Beige_01.fbx using Guid(1216e4cac8e50ca4f8a15ab20b874774) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0b44e5c10818982bdff2229a8dbcda9') in 0.046386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.112171 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Roof_1.0_Beige_01.fbx
+  artifactKey: Guid(b6644b760ccae0f478134d4a185184c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Roof_1.0_Beige_01.fbx using Guid(b6644b760ccae0f478134d4a185184c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c2a61c828e08a62095cbfc32c5276d2') in 0.192222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Stairs_Doorway_Beige_01.fbx
+  artifactKey: Guid(6ae76c23ff581a84f97b46cff0b3c191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Stairs_Doorway_Beige_01.fbx using Guid(6ae76c23ff581a84f97b46cff0b3c191) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0275dccf6a690c48c9285626756ebdcb') in 0.178626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.033315 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Support_Ramp_Curved_1.0_Beige_02.fbx
+  artifactKey: Guid(98666a5a698426b43a8208129dcd395e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Support_Ramp_Curved_1.0_Beige_02.fbx using Guid(98666a5a698426b43a8208129dcd395e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e42ce922ab4e7e7d6c2455122b6b571e') in 0.056490 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Switch_Beige_01.fbx
+  artifactKey: Guid(75f2101321fe14e42bcc166106b8f956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Switch_Beige_01.fbx using Guid(75f2101321fe14e42bcc166106b8f956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '43eaeb8ea90941a6488a167dcc2f273b') in 0.070249 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Window_Dual_Archway_Dual_2.0_Beige_01.fbx
+  artifactKey: Guid(f144e0953f0e4f741bfaa77d1bd9579e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Window_Dual_Archway_Dual_2.0_Beige_01.fbx using Guid(f144e0953f0e4f741bfaa77d1bd9579e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7f7db055cef3a94f910d894f08025f4a') in 0.050378 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.541233 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Dungeon/Dungeon_Tiles_Modular_Stairs_Spiral_Large_Timber_01.fbx
+  artifactKey: Guid(5d6bfece67e971649b72e356aa12b9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Dungeon/Dungeon_Tiles_Modular_Stairs_Spiral_Large_Timber_01.fbx using Guid(5d6bfece67e971649b72e356aa12b9c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84d394341694d51ef5f3fa42a9972289') in 0.170220 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Dungeon/Dungeon_Tiles_Modular_Stairs_Spiral_Small_Stone_01.fbx
+  artifactKey: Guid(b6220d31e66d6614cad42ab42813ce4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Dungeon/Dungeon_Tiles_Modular_Stairs_Spiral_Small_Stone_01.fbx using Guid(b6220d31e66d6614cad42ab42813ce4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a09e6f3ab75d62de2fbac598f29f4b1') in 0.141104 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000285 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Dungeon/Prop_Trimming_Textured_Stone_Dungeon_01.fbx
+  artifactKey: Guid(1420ffa36a29f924f93dbefe3fb1b450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Dungeon/Prop_Trimming_Textured_Stone_Dungeon_01.fbx using Guid(1420ffa36a29f924f93dbefe3fb1b450) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '04a0b611eaabe1b6e81a239160dbfb55') in 0.273227 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Dungeon/Dungeon_Tiles_Modular_Stairs_Wall_Left_Right_Stone_01.fbx
+  artifactKey: Guid(8eff91619bf2d004d96c222119650372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Dungeon/Dungeon_Tiles_Modular_Stairs_Wall_Left_Right_Stone_01.fbx using Guid(8eff91619bf2d004d96c222119650372) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3c6e8d16d31c36cd29c1f196cea2e42') in 0.108105 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.733645 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Water Planes/Water_Plane_Circle_Small_01.fbx
+  artifactKey: Guid(261ac65d7f06b34418373f484dd734b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Water Planes/Water_Plane_Circle_Small_01.fbx using Guid(261ac65d7f06b34418373f484dd734b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc1cba7251ba6fd2d1b6b852073c6855') in 0.159611 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Water Planes/Water_Plane_Rectangle_Small_01.fbx
+  artifactKey: Guid(5085f7d4607315d44ad43ef2704ad696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Water Planes/Water_Plane_Rectangle_Small_01.fbx using Guid(5085f7d4607315d44ad43ef2704ad696) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d9bfb6df722cc3c416d4bea6ba7d679') in 0.239771 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.807219 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Terrain/Terrain_Modular_Tiles_Dirt_Stairs_03.fbx
+  artifactKey: Guid(a41f0409f42bbc14ebffdb119975d2c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Terrain/Terrain_Modular_Tiles_Dirt_Stairs_03.fbx using Guid(a41f0409f42bbc14ebffdb119975d2c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31cf1302075dc78fb4532aec93dd01a9') in 0.086333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Terrain/Terrain_Modular_Tiles_Rock_Stairs_01.fbx
+  artifactKey: Guid(bb16155721f644444895861a5c3b4644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Terrain/Terrain_Modular_Tiles_Rock_Stairs_01.fbx using Guid(bb16155721f644444895861a5c3b4644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '361c76bf195c3ab897bf2d05f870fb4c') in 0.409750 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Terrain/Terrain_Modular_Tiles_Snow_Ice_Stairs_03.fbx
+  artifactKey: Guid(498070ae44af01e40a46102fa6c1cea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Terrain/Terrain_Modular_Tiles_Snow_Ice_Stairs_03.fbx using Guid(498070ae44af01e40a46102fa6c1cea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '32451f04aa5261398a66419827683265') in 0.244159 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Terrain/Terrain_Modular_Tiles_Snow_Ice_Stairs_01.fbx
+  artifactKey: Guid(b1ede3d123351f544b9f9de41ad71ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Terrain/Terrain_Modular_Tiles_Snow_Ice_Stairs_01.fbx using Guid(b1ede3d123351f544b9f9de41ad71ddd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73e71bffe804348e6837b2badb74b4ad') in 0.168550 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.010143 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Terrain/Terrain_Modular_Tiles_Sand_Dirt_Stairs_01.fbx
+  artifactKey: Guid(6305e437d9db41e4a871dbaab7c484bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Terrain/Terrain_Modular_Tiles_Sand_Dirt_Stairs_01.fbx using Guid(6305e437d9db41e4a871dbaab7c484bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7ee5394677d2f3ca490a7d78be088f8') in 0.168054 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.296287 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Cactus_07.fbx
+  artifactKey: Guid(89d336131e3724a4c93bc17bc9e858f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Cactus_07.fbx using Guid(89d336131e3724a4c93bc17bc9e858f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5898ea2da887162db73a2704ec12e338') in 0.141562 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000784 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Flower_Tulip_01.fbx
+  artifactKey: Guid(d050d3ace3119154eaaa41598b65cc71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Flower_Tulip_01.fbx using Guid(d050d3ace3119154eaaa41598b65cc71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '775605f4a893b618ac7539479aa3d3ea') in 0.347175 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005800 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Modular_Tree_Foliage_Clump_Spike_Half_01.fbx
+  artifactKey: Guid(da8390b7fdbe0704c9e8c0f9c093c8d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Modular_Tree_Foliage_Clump_Spike_Half_01.fbx using Guid(da8390b7fdbe0704c9e8c0f9c093c8d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '996bb23c810206d3fc83b7cae2f65a0f') in 0.079743 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Mushroom_Blue_01.fbx
+  artifactKey: Guid(b21056ef33afe6743ae34174dd026980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Mushroom_Blue_01.fbx using Guid(b21056ef33afe6743ae34174dd026980) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac4e1bb77c46010e6b09a4845419f9d1') in 0.119237 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Grass_3D_Patch_Square_01.fbx
+  artifactKey: Guid(d3a87830dcdbee248be03a525e18a537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Grass_3D_Patch_Square_01.fbx using Guid(d3a87830dcdbee248be03a525e18a537) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '498a0caa70256a69f92a0501c8350d22') in 0.170665 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Modular_Tree_Trunk_Palm_02.fbx
+  artifactKey: Guid(0e33695fcc59bd649a5a10a0fbecff89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Modular_Tree_Trunk_Palm_02.fbx using Guid(0e33695fcc59bd649a5a10a0fbecff89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '443b4b48cec5c59e7a197cc2b840b45e') in 0.078952 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020833 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Modular_Tree_Foliage_Clump_Small_12.fbx
+  artifactKey: Guid(12cd9dd0d328b154288740af5add8c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Modular_Tree_Foliage_Clump_Small_12.fbx using Guid(12cd9dd0d328b154288740af5add8c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90ae26174413baa6a9be143dbe1dc9b3') in 0.265397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Modular_Tree_Trunk_Alpine_02.fbx
+  artifactKey: Guid(0986dfae67a93374687fbaaad23b52fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Modular_Tree_Trunk_Alpine_02.fbx using Guid(0986dfae67a93374687fbaaad23b52fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36224a768ca49e6882bd0084e3229553') in 0.161643 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001270 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Flower_Sunflower_01.fbx
+  artifactKey: Guid(6aefdf5c73cd8e9459bb874b526ec2ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Flower_Sunflower_01.fbx using Guid(6aefdf5c73cd8e9459bb874b526ec2ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c20569d3cd4c5399952f4374a3f6a5c9') in 0.219764 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Mushroom_Red_02.fbx
+  artifactKey: Guid(4bcd46bade829eb4696c3d128652ee3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Mushroom_Red_02.fbx using Guid(4bcd46bade829eb4696c3d128652ee3a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fb369cf900ba760c5a53ad94662a25e') in 0.052686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Tree_Common_Spring_01.fbx
+  artifactKey: Guid(21812cd63511cdc48b58808ba9f4a123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Tree_Common_Spring_01.fbx using Guid(21812cd63511cdc48b58808ba9f4a123) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d1bbdf64c5e0aa2fdaf6e6d7baba345') in 0.094474 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Tree_Common_Winter_Half_01.fbx
+  artifactKey: Guid(648945881b4bfc440bab4e87fbe25f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Tree_Common_Winter_Half_01.fbx using Guid(648945881b4bfc440bab4e87fbe25f74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8153660770f8f12589b86393ebf801bc') in 0.043469 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Tree_Pine_Spring_01.fbx
+  artifactKey: Guid(5a024b0779cbb3941b8daf433911db73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Tree_Pine_Spring_01.fbx using Guid(5a024b0779cbb3941b8daf433911db73) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e23fb10b04abee6e107f1dbf275c8df0') in 0.051691 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Tree_Common_Winter_Half_03.fbx
+  artifactKey: Guid(5122fd5832b95074e827b4095521756c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Tree_Common_Winter_Half_03.fbx using Guid(5122fd5832b95074e827b4095521756c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '91268001f85e6a1262c87338b522b003') in 0.052976 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Tree_Stump_09.fbx
+  artifactKey: Guid(dbeb8292c6bf5e24b980e0a9fa4a874e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Tree_Stump_09.fbx using Guid(dbeb8292c6bf5e24b980e0a9fa4a874e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ed7c13311b738614eb9c3a7835e7e3f2') in 0.073502 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Tree_Common_Autumn_03.fbx
+  artifactKey: Guid(5903343f4743655448b1765e407a8521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Tree_Common_Autumn_03.fbx using Guid(5903343f4743655448b1765e407a8521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d496fc7293f6fdeff76ee57f1a01496') in 0.046540 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Modular_Tree_Foliage_Alpine_Piece_03.fbx
+  artifactKey: Guid(17061f54abb60a74c8108dc4f3b611fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Modular_Tree_Foliage_Alpine_Piece_03.fbx using Guid(17061f54abb60a74c8108dc4f3b611fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a3db5f057a01488fe1a1593c8c7b67d') in 0.048783 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Modular_Tree_Foliage_Clump_Small_10.fbx
+  artifactKey: Guid(f38f07d96a83a2b4c8f4cefc60a89d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Modular_Tree_Foliage_Clump_Small_10.fbx using Guid(f38f07d96a83a2b4c8f4cefc60a89d77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3086d0f04910554811271bb906c35264') in 0.045347 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Modular_Tree_Trunk_Alpine_06.fbx
+  artifactKey: Guid(bafeeae932fdafe43b9b6b0267a54544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Modular_Tree_Trunk_Alpine_06.fbx using Guid(bafeeae932fdafe43b9b6b0267a54544) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '38e1b0874db21071375632bce405fe3a') in 0.054253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Cactus_14.fbx
+  artifactKey: Guid(221f4624df776434c85a8c935c08019f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Cactus_14.fbx using Guid(221f4624df776434c85a8c935c08019f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52237ecc866d05f1d11ec051a9c15b34') in 0.053229 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Modular_Tree_Foliage_Clump_Spike_01.fbx
+  artifactKey: Guid(d3e00d62aeda3994fa825d083711347f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Modular_Tree_Foliage_Clump_Spike_01.fbx using Guid(d3e00d62aeda3994fa825d083711347f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5855f4a3bac48505f628c10c8d385a9') in 0.043424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.522022 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Fences/Prop_Fence_Stone_Corner_01.fbx
+  artifactKey: Guid(4c39307cbdab90e4e87e573362de5a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Fences/Prop_Fence_Stone_Corner_01.fbx using Guid(4c39307cbdab90e4e87e573362de5a89) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f1a24e383bed0b3fbd66e45dcc99c145') in 0.125386 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001018 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Fences/Prop_Fence_Wooden_Small_01.fbx
+  artifactKey: Guid(ca493b44a14cd224caa9db6b9e923e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Fences/Prop_Fence_Wooden_Small_01.fbx using Guid(ca493b44a14cd224caa9db6b9e923e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71874e07e4aab911c2b8417f31cc5df6') in 0.255986 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Fences/Prop_Fence_Stone_Corner_03.fbx
+  artifactKey: Guid(c87c9145e8f2e6c4d84e1de948da97ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Fences/Prop_Fence_Stone_Corner_03.fbx using Guid(c87c9145e8f2e6c4d84e1de948da97ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee9970583ca72cfc3a6732704b9077c0') in 0.224093 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.994619 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Fences/Materials/Brown14.mat
+  artifactKey: Guid(dec79850417da304d9b3e79afb2860d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Fences/Materials/Brown14.mat using Guid(dec79850417da304d9b3e79afb2860d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d6ea908507464cd83151afa8d21c847') in 0.242832 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Fences/Materials/Grey14.mat
+  artifactKey: Guid(f12a05c967ea2604791f8e75f24dbdcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Fences/Materials/Grey14.mat using Guid(f12a05c967ea2604791f8e75f24dbdcb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2fed5012f2a61337dd0f9fa7df1393e3') in 0.135467 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.240437 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Clouds/Cloud_03.fbx
+  artifactKey: Guid(9103a0a0bc2e8dc4891c1522aab27f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Clouds/Cloud_03.fbx using Guid(9103a0a0bc2e8dc4891c1522aab27f3b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5102c62da7757e5d38e95f914874b66') in 0.279953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Clouds/Cloud_Wisp_03.fbx
+  artifactKey: Guid(713066b33f39c0a49a45915756b412d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Clouds/Cloud_Wisp_03.fbx using Guid(713066b33f39c0a49a45915756b412d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31f1086563a759d8757be9c82925e836') in 0.236838 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020768 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Clouds/Cloud_Wisp_02.fbx
+  artifactKey: Guid(0712d29b1cbc0d04fb6b9ba3c8f6a231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Clouds/Cloud_Wisp_02.fbx using Guid(0712d29b1cbc0d04fb6b9ba3c8f6a231) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '813ff7c461680bbf18f3ca0bbb2e195f') in 0.261995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001326 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Clouds/Cloud_Wisp_04.fbx
+  artifactKey: Guid(d711718378a23184f9c327a048bb4538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Clouds/Cloud_Wisp_04.fbx using Guid(d711718378a23184f9c327a048bb4538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '958d3dc9e907e6b7d41529a5dadacc67') in 0.360122 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 5.639128 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Props General/Prop_Bellows_01.fbx
+  artifactKey: Guid(ba0bf505e79057249abbea88a72ab6e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Props General/Prop_Bellows_01.fbx using Guid(ba0bf505e79057249abbea88a72ab6e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '080c47fa64c2f99d05c0ff2154ff47e8') in 0.312905 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.008872 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Props General/Prop_Ladder_Metal_02.fbx
+  artifactKey: Guid(c957e92abf57c5541b474aa6c71d3142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Props General/Prop_Ladder_Metal_02.fbx using Guid(c957e92abf57c5541b474aa6c71d3142) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e5ac99870ec69bdc7250bbda643ac67a') in 0.277543 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000503 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Props General/Prop_Urn_02.fbx
+  artifactKey: Guid(38272e02c61bb7040ac6619681c2dbd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Props General/Prop_Urn_02.fbx using Guid(38272e02c61bb7040ac6619681c2dbd0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a764938abb89aa6c1295999cfa779e73') in 0.294812 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Props General/Prop_Mantle_Deer_01.fbx
+  artifactKey: Guid(aba93ce64b3a7494ea9c9c310acb82ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Props General/Prop_Mantle_Deer_01.fbx using Guid(aba93ce64b3a7494ea9c9c310acb82ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52750470e3dd8577a643ba2861ad12cf') in 0.419299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.944699 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Materials/Brown11.mat
+  artifactKey: Guid(2275bb6a2c5435843922cd05e70b4fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Materials/Brown11.mat using Guid(2275bb6a2c5435843922cd05e70b4fee) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c784d00c134dcf80ed8c80c4d9eb4238') in 0.107437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.026842 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Materials/White01.mat
+  artifactKey: Guid(efbfefda24d887d4e96cf4fbde8d4e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Materials/White01.mat using Guid(efbfefda24d887d4e96cf4fbde8d4e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c691a93907500e36006f922b22a476') in 0.256625 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007111 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Materials/Brown48.mat
+  artifactKey: Guid(8968780b98a3dac46b53e813c912a467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Materials/Brown48.mat using Guid(8968780b98a3dac46b53e813c912a467) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '831e888f4c2f9866137ea8d9a7ccf79a') in 0.163682 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Materials/Grey15.mat
+  artifactKey: Guid(967433cb3509ff74baaaecf888e8abd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Materials/Grey15.mat using Guid(967433cb3509ff74baaaecf888e8abd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ffeb1ae2c4e9250d24f06d1a08dd46af') in 0.199298 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001414 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Materials/Red16.mat
+  artifactKey: Guid(ce7aaf7767cab0942a3a08fb008dc7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Materials/Red16.mat using Guid(ce7aaf7767cab0942a3a08fb008dc7ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '90958ba9546f47da80adfbee036b3e69') in 0.163756 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Materials/Grey42.mat
+  artifactKey: Guid(028e4525e454b66468365679e04a81fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Materials/Grey42.mat using Guid(028e4525e454b66468365679e04a81fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f784612baddab57ba860734910bf4e3') in 0.200478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.004548 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Materials/Grey10.mat
+  artifactKey: Guid(0baea38d9be73c049a78db9655866ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Materials/Grey10.mat using Guid(0baea38d9be73c049a78db9655866ca1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01100b8ff4141dc4c7f1539c31ca3db6') in 0.193137 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Materials/Brown43.mat
+  artifactKey: Guid(361f2813bd6d5304c91c9946e306c5dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Materials/Brown43.mat using Guid(361f2813bd6d5304c91c9946e306c5dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '183ca7431b3ac9607996675ca8b22678') in 0.218590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Materials/Grey39.mat
+  artifactKey: Guid(10cd026ed5eeb604a8b9593683f274c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Materials/Grey39.mat using Guid(10cd026ed5eeb604a8b9593683f274c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cdd9cab5c16be6473a9a869fdeb8ec8') in 0.273723 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.014589 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Materials/Brown25.mat
+  artifactKey: Guid(84489ec0a28eb53469cd4602e718c19d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Materials/Brown25.mat using Guid(84489ec0a28eb53469cd4602e718c19d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '834468a08d661eb910348d0ec5ef1508') in 0.199962 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.099723 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Boardgame/Materials/Brown06.mat
+  artifactKey: Guid(5e8f781a76f97c14eb03cae9a4162d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Boardgame/Materials/Brown06.mat using Guid(5e8f781a76f97c14eb03cae9a4162d81) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b4aba34572bb7af6ea8a6340f6cb03f') in 0.118558 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Boardgame/Materials/Grey23.mat
+  artifactKey: Guid(01eaad16da2e7fd4a838041cb3150cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Boardgame/Materials/Grey23.mat using Guid(01eaad16da2e7fd4a838041cb3150cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c121351ec9f6196d14bd12cdc7b04bea') in 0.031946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Boardgame/Materials/Orange01.mat
+  artifactKey: Guid(134133a4b8ec7de4199439ea7166923c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Boardgame/Materials/Orange01.mat using Guid(134133a4b8ec7de4199439ea7166923c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1620005731bbf3637d37094577b1d2a9') in 0.230357 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.050753 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Boardgame/Materials/Purple02.mat
+  artifactKey: Guid(9399727c6a1648546b2adf7eee448e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Boardgame/Materials/Purple02.mat using Guid(9399727c6a1648546b2adf7eee448e4b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd894570529a076837cf01acce2020ade') in 0.208705 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.027733 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Boardgame/Materials/FrontColor.mat
+  artifactKey: Guid(7da2ff097f1dd1f41af2eeb5c961d70a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Boardgame/Materials/FrontColor.mat using Guid(7da2ff097f1dd1f41af2eeb5c961d70a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8424f860f868312fb9ff4698dd2c974b') in 0.144605 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.801373 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Ruins/Prop_Ruins_Archway_Sandstone_Half_02.fbx
+  artifactKey: Guid(668ce951abf48bb43a3caead16dd950a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Ruins/Prop_Ruins_Archway_Sandstone_Half_02.fbx using Guid(668ce951abf48bb43a3caead16dd950a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72ceebb90c0a760d304913ea2d98d033') in 1.097479 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000500 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Ruins/Prop_Ruins_Column_Stone_01.fbx
+  artifactKey: Guid(52ca0d433bb91d34fa96b26f94b4f6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Ruins/Prop_Ruins_Column_Stone_01.fbx using Guid(52ca0d433bb91d34fa96b26f94b4f6cf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9b12adfc0c1ab035b3412ac2dba2d8dd') in 1.411599 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000393 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Ruins/Materials/Grey28.mat
+  artifactKey: Guid(1724b63974703164d8b67a6c5854423d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Ruins/Materials/Grey28.mat using Guid(1724b63974703164d8b67a6c5854423d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea0d19132ca280da26988416578b0bf7') in 0.909934 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000091 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Ruins/Prop_Stairs_Grand_Sandstone_03.fbx
+  artifactKey: Guid(7fcc971b6f19e0743807f344fbe642d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Ruins/Prop_Stairs_Grand_Sandstone_03.fbx using Guid(7fcc971b6f19e0743807f344fbe642d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc2414355e774bdabdc580be393fedcb') in 1.029707 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Ruins/Materials/Grey12.mat
+  artifactKey: Guid(03f0d059ad599464596e8224188bb9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Ruins/Materials/Grey12.mat using Guid(03f0d059ad599464596e8224188bb9fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5fbb624d08d665e9abc3a907e8a153e') in 0.577525 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Statues/Prop_Statue_Horse_01.fbx
+  artifactKey: Guid(243863417eb289c4b9e2ed4b6ef9cba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Statues/Prop_Statue_Horse_01.fbx using Guid(243863417eb289c4b9e2ed4b6ef9cba4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '350787e3603428cd3afb81ab7c778cbb') in 1.032333 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Statues/Materials/Grey17.mat
+  artifactKey: Guid(db5fc6155b38a0941a4a498ba40d019b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Statues/Materials/Grey17.mat using Guid(db5fc6155b38a0941a4a498ba40d019b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1efadbba9c1f43e48728fb987dc280cc') in 0.586019 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Statues/Materials/Grey12.mat
+  artifactKey: Guid(006333cf699c55a49bbc223161454e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Statues/Materials/Grey12.mat using Guid(006333cf699c55a49bbc223161454e39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4771de20067c9058936d58ba30c38fc8') in 0.751897 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Ruins/Prop_Ruins_Building_Temple_Tower_Stone_01.fbx
+  artifactKey: Guid(3ef4bc39a9ce02c40802aa25253a58c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Ruins/Prop_Ruins_Building_Temple_Tower_Stone_01.fbx using Guid(3ef4bc39a9ce02c40802aa25253a58c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca835f48948f76646b412f53732b3c64') in 0.970679 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000284 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Ruins/Materials/Grey17.mat
+  artifactKey: Guid(687e3be3f59f5bd44aace4448e49a9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Ruins/Materials/Grey17.mat using Guid(687e3be3f59f5bd44aace4448e49a9bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9f2abd8d5271d6dbff95f5a14977147') in 0.403081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Statues
+  artifactKey: Guid(8f3ecf3f21025144a9b4cbec8cbd7fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Statues using Guid(8f3ecf3f21025144a9b4cbec8cbd7fe8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dcb6ccc5e7645ef5f3e2a0e8a83ba2a3') in 0.444840 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.527986 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vehicles/Materials/Brown56.mat
+  artifactKey: Guid(027a78a01303cfc48bb108089e20c33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vehicles/Materials/Brown56.mat using Guid(027a78a01303cfc48bb108089e20c33c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e1e965c12e247ad5a1ae6f202b27ec7e') in 0.409686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000037 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vehicles/Materials/White01.mat
+  artifactKey: Guid(95f44554c2ad5674f8d0561889a115da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vehicles/Materials/White01.mat using Guid(95f44554c2ad5674f8d0561889a115da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44983c5161349fe4d8faf0e70fb1f94c') in 0.928564 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.334061 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Handrails/Prop_Handrail_Stone_03.fbx
+  artifactKey: Guid(95033ffc67810934498e161cd0d94ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Handrails/Prop_Handrail_Stone_03.fbx using Guid(95033ffc67810934498e161cd0d94ca4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74241454664d11681849e3df3c2121d2') in 0.307471 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000447 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Handrails/Prop_Handrail_Stone_08.fbx
+  artifactKey: Guid(945405d2deb514f4daf8ad7f1cc7844a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Handrails/Prop_Handrail_Stone_08.fbx using Guid(945405d2deb514f4daf8ad7f1cc7844a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9900bc319fa14f3a8ef4f075b31af8f0') in 0.197644 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 339.960408 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Rocks
+  artifactKey: Guid(bc283b99e1f9bbb44aa86ea5559c7bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Rocks using Guid(bc283b99e1f9bbb44aa86ea5559c7bfc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60dcc839960fe601746d85de3540b276') in 0.029460 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.026654 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Rocks/Rock_Boulder_01.fbx
+  artifactKey: Guid(ed2666c8c56653345a5a7f7803fe1f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Rocks/Rock_Boulder_01.fbx using Guid(ed2666c8c56653345a5a7f7803fe1f35) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e08ce3ee9f99c18aa12b0e1061df5864') in 0.123415 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.007706 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Rocks/Rock_Large_14.fbx
+  artifactKey: Guid(035d30dfc469a9f4f984625ccce2704e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Rocks/Rock_Large_14.fbx using Guid(035d30dfc469a9f4f984625ccce2704e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '61c86d3aae28b24a2769a764e336f093') in 0.130130 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Rocks/Rock_Geometric_Square_10.fbx
+  artifactKey: Guid(6564cc355616de340a35f03ed401f7bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Rocks/Rock_Geometric_Square_10.fbx using Guid(6564cc355616de340a35f03ed401f7bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06375c1152a99d43bb15555e6d215553') in 0.200497 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Rocks/Rock_Geometric_Square_16.fbx
+  artifactKey: Guid(1023d409397f660469de6ec00830db8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Rocks/Rock_Geometric_Square_16.fbx using Guid(1023d409397f660469de6ec00830db8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77c0a0c681a1b7cd8376651c64867bb0') in 0.074338 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000796 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Rocks/Rock_Shard_04.fbx
+  artifactKey: Guid(869f0e35698a1134b9650a556afcbcaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Rocks/Rock_Shard_04.fbx using Guid(869f0e35698a1134b9650a556afcbcaf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6196a7df00b54de5c5c203505566ea85') in 0.123326 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Rocks/Rock_Shard_05.fbx
+  artifactKey: Guid(af268ed602f35b44b96ee37f919b5b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Rocks/Rock_Shard_05.fbx using Guid(af268ed602f35b44b96ee37f919b5b25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c40dc2c838b0244a0ca5294314c255c') in 0.065110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Rocks/Rock_Geometric_Square_05.fbx
+  artifactKey: Guid(bb729821b230efd42b9e92f5c9bb18d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Rocks/Rock_Geometric_Square_05.fbx using Guid(bb729821b230efd42b9e92f5c9bb18d2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5bc9ec4a3f8870f6e0374d1d1c2fdb3') in 0.120425 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Rocks/Rock_Large_15.fbx
+  artifactKey: Guid(bbb2ab6e9c84b624097fd15055690533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Rocks/Rock_Large_15.fbx using Guid(bbb2ab6e9c84b624097fd15055690533) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '33d025fcb14b190befc71db4deef9eab') in 0.128681 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Rocks/Rock_Large_16.fbx
+  artifactKey: Guid(278de011efeea5e489c8637dbab1c8b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Rocks/Rock_Large_16.fbx using Guid(278de011efeea5e489c8637dbab1c8b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37df4f61c5c687a3b405228ad5e4ed1f') in 0.307645 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Rocks/Rock_Large_18.fbx
+  artifactKey: Guid(b3bf911e6e56751489edb9c5298dbae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Rocks/Rock_Large_18.fbx using Guid(b3bf911e6e56751489edb9c5298dbae0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd87939b98c05f58338ea6aa801784056') in 0.108106 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000038 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Rocks/Rock_Shard_09.fbx
+  artifactKey: Guid(e83cd27be0e83ff439bc151cccdfb617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Rocks/Rock_Shard_09.fbx using Guid(e83cd27be0e83ff439bc151cccdfb617) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9fe53ea0ab226ffc18bcc3b4ec5c552f') in 0.134253 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.005802 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Rocks/Rock_Medium_Dirt_04.fbx
+  artifactKey: Guid(f0a5643032a8f2d4c9b0f51c862c10ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Rocks/Rock_Medium_Dirt_04.fbx using Guid(f0a5643032a8f2d4c9b0f51c862c10ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07e92d0b7e3992c76bf98fa615c21f18') in 0.179071 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.038193 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Rocks/Rock_Medium_03.fbx
+  artifactKey: Guid(508f10fcd1d960340a5655809969baf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Rocks/Rock_Medium_03.fbx using Guid(508f10fcd1d960340a5655809969baf4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5ee879220b75c8f00fd834628cdbebaa') in 0.126804 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Rocks/Rock_Shard_08.fbx
+  artifactKey: Guid(7ee9f6f439693cf469ecf2b80e1b9f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Rocks/Rock_Shard_08.fbx using Guid(7ee9f6f439693cf469ecf2b80e1b9f3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0196325f617203134bd361aaab981ef') in 0.056521 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Rocks/Rock_Geometric_Square_13.fbx
+  artifactKey: Guid(50b2202b33d3c8a4481c6b1572c08332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Rocks/Rock_Geometric_Square_13.fbx using Guid(50b2202b33d3c8a4481c6b1572c08332) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3350c36af71924a6048366ab63b5b5a') in 0.051035 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Rocks/Rock_Large_19.fbx
+  artifactKey: Guid(259f9791eaad21b4f81df1868923d3e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Rocks/Rock_Large_19.fbx using Guid(259f9791eaad21b4f81df1868923d3e5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae960d21c273e2a51c2f89e7998b0a02') in 0.054250 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Rocks/Rock_Geometric_Square_03.fbx
+  artifactKey: Guid(fa4a31e71fd7f024ba903010fda6a0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Rocks/Rock_Geometric_Square_03.fbx using Guid(fa4a31e71fd7f024ba903010fda6a0c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dcd991c2a0eb48d794bccc9c176297d') in 0.047188 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Rocks/Rock_Geometric_Square_08.fbx
+  artifactKey: Guid(a94120fdaa8da2e459f914e0450345bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Rocks/Rock_Geometric_Square_08.fbx using Guid(a94120fdaa8da2e459f914e0450345bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9440788ed0941fb3bd0dde31e2608b1') in 0.049724 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Rocks/Rock_Medium_Dirt_05.fbx
+  artifactKey: Guid(f4965b7b1aa7377479480fbbd1edcd76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Rocks/Rock_Medium_Dirt_05.fbx using Guid(f4965b7b1aa7377479480fbbd1edcd76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '150a585d99ff2ea8e28cf0391691807f') in 0.053789 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Rocks/Rock_Geometric_Square_15.fbx
+  artifactKey: Guid(78b17d3e9cbcbfe498d33450206dad38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Rocks/Rock_Geometric_Square_15.fbx using Guid(78b17d3e9cbcbfe498d33450206dad38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1b5304dcb09a793ac03ab58942c3bb5') in 0.058928 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Rocks/Rock_Large_Dirt_06.fbx
+  artifactKey: Guid(14f6bdeddaea11d4f8c7221e8a8876f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Rocks/Rock_Large_Dirt_06.fbx using Guid(14f6bdeddaea11d4f8c7221e8a8876f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9ac135aa2d4baf15fd4db9c56901e51') in 0.052872 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Rocks/Rock_Shard_06.fbx
+  artifactKey: Guid(ad4916129408e1b4880dbb39b9833d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Rocks/Rock_Shard_06.fbx using Guid(ad4916129408e1b4880dbb39b9833d99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a76cd564e2e86b80b400bb10e65032b2') in 0.047366 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.646203 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Rocks/Rock_Shard_10.fbx
+  artifactKey: Guid(cd18e80fd1d45cc4c8977ec7e4d45e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Rocks/Rock_Shard_10.fbx using Guid(cd18e80fd1d45cc4c8977ec7e4d45e6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4a1c7f38363281d9007e47fb19896f7') in 0.050776 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Rocks/Rock_Small_07.fbx
+  artifactKey: Guid(82673f558d01b164d8a9911a7914818c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Rocks/Rock_Small_07.fbx using Guid(82673f558d01b164d8a9911a7914818c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4e0d0a702d008ab7099023bd08fb733b') in 0.135435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Rocks/Rock_Small_09.fbx
+  artifactKey: Guid(949cf2cbaa6652e45be88467f8ad53a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Rocks/Rock_Small_09.fbx using Guid(949cf2cbaa6652e45be88467f8ad53a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7470ac1505896806eacbf7522ae76369') in 0.066694 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 526.700354 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Fences
+  artifactKey: Guid(ea3ef54ea9b1a064aa61897de80b4b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Fences using Guid(ea3ef54ea9b1a064aa61897de80b4b67) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a5530c39795db44eade258856e57767') in 0.024152 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.839117 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Fences/Prop_Fence_Stone_Column_01.prefab
+  artifactKey: Guid(bcca7ac6987d94a49ae020cf8904cf82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Fences/Prop_Fence_Stone_Column_01.prefab using Guid(bcca7ac6987d94a49ae020cf8904cf82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03431b1384e47524fd2861cfcfd6185e') in 0.183395 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Fences/Prop_Fence_Stone_Straight_01.prefab
+  artifactKey: Guid(20183340dd493dd4bb608038743698b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Fences/Prop_Fence_Stone_Straight_01.prefab using Guid(20183340dd493dd4bb608038743698b2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '475027e2d020f8354721555239366585') in 0.067126 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001701 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Fences/Prop_Fence_Stone_Corner_02.prefab
+  artifactKey: Guid(8889e3e7412d4f7428cf8072eff95974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Fences/Prop_Fence_Stone_Corner_02.prefab using Guid(8889e3e7412d4f7428cf8072eff95974) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '608e3cf51d26d776ef0b3651cdf8822f') in 0.211930 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Fences/Prop_Fence_Wooden_Small_03.prefab
+  artifactKey: Guid(c52947fcb24617243a1fd1dfcfa2c015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Fences/Prop_Fence_Wooden_Small_03.prefab using Guid(c52947fcb24617243a1fd1dfcfa2c015) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bacad3d64cb41124551ac4140ab2dc7') in 0.092957 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.830052 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Crystals
+  artifactKey: Guid(eeeec9d65dab50e4f81df055e202a69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Crystals using Guid(eeeec9d65dab50e4f81df055e202a69b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c2de189c28aed5bbc2a3a124490ff498') in 0.025673 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 9.815981 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Dungeon
+  artifactKey: Guid(d3fccb74e5f1e7746a6a80259c46a3e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Dungeon using Guid(d3fccb74e5f1e7746a6a80259c46a3e7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e8dd0eddd00f983c35c0017ef4c09896') in 0.026286 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.020435 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Dungeon/Dungeon_Tiles_Modular_Stairs_Spiral_Large_Stone_01.prefab
+  artifactKey: Guid(0e75928dac5d4de4a9ab82622a456af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Dungeon/Dungeon_Tiles_Modular_Stairs_Spiral_Large_Stone_01.prefab using Guid(0e75928dac5d4de4a9ab82622a456af2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '64c4e689b8c4ff11b465a45b6f3d776d') in 0.102848 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Dungeon/Dungeon_Tiles_Modular_Stairs_Spiral_Small_Stone_01.prefab
+  artifactKey: Guid(901f090418e636745a6623efcc035b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Dungeon/Dungeon_Tiles_Modular_Stairs_Spiral_Small_Stone_01.prefab using Guid(901f090418e636745a6623efcc035b77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e1c9d10e6fca05b1f80d11449ac5cb7') in 0.372946 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.001326 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Dungeon/Dungeon_Tiles_Modular_Stairs_Spiral_Small_Stone_03.prefab
+  artifactKey: Guid(49af3eecae249b44cafbb92cbe88e03a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Dungeon/Dungeon_Tiles_Modular_Stairs_Spiral_Small_Stone_03.prefab using Guid(49af3eecae249b44cafbb92cbe88e03a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4bdba891c0b473468ac7c8e1330d1713') in 0.454717 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000070 seconds.
+  path: Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Dungeon/Dungeon_Tiles_Modular_Stairs_Wall_Left_Right_Stone_01.prefab
+  artifactKey: Guid(34601ba620fd31b4eb125c259b603bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Off Axis Studios/Polyworks/Prefabs/MaterialsOnly/Dungeon/Dungeon_Tiles_Modular_Stairs_Wall_Left_Right_Stone_01.prefab using Guid(34601ba620fd31b4eb125c259b603bbc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5206adbadd64169146acf80d651355b7') in 0.403622 seconds 
 Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
 AssetImportWorker is now disconnected from the server
 Process exiting
 Exiting without the bug reporter. Application will terminate with return code 0
