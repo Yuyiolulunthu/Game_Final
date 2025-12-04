@@ -1,6 +1,6 @@
 Using pre-set license
 Built from '2021.3/staging' branch; Version is '2021.3.5f1 (40eb3a945986) revision 4254522'; Using compiler version '192829333'; Build Type 'Release'
-OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'zh' Physical Memory: 32437 MB
+OS: 'Windows 11  (10.0.26200) 64bit Professional' Language: 'en' Physical Memory: 32468 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
 
 COMMAND LINE ARGUMENTS:
@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2021.3.5f1\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/user/Downloads/遊程期末/Game_Final
+D:/114_1_Game/FinalV5/Game_Final
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-61845
-Successfully changed project path to: C:/Users/user/Downloads/遊程期末/Game_Final
-C:/Users/user/Downloads/遊程期末/Game_Final
+50916
+Successfully changed project path to: D:/114_1_Game/FinalV5/Game_Final
+D:/114_1_Game/FinalV5/Game_Final
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -47,112 +47,113 @@ C:/Users/user/Downloads/遊程期末/Game_Final
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Unable to join player connection multicast group.
-Refreshing native plugins compatible for Editor in 68.49 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 53.62 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.5f1 (40eb3a945986)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/user/Downloads/遊程期末/Game_Final/Assets
+[Subsystems] Discovering subsystems at path D:/114_1_Game/FinalV5/Game_Final/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Intel(R) Arc(TM) Pro Graphics (ID=0x7d55)
-    Vendor:   Intel
-    VRAM:     16218 MB
-    Driver:   32.0.101.5768
+    Renderer: NVIDIA GeForce RTX 4060 Laptop GPU (ID=0x28a0)
+    Vendor:   NVIDIA
+    VRAM:     7957 MB
+    Driver:   32.0.15.8097
 Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56176
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56884
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.5f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.002911 seconds.
+Registered in 0.004681 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 76.63 ms, found 3 plugins.
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 60.89 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.568 seconds
+- Completed reload, in  0.445 seconds
 Domain Reload Profiling:
-	ReloadAssembly (568ms)
-		BeginReloadAssembly (106ms)
+	ReloadAssembly (446ms)
+		BeginReloadAssembly (54ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (374ms)
-			LoadAssemblies (104ms)
+		EndReloadAssembly (315ms)
+			LoadAssemblies (53ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (79ms)
+			SetupTypeCache (69ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (19ms)
-			SetupLoadedEditorAssemblies (232ms)
+			RebuildScriptCaches (18ms)
+			SetupLoadedEditorAssemblies (194ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (41ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (77ms)
+				RefreshPlugins (61ms)
 				BeforeProcessingInitializeOnLoad (1ms)
-				ProcessInitializeOnLoadAttributes (104ms)
-				ProcessInitializeOnLoadMethodAttributes (44ms)
+				ProcessInitializeOnLoadAttributes (60ms)
+				ProcessInitializeOnLoadMethodAttributes (31ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.004762 seconds.
+Registered in 0.002259 seconds.
 Begin MonoManager ReloadAssembly
-Symbol file LoadedFromMemory doesn't match image C:\Users\user\Downloads\遊程期末\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
-Symbol file LoadedFromMemory doesn't match image C:\Users\user\Downloads\遊程期末\Game_Final\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 0.79 ms, found 3 plugins.
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.52 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  0.890 seconds
+- Completed reload, in  0.775 seconds
 Domain Reload Profiling:
-	ReloadAssembly (891ms)
-		BeginReloadAssembly (91ms)
+	ReloadAssembly (776ms)
+		BeginReloadAssembly (184ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (17ms)
-		EndReloadAssembly (703ms)
-			LoadAssemblies (74ms)
+			CreateAndSetChildDomain (117ms)
+		EndReloadAssembly (519ms)
+			LoadAssemblies (62ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (228ms)
+			SetupTypeCache (170ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (37ms)
-			SetupLoadedEditorAssemblies (330ms)
+			RebuildScriptCaches (32ms)
+			SetupLoadedEditorAssemblies (231ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (11ms)
 				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (90ms)
-				ProcessInitializeOnLoadAttributes (205ms)
-				ProcessInitializeOnLoadMethodAttributes (25ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				BeforeProcessingInitializeOnLoad (52ms)
+				ProcessInitializeOnLoadAttributes (144ms)
+				ProcessInitializeOnLoadMethodAttributes (17ms)
+				AfterProcessingInitializeOnLoad (6ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (5ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
-Refreshing native plugins compatible for Editor in 0.68 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.61 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3436 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 25 unused Assets / (55.4 KB). Loaded Objects now: 3896.
-Memory consumption went from 126.2 MB to 126.1 MB.
-Total: 4.296100 ms (FindLiveObjects: 0.195100 ms CreateObjectMapping: 0.058300 ms MarkObjects: 3.912300 ms  DeleteObjects: 0.129000 ms)
+Unloading 3438 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (55.4 KB). Loaded Objects now: 3903.
+Memory consumption went from 126.5 MB to 126.4 MB.
+Total: 2.046500 ms (FindLiveObjects: 0.163300 ms CreateObjectMapping: 0.065300 ms MarkObjects: 1.761800 ms  DeleteObjects: 0.055400 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
   custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
   custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
   custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -160,827 +161,63 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 376312.754404 seconds.
-  path: Assets/Scenes/Scene_Stage_4.unity
-  artifactKey: Guid(d676e24e47e6f9b41bc842ae62b6184d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Scene_Stage_4.unity using Guid(d676e24e47e6f9b41bc842ae62b6184d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07d8cb68722cfe17a362584fefc479fb') in 0.028442 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 59.335170 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes
-  artifactKey: Guid(b66f0cbb243596d4eaf7b955bb7c10e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes using Guid(b66f0cbb243596d4eaf7b955bb7c10e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a7055dff288c37c2b7274aa27f2f276') in 0.027581 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.958761 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly
-  artifactKey: Guid(fbbb15535a07c6f4287384b9ce0524a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly using Guid(fbbb15535a07c6f4287384b9ce0524a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c606a55d8881fc0bb71ba50795b861dd') in 0.030040 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.535945 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals
-  artifactKey: Guid(360bf904f18735c45b71b3e47eab9963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals using Guid(360bf904f18735c45b71b3e47eab9963) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f93d9e50cabcb129bd34c8546b568b1') in 0.029940 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.018562 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Crystal_Dark_Blue_01.fbx
-  artifactKey: Guid(d23bb2a54fb63b847b237b141a5f31e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Crystal_Dark_Blue_01.fbx using Guid(d23bb2a54fb63b847b237b141a5f31e3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '617b198591ee3c70ec52793392c02cd3') in 0.262066 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Gem_Purple_10.fbx
-  artifactKey: Guid(90fc4b3ccbe422841b62f7156f0fe824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Gem_Purple_10.fbx using Guid(90fc4b3ccbe422841b62f7156f0fe824) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f71dd33fda1b0e8021e1bc7e3781372a') in 0.101338 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000452 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Crystal_Singular_Purple_01.fbx
-  artifactKey: Guid(b02d9e809d9315c4ba1e3552cc06ee2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Crystal_Singular_Purple_01.fbx using Guid(b02d9e809d9315c4ba1e3552cc06ee2d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27b7de807d2cef85847f1e32f4adf401') in 0.128904 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Gem_Purple_02.fbx
-  artifactKey: Guid(803cddc98ad0a8141a7108151df687f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Gem_Purple_02.fbx using Guid(803cddc98ad0a8141a7108151df687f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9a46d668fe8875d02abdeccfc8473a9') in 0.073230 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Crystal_Singular_Purple_13.fbx
-  artifactKey: Guid(a2909ccecded74842bc78de2d57b66f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Crystal_Singular_Purple_13.fbx using Guid(a2909ccecded74842bc78de2d57b66f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '309f193c5a87e0b2657381cb56528497') in 0.051360 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Crystal_Singular_Purple_06.fbx
-  artifactKey: Guid(2204c5d579b592241b3c705b81eb7cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Crystal_Singular_Purple_06.fbx using Guid(2204c5d579b592241b3c705b81eb7cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13bbfa730adb9567ae5beffcff05ef92') in 0.111850 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Crystal_Pink_01.fbx
-  artifactKey: Guid(0490caa0b955edf4795e9d13d5c86d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Crystal_Pink_01.fbx using Guid(0490caa0b955edf4795e9d13d5c86d53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd65c95c3da2dd65eb7fe3529832b6709') in 0.107116 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Gem_Purple_06.fbx
-  artifactKey: Guid(3ad80bf7cf71ae942934f902ab9412f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Gem_Purple_06.fbx using Guid(3ad80bf7cf71ae942934f902ab9412f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3bdf2fcb9aa587135533c0e4e856c78') in 0.061794 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Crystal_Red_01.fbx
-  artifactKey: Guid(7a3b9546791b0e84ab3b4d435abc8a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Crystal_Red_01.fbx using Guid(7a3b9546791b0e84ab3b4d435abc8a54) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b2f9c0a52ad38c627011eeafbda55f5') in 0.137220 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Crystal_Singular_Purple_04.fbx
-  artifactKey: Guid(de8fb93ffefac264980cfa45232e28c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Crystal_Singular_Purple_04.fbx using Guid(de8fb93ffefac264980cfa45232e28c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '435a8b1ca0c44419b11701890b1ba69f') in 0.081345 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Crystal_Singular_Purple_10.fbx
-  artifactKey: Guid(c4cb8b3a2e1604341b7c3655ada8e41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Crystal_Singular_Purple_10.fbx using Guid(c4cb8b3a2e1604341b7c3655ada8e41f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97902a8ef6435aa81bd0257fe86e49cf') in 0.162797 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Crystal_Purple_01.fbx
-  artifactKey: Guid(898c03e9e68a8f249936173eabfbc1e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Crystal_Purple_01.fbx using Guid(898c03e9e68a8f249936173eabfbc1e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4288d79edcccafb9e4e1cf5fbf2a29f') in 0.125051 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Gem_Purple_05.fbx
-  artifactKey: Guid(5d41e7669ef10bb4f8bf059af7ffd5f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Gem_Purple_05.fbx using Guid(5d41e7669ef10bb4f8bf059af7ffd5f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23bac34e534abdb59e42bdc912bca473') in 0.162884 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Gem_Purple_12.fbx
-  artifactKey: Guid(0faa83a582a42194593562ba8bd3ebe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Gem_Purple_12.fbx using Guid(0faa83a582a42194593562ba8bd3ebe4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0bf04906f03db5de0db527f20e0ef0c5') in 0.083393 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Gem_Purple_01.fbx
-  artifactKey: Guid(32a28a2d983184949af5e42021a932ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Gem_Purple_01.fbx using Guid(32a28a2d983184949af5e42021a932ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3fdfab5bdfb62694fe434dac58f02bbc') in 0.052632 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Crystal_Singular_Purple_09.fbx
-  artifactKey: Guid(672e1975cd4c6554daa3bec797908042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Crystal_Singular_Purple_09.fbx using Guid(672e1975cd4c6554daa3bec797908042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f0680f894eba518af144356f5af784a') in 0.051747 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000026 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Gem_Purple_08.fbx
-  artifactKey: Guid(6940643f812be1b44826312304e34dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Crystals/Prop_Gem_Purple_08.fbx using Guid(6940643f812be1b44826312304e34dda) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24920de37e57293f2d223a145dd2781f') in 0.048452 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 4.946490 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Building_Castle_Joining_Bridge_01.fbx
-  artifactKey: Guid(3e58cf40cd3379a46b95131d3587add3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Building_Castle_Joining_Bridge_01.fbx using Guid(3e58cf40cd3379a46b95131d3587add3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a73690191e27979c3cfbafc5ccf2e6b') in 0.100743 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Prop_Brick_Stone_Dungeon_01.fbx
-  artifactKey: Guid(ef3687a428dfab841bb62951e0e99663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Prop_Brick_Stone_Dungeon_01.fbx using Guid(ef3687a428dfab841bb62951e0e99663) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d6f99584c9cfba932d00c8a3492ce2f') in 0.189947 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Building_Modular_Jetty_Walkway_Timber_Ladder_Tall_01.fbx.fbx
-  artifactKey: Guid(517c427c96bd06541b775d24cd96e956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Building_Modular_Jetty_Walkway_Timber_Ladder_Tall_01.fbx.fbx using Guid(517c427c96bd06541b775d24cd96e956) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ee22769de4419eb3386e786118076995') in 0.095266 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Building_Castle_Tower_Base_Large_01.fbx
-  artifactKey: Guid(680aab0e147adfa4bad9112ceecc36e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Building_Castle_Tower_Base_Large_01.fbx using Guid(680aab0e147adfa4bad9112ceecc36e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd26346e2065f5351f50e99191b32c5e') in 0.148810 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000017 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Building_Facade_Modular_Wall_Brick_02.fbx
-  artifactKey: Guid(89a79f37ad0dcc941865648d46ccec06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Building_Facade_Modular_Wall_Brick_02.fbx using Guid(89a79f37ad0dcc941865648d46ccec06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f7482abb66f0976a8d735480fcf49e2a') in 0.117167 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000078 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Building_Castle_Tower_Keep_Top_Small_01.fbx
-  artifactKey: Guid(56d99edfb6b55024abe1af392731276b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Building_Castle_Tower_Keep_Top_Small_01.fbx using Guid(56d99edfb6b55024abe1af392731276b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05e080f9574a1b51c8ba69c30159dd45') in 0.111744 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000020 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Building_Facade_Modular_Wall_Brick_Corner_01.fbx
-  artifactKey: Guid(001b2e9e876ba6e44b00359f299c0c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Building_Facade_Modular_Wall_Brick_Corner_01.fbx using Guid(001b2e9e876ba6e44b00359f299c0c83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53c6f0274db9381041bda83ee21e1531') in 0.086393 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Building_Modular_Jetty_Walkway_Timber_Ladder_Short_01.fbx.fbx
-  artifactKey: Guid(d11e0600a1291c64ea042583816460e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Building_Modular_Jetty_Walkway_Timber_Ladder_Short_01.fbx.fbx using Guid(d11e0600a1291c64ea042583816460e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50e4ef227c5daf8ff8d275f27250dc7a') in 0.224568 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Building_Temple_Indian_Top_03.fbx
-  artifactKey: Guid(85ef7b44026b78948bb1c578a82bd114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Building_Temple_Indian_Top_03.fbx using Guid(85ef7b44026b78948bb1c578a82bd114) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '891ed0526b4ebf69886bd83076023813') in 0.061079 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001035 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Building_Temple_Indian_Top_02.fbx
-  artifactKey: Guid(abd9bafe8aeb78f49abd495bb029a7e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Building_Temple_Indian_Top_02.fbx using Guid(abd9bafe8aeb78f49abd495bb029a7e6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21047728057f4394354ab4c9d9f7f0ff') in 0.052333 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.725590 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Boardgame/Boardgame_Chess_Piece_Bishop_White_01.fbx
-  artifactKey: Guid(398e3828d34e471428af1034c8a05fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Boardgame/Boardgame_Chess_Piece_Bishop_White_01.fbx using Guid(398e3828d34e471428af1034c8a05fe7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd876915473481a6f8107cfc5db0323f6') in 0.279758 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.002233 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Boardgame/Boardgame_Token_Flag_Black_01.fbx
-  artifactKey: Guid(2e2470ce056c61d49b8095e1e9a57cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Boardgame/Boardgame_Token_Flag_Black_01.fbx using Guid(2e2470ce056c61d49b8095e1e9a57cfd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2a813ba08f019264c36e3e94bb79571') in 0.175870 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Boardgame/Boardgame_Chess_Piece_Queen_White_01.fbx
-  artifactKey: Guid(82cac6e89fc4336488d3d7d79b84cd46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Boardgame/Boardgame_Chess_Piece_Queen_White_01.fbx using Guid(82cac6e89fc4336488d3d7d79b84cd46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2bf336c172169934d8e3b4b3a5799077') in 0.182140 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Boardgame/Boardgame_Token_Flag_Blue_01.fbx
-  artifactKey: Guid(5c30da3bf065b6548bf42ff1a9f0fb99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Boardgame/Boardgame_Token_Flag_Blue_01.fbx using Guid(5c30da3bf065b6548bf42ff1a9f0fb99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd06adfb5b2c4e139f48bbae7efd52ff5') in 0.182106 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.011506 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Boardgame/Boardgame_Chess_Piece_Queen_Black_01.fbx
-  artifactKey: Guid(8764ebaa0f35bb046b8488992f0ea7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Boardgame/Boardgame_Chess_Piece_Queen_Black_01.fbx using Guid(8764ebaa0f35bb046b8488992f0ea7bf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17d89a4142a7ee501335cc63ecda89e2') in 0.236507 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.003002 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Boardgame/Boardgame_Token_Green_01.fbx
-  artifactKey: Guid(615b9f7351f7fd14ab3e635f96600e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Boardgame/Boardgame_Token_Green_01.fbx using Guid(615b9f7351f7fd14ab3e635f96600e13) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6364630cbce09c43851a01db24d1981d') in 0.136669 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Boardgame/Boardgame_Token_Flag_Purple_01.fbx
-  artifactKey: Guid(f323edc4b2aad67499d04e2794010405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Boardgame/Boardgame_Token_Flag_Purple_01.fbx using Guid(f323edc4b2aad67499d04e2794010405) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c99a25071857c5d0c54cf652275fb5e4') in 0.198439 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000418 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Boardgame/Boardgame_Piece_Anagram_Letter_A_01.fbx
-  artifactKey: Guid(a105109441687ff44a934bb0823bc9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Boardgame/Boardgame_Piece_Anagram_Letter_A_01.fbx using Guid(a105109441687ff44a934bb0823bc9d1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ad7eaee634f7b7c1afdc4ca6b24161b') in 0.131458 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.691238 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Animals/Animal_Snail_01.fbx
-  artifactKey: Guid(af252182998621c489b54799afa92541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Animals/Animal_Snail_01.fbx using Guid(af252182998621c489b54799afa92541) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95486a515ae34c9c7ee8cd958ffa866c') in 0.185694 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.643798 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Animals/Materials/Brown49.mat
-  artifactKey: Guid(8ee3bb67da15929419a6748d19c73dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Animals/Materials/Brown49.mat using Guid(8ee3bb67da15929419a6748d19c73dde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7934b5cb8033def6debf2161a78f4540') in 0.223427 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.326748 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Alcove_Top_1.0_Beige_01.fbx
-  artifactKey: Guid(f037e799cf153e7488c66c6ca478bf0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Alcove_Top_1.0_Beige_01.fbx using Guid(f037e799cf153e7488c66c6ca478bf0c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '765c149e9615d1a1d8e787bd6b3c0d73') in 0.420025 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Block_0.125_Red_01.fbx
-  artifactKey: Guid(4659fb68c23160f4ab764bdcd02c3736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Block_0.125_Red_01.fbx using Guid(4659fb68c23160f4ab764bdcd02c3736) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f00a56ec9cc4fb5b263bcc669b25d0e') in 0.320141 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000435 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Block_1.0_Blue_01.fbx
-  artifactKey: Guid(f5a92b59e1174f541a14f02295b7b4d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Block_1.0_Blue_01.fbx using Guid(f5a92b59e1174f541a14f02295b7b4d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e2aae06c01a1be395bdcd828929f19b3') in 0.875860 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000393 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Battlements_Back_Left_1.0_Beige_01.fbx
-  artifactKey: Guid(61a438b74cfbc9c45b5e29dcb0363ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Battlements_Back_Left_1.0_Beige_01.fbx using Guid(61a438b74cfbc9c45b5e29dcb0363ed6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8215c41057a19dcb68c8ca70ceb21e1a') in 0.674544 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Battlements_Back_Right_Tall_1.0_Beige_01.fbx
-  artifactKey: Guid(5cdba7bedd0dc334da79a2f2dd8b27c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Battlements_Back_Right_Tall_1.0_Beige_01.fbx using Guid(5cdba7bedd0dc334da79a2f2dd8b27c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fd04e89f3b5344a8afd61fd13d250308') in 0.646611 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.049419 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Battlements_Right_1.0_Beige_01.fbx
-  artifactKey: Guid(9ee3db4a85e85954baf1845f91266df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Battlements_Right_1.0_Beige_01.fbx using Guid(9ee3db4a85e85954baf1845f91266df8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '788990d2f4bcdc6811cee62a517cba8a') in 0.354190 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000323 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Battlements_Front_Left_1.0_Beige_01.fbx
-  artifactKey: Guid(a24ac89dfb93edd4595b6ff493d4a70b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Battlements_Front_Left_1.0_Beige_01.fbx using Guid(a24ac89dfb93edd4595b6ff493d4a70b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a90f7fc4a5f7cc9a1ba49a3edf4e3a46') in 0.561253 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.015521 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Archway_Single_1.5_Beige_01.fbx
-  artifactKey: Guid(9f4af9cce3951344cbccca68f8910487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Archway_Single_1.5_Beige_01.fbx using Guid(9f4af9cce3951344cbccca68f8910487) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f280cb4700044f68e329939c6553a513') in 0.119569 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Block_0.5_Red_01.fbx
-  artifactKey: Guid(14b8f6a74eb5fd044aa18906e9eaad1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Block_0.5_Red_01.fbx using Guid(14b8f6a74eb5fd044aa18906e9eaad1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bb1b5dfd60a7845d535b700e9ebfa43') in 0.550797 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.009082 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Battlements_Front_Left_Tall_1.0_Beige_01.fbx
-  artifactKey: Guid(3eeb5491fb49246478f1f5cceeb4c94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Battlements_Front_Left_Tall_1.0_Beige_01.fbx using Guid(3eeb5491fb49246478f1f5cceeb4c94a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '840a3c0054df5621e2b3e298cd9c42e2') in 0.293185 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.003309 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Block_0.5_Pink_01.fbx
-  artifactKey: Guid(9a692edd0a57d41469e4f80ab76315a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Block_0.5_Pink_01.fbx using Guid(9a692edd0a57d41469e4f80ab76315a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff29ac37155f8eee83ad4cc0b3f94161') in 0.101094 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.751698 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Block_1.5_Beige_01.fbx
-  artifactKey: Guid(66a2eff0cd3020f4b99d69427daf7512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Block_1.5_Beige_01.fbx using Guid(66a2eff0cd3020f4b99d69427daf7512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3293bbb61792c5b300b0bfa443b73909') in 0.076142 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Flag_Beige_02.fbx
-  artifactKey: Guid(39f650a15d3ecf544940e42d337757ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Flag_Beige_02.fbx using Guid(39f650a15d3ecf544940e42d337757ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96fc27965ccad4612ac211e8ed59a276') in 0.074082 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Block_1.5_Red_01.fbx
-  artifactKey: Guid(282be17125bd11642ae84e73e86f06f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Block_1.5_Red_01.fbx using Guid(282be17125bd11642ae84e73e86f06f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ecd75cb09071576d53e2c1f557c0bc6') in 0.051760 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Door_Gate_1.0_Beige_01.fbx
-  artifactKey: Guid(7ab68a8db0226ae48b5b247bfe3a81bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Door_Gate_1.0_Beige_01.fbx using Guid(7ab68a8db0226ae48b5b247bfe3a81bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '195ba3fc4873e7d8872f8547818a0fc8') in 0.072200 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Doorway_Facade_1.0_Beige_01.fbx
-  artifactKey: Guid(a3a9904e41c585d4e81556a4642da3c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Doorway_Facade_1.0_Beige_01.fbx using Guid(a3a9904e41c585d4e81556a4642da3c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6a9743910e18be6ca5637be8ac7b4b6') in 0.046067 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Block_2.0_Orange_01.fbx
-  artifactKey: Guid(b22366c9b39f09641adcef0f9e889dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Block_2.0_Orange_01.fbx using Guid(b22366c9b39f09641adcef0f9e889dc4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '583bf706a3e60341cf6d70606d3ed1bd') in 0.048893 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.089264 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Penrose_Triangle_Beige_01.fbx
-  artifactKey: Guid(98f91642b79d52046908db6ab8923240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Penrose_Triangle_Beige_01.fbx using Guid(98f91642b79d52046908db6ab8923240) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8e947747f7d414220d128c9e3a00024') in 0.250069 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000046 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Stairs_1.0_Beige_01.fbx
-  artifactKey: Guid(b948e31f48633174694830c743df908b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Stairs_1.0_Beige_01.fbx using Guid(b948e31f48633174694830c743df908b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50ae5178bdde1f2b8f41a2008ca576e6') in 0.111421 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000036 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Roof_1.0_Beige_04.fbx
-  artifactKey: Guid(720094388c079fd4da78e1d50198cc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Roof_1.0_Beige_04.fbx using Guid(720094388c079fd4da78e1d50198cc42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df5874c6c66cbcf45b62935eae3d5424') in 0.056026 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000032 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Window_Quad_2.0_Beige_01.fbx
-  artifactKey: Guid(4561a88a0d0bf744ea59f358d26ba3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Window_Quad_2.0_Beige_01.fbx using Guid(4561a88a0d0bf744ea59f358d26ba3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0557f2fb024f8db5f3ff62f6fa85400') in 0.050897 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Window_1.0_Beige_01.fbx
-  artifactKey: Guid(e8ccb340d4cb09745b68d228b78e3f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Abstract/Abstract_Modular_Window_1.0_Beige_01.fbx using Guid(e8ccb340d4cb09745b68d228b78e3f61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45fb1b248fff43878b9ef0a00db5948f') in 0.055790 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.573340 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Dungeon/Dungeon_Tiles_Modular_Stairs_Spiral_Large_Stone_03.fbx
-  artifactKey: Guid(2f6340137f003374aae04ad2fbf49b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Dungeon/Dungeon_Tiles_Modular_Stairs_Spiral_Large_Stone_03.fbx using Guid(2f6340137f003374aae04ad2fbf49b5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a6632f7d80eecf3027ef1f228de0464') in 0.173295 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Dungeon/Dungeon_Tiles_Modular_Stairs_Spiral_Small_Timber_03.fbx
-  artifactKey: Guid(0248133c99f46094b84cf85706af9f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Dungeon/Dungeon_Tiles_Modular_Stairs_Spiral_Small_Timber_03.fbx using Guid(0248133c99f46094b84cf85706af9f5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '389e9df8ab513810cea67a95c7a6198b') in 0.128840 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001687 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Dungeon/Dungeon_Tiles_Modular_Stairs_Spiral_Small_Timber_01.fbx
-  artifactKey: Guid(196bd6856b673c2438c60e482736c311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Dungeon/Dungeon_Tiles_Modular_Stairs_Spiral_Small_Timber_01.fbx using Guid(196bd6856b673c2438c60e482736c311) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cbde03e5efaf4913cddb335583dc62df') in 0.090924 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Dungeon/Dungeon_Tiles_Modular_Stairs_Wall_Left_Stone_01.fbx
-  artifactKey: Guid(ae407112675dfba4bb437922c8d2bf0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Dungeon/Dungeon_Tiles_Modular_Stairs_Wall_Left_Stone_01.fbx using Guid(ae407112675dfba4bb437922c8d2bf0a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03d32b2327d2e6b64cb3cc9a2628da6e') in 0.174189 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Dungeon/Prop_Trimming_Textured_Stone_Dungeon_02.fbx
-  artifactKey: Guid(8508602edf0b0dc4ba792fd0037969b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Dungeon/Prop_Trimming_Textured_Stone_Dungeon_02.fbx using Guid(8508602edf0b0dc4ba792fd0037969b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0bd2931dc0a2b39ae55dda2baee82da') in 0.144824 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 9.721711 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Water Planes/Water_Plane_Circle_Large_01.fbx
-  artifactKey: Guid(216d8f40bd24fc443b37e9f18784b06f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Water Planes/Water_Plane_Circle_Large_01.fbx using Guid(216d8f40bd24fc443b37e9f18784b06f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b464906e7edc9c0308b3010f06d0a1d') in 0.172277 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Water Planes/Water_Plane_Semicircle_Large_01.fbx
-  artifactKey: Guid(ad10bd824c2a59f4599c0b63f3cb960d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Water Planes/Water_Plane_Semicircle_Large_01.fbx using Guid(ad10bd824c2a59f4599c0b63f3cb960d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2699225d628d317a97b15265210adfd4') in 0.237184 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.804163 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Terrain/Terrain_Modular_Tiles_Dirt_Stairs_02.fbx
-  artifactKey: Guid(6f61cdf0619802c4c932a5f7316b44b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Terrain/Terrain_Modular_Tiles_Dirt_Stairs_02.fbx using Guid(6f61cdf0619802c4c932a5f7316b44b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45ac079fd44bf56df904b28eb9eafec4') in 0.403380 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.009463 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Terrain/Terrain_Modular_Tiles_Sand_Dirt_Stairs_02.fbx
-  artifactKey: Guid(44e2349d4382c554faeaaf9c58b3f5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Terrain/Terrain_Modular_Tiles_Sand_Dirt_Stairs_02.fbx using Guid(44e2349d4382c554faeaaf9c58b3f5ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6b3034009ba62d35c2f9a41262af4a0') in 0.138547 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Terrain/Terrain_Modular_Tiles_Snow_Ice_Stairs_02.fbx
-  artifactKey: Guid(4301dcec4a78253479a63f7e5d4703f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Terrain/Terrain_Modular_Tiles_Snow_Ice_Stairs_02.fbx using Guid(4301dcec4a78253479a63f7e5d4703f4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66e6eb94d32c67c81242e259fa697193') in 0.215906 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Terrain/Terrain_Modular_Tiles_Grass_Dirt_Stairs_03.fbx
-  artifactKey: Guid(ce9a5979c78291c4786c9bc81a6c781a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Terrain/Terrain_Modular_Tiles_Grass_Dirt_Stairs_03.fbx using Guid(ce9a5979c78291c4786c9bc81a6c781a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a18c74a77c4f5dcbf69ec868f156be84') in 0.135572 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001300 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Terrain/Terrain_Modular_Tiles_Ice_Stairs_03.fbx
-  artifactKey: Guid(4ab1911f4e7c2b94a922d00deb415a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Terrain/Terrain_Modular_Tiles_Ice_Stairs_03.fbx using Guid(4ab1911f4e7c2b94a922d00deb415a76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a7e56a8edc09df92f4a1a93b0f2036d') in 0.192676 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 1.291894 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Cactus_04.fbx
-  artifactKey: Guid(6ee8e6609ee245349ba21d419d0bde6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Cactus_04.fbx using Guid(6ee8e6609ee245349ba21d419d0bde6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d7e56e19237251304f457709e68da9b') in 0.151894 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Modular_Tree_Trunk_Alpine_05.fbx
-  artifactKey: Guid(2b024207a27286d49b76b5fbf13115c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Modular_Tree_Trunk_Alpine_05.fbx using Guid(2b024207a27286d49b76b5fbf13115c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c68a99b02879733b67227a190aff90ee') in 0.258539 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Modular_Tree_Foliage_Clump_Large_12.fbx
-  artifactKey: Guid(b6222700f7c09854e92d70552b7bf8a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Modular_Tree_Foliage_Clump_Large_12.fbx using Guid(b6222700f7c09854e92d70552b7bf8a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8b9cf1e7262c0ea2ee432281b998bac') in 0.099498 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000029 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Flower_Daisy_01.fbx
-  artifactKey: Guid(589ccb05b24aa6b4aab4c9cfabaedfb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Flower_Daisy_01.fbx using Guid(589ccb05b24aa6b4aab4c9cfabaedfb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01216d1303aa593310c7a93815d19b36') in 0.295884 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.023506 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Modular_Tree_Trunk_Palm_03.fbx
-  artifactKey: Guid(4571fe3fa11a5224ab1e0e30dc4c4f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Modular_Tree_Trunk_Palm_03.fbx using Guid(4571fe3fa11a5224ab1e0e30dc4c4f18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'faccac36963a5ff213e60b41e7fe307c') in 0.174001 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Modular_Tree_Foliage_Alpine_05.fbx
-  artifactKey: Guid(4234759f22dd5f94d8a89506a0a97b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Modular_Tree_Foliage_Alpine_05.fbx using Guid(4234759f22dd5f94d8a89506a0a97b04) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb174cf56c03a9ffdd48f20990b0efe6') in 0.242221 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.003827 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Fern_05.fbx
-  artifactKey: Guid(6b27d04271281044199eb0387b20d4b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Fern_05.fbx using Guid(6b27d04271281044199eb0387b20d4b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22eabecb580cce1a2d8cc1454449dec6') in 0.280133 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000033 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Mushroom_Blue_03.fbx
-  artifactKey: Guid(62cedca8053c1fc4ab922f63112d92a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Mushroom_Blue_03.fbx using Guid(62cedca8053c1fc4ab922f63112d92a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '959d16ec748dc763e7b75430ffa45673') in 0.058408 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Mushroom_Blue_05.fbx
-  artifactKey: Guid(5427833d77dd63c4f865fcc83e4d74c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Mushroom_Blue_05.fbx using Guid(5427833d77dd63c4f865fcc83e4d74c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0deb666bbcac68793e8fda2b77d3ca7b') in 0.060593 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Tree_Pine_Autumn_01.fbx
-  artifactKey: Guid(d03f3627c55f76045ad8871b0b2a7b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Tree_Pine_Autumn_01.fbx using Guid(d03f3627c55f76045ad8871b0b2a7b75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '233560f3dbac1d94932718450d95227e') in 0.045207 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000042 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Mushroom_Red_Tall_01.fbx
-  artifactKey: Guid(dee12eaa266838645ba3840da3a6ed4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Mushroom_Red_Tall_01.fbx using Guid(dee12eaa266838645ba3840da3a6ed4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd5201eee4a4bbdc3a80f76f68eb5c361') in 0.089316 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000027 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Mushroom_Red_04.fbx
-  artifactKey: Guid(c504fc6c49991f14495e8185cc03e2c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Mushroom_Red_04.fbx using Guid(c504fc6c49991f14495e8185cc03e2c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1040e1ce3092f2edfdb48c6955eeea07') in 0.050448 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000030 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Tree_Common_Spring_03.fbx
-  artifactKey: Guid(cdbe235b984e5214a921f62135e4f3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Tree_Common_Spring_03.fbx using Guid(cdbe235b984e5214a921f62135e4f3db) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76c5076a31078049aa9fd46c96a66980') in 0.062040 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000018 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Tree_Common_Summer_01.fbx
-  artifactKey: Guid(33226d892c7e3654988cb3abdda4004a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Tree_Common_Summer_01.fbx using Guid(33226d892c7e3654988cb3abdda4004a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c00064adb4b6aa7e5bd652dc9b0f2e37') in 0.052767 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Tree_Common_Spring_02.fbx
-  artifactKey: Guid(da3a01dfbf69e6a488a8f3defb4c83f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Tree_Common_Spring_02.fbx using Guid(da3a01dfbf69e6a488a8f3defb4c83f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7d326ccd13d2cb391291cbd8840a62a7') in 0.046741 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Reeds_01.fbx
-  artifactKey: Guid(4a91b96826b01824fad1f24e538dae86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Reeds_01.fbx using Guid(4a91b96826b01824fad1f24e538dae86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b28a90047547c45932810849d4aa2d5') in 0.090328 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Tree_Common_Winter_02.fbx
-  artifactKey: Guid(e21a52c8e05428e449813b4f2470b977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Tree_Common_Winter_02.fbx using Guid(e21a52c8e05428e449813b4f2470b977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '817e6dd56a0b5cec5fe1b51b98603648') in 0.051461 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000039 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Tree_Pine_Winter_Half_01.fbx
-  artifactKey: Guid(f136973c810a1ff408068f61e77bfbd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Tree_Pine_Winter_Half_01.fbx using Guid(f136973c810a1ff408068f61e77bfbd7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2e757eab5ac0e56cfe7af6e1809c154e') in 0.046619 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000025 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Flower_Sunflower_02.fbx
-  artifactKey: Guid(807f7ca8a5ee3184590df59b10e75907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vegetation/Vegetation_Flower_Sunflower_02.fbx using Guid(807f7ca8a5ee3184590df59b10e75907) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bdfeb5341877dd23dfd3badee7fe5a12') in 0.050656 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 2.517670 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Fences/Prop_Fence_Stone_Column_01.fbx
-  artifactKey: Guid(5802e79fd8d4c7448be8b2997304005b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Fences/Prop_Fence_Stone_Column_01.fbx using Guid(5802e79fd8d4c7448be8b2997304005b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f51c7898108d7aa4647d5a13d9d4767d') in 0.189959 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000047 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Fences/Prop_Fence_Stone_Straight_01.fbx
-  artifactKey: Guid(b3556a5422eb737448dc8817df631dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Fences/Prop_Fence_Stone_Straight_01.fbx using Guid(b3556a5422eb737448dc8817df631dc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b697625fac8fca334d20bd665a161fc5') in 0.378783 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.056464 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Fences/Materials/Brown05.mat
-  artifactKey: Guid(a86a045240e96b24a91d3e4a83137fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Fences/Materials/Brown05.mat using Guid(a86a045240e96b24a91d3e4a83137fe5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ace03dd21a0ec737b17b2fef8ea0197') in 0.232543 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000019 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Fences/Materials/Grey47.mat
-  artifactKey: Guid(80c94cedbb934a140be46fff2905fad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Fences/Materials/Grey47.mat using Guid(80c94cedbb934a140be46fff2905fad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb0712283b6d0dc867a1c77624eafbee') in 0.075039 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.320821 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Clouds/Cloud_02.fbx
-  artifactKey: Guid(fd33c338d2c9ecf4d9e3c0af8ef7d453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Clouds/Cloud_02.fbx using Guid(fd33c338d2c9ecf4d9e3c0af8ef7d453) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41df9348a4febcb5a12c3f2f8bcc43aa') in 0.257619 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000594 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Clouds/Cloud_Wisp_01.fbx
-  artifactKey: Guid(cfaebac6be8dda54bb274dfcf9a7d69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Clouds/Cloud_Wisp_01.fbx using Guid(cfaebac6be8dda54bb274dfcf9a7d69d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4c9736d1277db6f3fbae8e4e78464ed8') in 0.258131 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.001857 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Clouds/Cloud_Wisp_05.fbx
-  artifactKey: Guid(dd7470a4b4e3657428056e15a0954ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Clouds/Cloud_Wisp_05.fbx using Guid(dd7470a4b4e3657428056e15a0954ebb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fe94498c0fad1efc3d06d569b2272a8') in 0.438761 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.002783 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Clouds/Cloud_Wisp_Half_03.fbx
-  artifactKey: Guid(dd33c45a4236b624e9da0b6911d28b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Clouds/Cloud_Wisp_Half_03.fbx using Guid(dd33c45a4236b624e9da0b6911d28b71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96cfde28f0511b22210dc02d5f6e3137') in 0.215505 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 5.615603 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Props General/Prop_Balloon_01.fbx
-  artifactKey: Guid(201a0f146b599ee41ba5d7f188565bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Props General/Prop_Balloon_01.fbx using Guid(201a0f146b599ee41ba5d7f188565bb4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '40de5710bea14afb4278b47d035d2ca6') in 0.322599 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.006788 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Props General/Prop_Fire_Static_01.fbx
-  artifactKey: Guid(b7eef435d0df1a441a56ce1a6f39eaeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Props General/Prop_Fire_Static_01.fbx using Guid(b7eef435d0df1a441a56ce1a6f39eaeb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '699522a0b98c09bf262745c73df7cac2') in 0.453024 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Props General/Prop_Tent_01.fbx
-  artifactKey: Guid(19fdae221ca516c4e9b71c89630b1a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Props General/Prop_Tent_01.fbx using Guid(19fdae221ca516c4e9b71c89630b1a1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '693c6d74c7bdc329cf6539680db4c87f') in 0.077079 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000365 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Props General/Prop_Shell_01.fbx
-  artifactKey: Guid(0ed5f4a64c804394f85d591a5d8c6740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Props General/Prop_Shell_01.fbx using Guid(0ed5f4a64c804394f85d591a5d8c6740) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c9851003406ee03ea826d6aa5f54437') in 0.183754 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.040003 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Props General/Prop_Urn_03.fbx
-  artifactKey: Guid(444fc23cb6e5cd4439db8933c5146c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Props General/Prop_Urn_03.fbx using Guid(444fc23cb6e5cd4439db8933c5146c10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a3effc21831b272cade5f436c538d2b') in 0.202369 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 32.945239 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Materials/Blue21.mat
-  artifactKey: Guid(03f26ec208ea98f48aba8ec867fb0ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Materials/Blue21.mat using Guid(03f26ec208ea98f48aba8ec867fb0ed2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3fa299da162d0f0b75827444c97762a') in 0.156841 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Materials/Brown44.mat
-  artifactKey: Guid(a820d6770e097b34ea3f28dd4ff47d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Materials/Brown44.mat using Guid(a820d6770e097b34ea3f28dd4ff47d75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be0b0d01dad33f0a48804ad753f3633b') in 0.123221 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.002014 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Materials/Brown46.mat
-  artifactKey: Guid(729f822c263773c4dbe7272d3209eddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Materials/Brown46.mat using Guid(729f822c263773c4dbe7272d3209eddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '573ac115992842309487c3a673710233') in 0.325479 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Materials/Brown54.mat
-  artifactKey: Guid(6df792e5183f0ea4a9c57decd8314c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Materials/Brown54.mat using Guid(6df792e5183f0ea4a9c57decd8314c8d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef3471be6faad1f344eacedc87457e2f') in 0.086758 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000045 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Materials/Cream03.mat
-  artifactKey: Guid(178d732f8768f084785d81e43f4bc967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Materials/Cream03.mat using Guid(178d732f8768f084785d81e43f4bc967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1828cadd22dcf09a80a7fdb605af1eb1') in 0.212707 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000041 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Materials/Grey46.mat
-  artifactKey: Guid(9c402380249725a4bbf054d77d3747bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Materials/Grey46.mat using Guid(9c402380249725a4bbf054d77d3747bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6e762a746e2fbd32101bebaca453def') in 0.044532 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000959 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Materials/Brown24.mat
-  artifactKey: Guid(ee75d24e41f99ae48a32d992df7a3857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Materials/Brown24.mat using Guid(ee75d24e41f99ae48a32d992df7a3857) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd73e12cee575ed09c68a42cb5c2232a4') in 0.325636 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Materials/Red21.mat
-  artifactKey: Guid(b555b0a875d7c2046908e888a44ca379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Materials/Red21.mat using Guid(b555b0a875d7c2046908e888a44ca379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3c5daf055f4295d25005f763ff5f064') in 0.163783 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Materials/Grey04.mat
-  artifactKey: Guid(ba078cd88b7f30d4eb751927eda7d858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Materials/Grey04.mat using Guid(ba078cd88b7f30d4eb751927eda7d858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f883e99c936a87aae4d7a89a726c324c') in 0.389310 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000516 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Materials/Grey49.mat
-  artifactKey: Guid(dbdddd833bcaacb428787a11835fdc1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Materials/Grey49.mat using Guid(dbdddd833bcaacb428787a11835fdc1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44ebe20b673b5593af73beba0eba7dbf') in 0.107366 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Materials/Grey12.mat
-  artifactKey: Guid(3521c26d0b79d5e42889cd9eae12dc36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Buildings/Materials/Grey12.mat using Guid(3521c26d0b79d5e42889cd9eae12dc36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a44ec8fed1207a7ca3999ae323900eb5') in 0.124910 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.131842 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Boardgame/Materials/Blue07.mat
-  artifactKey: Guid(91fecaace3d8bd64a919ca03a180f709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Boardgame/Materials/Blue07.mat using Guid(91fecaace3d8bd64a919ca03a180f709) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a3d179f6e582d358667e752d516501f') in 0.123724 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.002388 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Boardgame/Materials/Red05.mat
-  artifactKey: Guid(2658bebdcc526ff4fa05a319eb30fa71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Boardgame/Materials/Red05.mat using Guid(2658bebdcc526ff4fa05a319eb30fa71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6eb217e42609732f830ea5d0841e808e') in 0.242091 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.069286 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Boardgame/Materials/Cream03.mat
-  artifactKey: Guid(679fa6ac76e63b649818a13663f86c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Boardgame/Materials/Cream03.mat using Guid(679fa6ac76e63b649818a13663f86c6e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ca74830cd767a57b7b09a044904f7e5') in 0.238173 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Boardgame/Materials/Yellow01.mat
-  artifactKey: Guid(d2d5642f52b7eeb4ca5059decab03b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Boardgame/Materials/Yellow01.mat using Guid(d2d5642f52b7eeb4ca5059decab03b28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6bd98ae409f263e6770f2834bb897f04') in 0.178664 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 3.777722 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Ruins/Prop_Ruins_Archway_Sandstone_Half_01.fbx
-  artifactKey: Guid(80ea6527a53e3d448be0993c2a32a668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Ruins/Prop_Ruins_Archway_Sandstone_Half_01.fbx using Guid(80ea6527a53e3d448be0993c2a32a668) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8ca68123642851f38e4af7fd426a961') in 1.210728 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Ruins/Materials/Grey27.mat
-  artifactKey: Guid(1bdbf01aaf457ab438a1788fd00881b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Ruins/Materials/Grey27.mat using Guid(1bdbf01aaf457ab438a1788fd00881b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1885294afcfaf54e0c10dc225cba2941') in 0.805487 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.006405 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Ruins/Prop_Stairs_Grand_Stone_01.fbx
-  artifactKey: Guid(8bd0eb13b573b1b47ad083f0d4fb99ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Ruins/Prop_Stairs_Grand_Stone_01.fbx using Guid(8bd0eb13b573b1b47ad083f0d4fb99ed) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd3b80ad5465c86a0e9773e34a92c5339') in 1.164791 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000034 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Ruins/Prop_Stairs_Grand_Sandstone_01.fbx
-  artifactKey: Guid(37fcf27852d673c46b97981317dc0042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Ruins/Prop_Stairs_Grand_Sandstone_01.fbx using Guid(37fcf27852d673c46b97981317dc0042) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6392236ec77a70a10bc623a54869a0f') in 0.718248 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000028 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Ruins/Materials/Grey47.mat
-  artifactKey: Guid(4091a60c01745204b8edc9af5ebfcd18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Ruins/Materials/Grey47.mat using Guid(4091a60c01745204b8edc9af5ebfcd18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a8bb631eefd29ec9bf62edaf70b811d5') in 0.744662 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000021 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Statues/Prop_Statue_Gazelle_01.fbx
-  artifactKey: Guid(a7407e0071277d24ab716e918212b586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Statues/Prop_Statue_Gazelle_01.fbx using Guid(a7407e0071277d24ab716e918212b586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a266e269849bda30e510875ef566998a') in 1.478260 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Statues/Materials/Grey45.mat
-  artifactKey: Guid(315df1f10eecfac4390ee31125e572a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Statues/Materials/Grey45.mat using Guid(315df1f10eecfac4390ee31125e572a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dad8197d04346537de20e18ba0ef3b76') in 0.040747 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000023 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Statues/Prop_Statue_Base_01.fbx
-  artifactKey: Guid(1ee8d29d74031d743bd35839d57cbad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Statues/Prop_Statue_Base_01.fbx using Guid(1ee8d29d74031d743bd35839d57cbad9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01d4e36847b5858e225912a77c197080') in 0.680830 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Statues/Prop_Statue_Aphrodite_01.fbx
-  artifactKey: Guid(598e51a83b29fbb439a12e11b922bb83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Statues/Prop_Statue_Aphrodite_01.fbx using Guid(598e51a83b29fbb439a12e11b922bb83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cf740813bb77dcbbcece8a9037a177e') in 0.982108 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000037 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Ruins/Materials/Grey16.mat
-  artifactKey: Guid(8a4c6335bd665fe47bc55f0a545921c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Ruins/Materials/Grey16.mat using Guid(8a4c6335bd665fe47bc55f0a545921c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aea16a7fdf1f7bb37404861f28444783') in 0.463131 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000022 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Statues/Prop_Statue_Tiger_01.fbx
-  artifactKey: Guid(474a3ad32d3de1447a3f96f1e1327f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Statues/Prop_Statue_Tiger_01.fbx using Guid(474a3ad32d3de1447a3f96f1e1327f94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8a7502f4687f6b1fdb85223556606818') in 0.745150 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.394912 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vehicles/Vehicle_Balloon_01.fbx
-  artifactKey: Guid(a94b862a6c04672468b10d8c20bfb855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vehicles/Vehicle_Balloon_01.fbx using Guid(a94b862a6c04672468b10d8c20bfb855) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e007890144a4d1e7a2507e4fcdd5c719') in 1.809257 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000035 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vehicles/Materials/Yellow12.mat
-  artifactKey: Guid(fbcb7175ab140144eaf6ec6636697271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Vehicles/Materials/Yellow12.mat using Guid(fbcb7175ab140144eaf6ec6636697271) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '190006a61b85f0504012f5a449b9131c') in 0.589777 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 6.581630 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Handrails/Prop_Handrail_Stone_02.fbx
-  artifactKey: Guid(a1f7046e5f370c6429dab35ba0083992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Handrails/Prop_Handrail_Stone_02.fbx using Guid(a1f7046e5f370c6429dab35ba0083992) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cd46e55f40f0b7cf81b4e871ef8565a') in 0.306725 seconds 
-========================================================================
-Received Import Request.
-  Time since last request: 0.000024 seconds.
-  path: Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Handrails/Prop_Handrail_Stone_Pole_01.fbx
-  artifactKey: Guid(597c7e15a49471d4794fbb3aaa0bb21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Off Axis Studios/Polyworks/Meshes/MaterialsOnly/Handrails/Prop_Handrail_Stone_Pole_01.fbx using Guid(597c7e15a49471d4794fbb3aaa0bb21f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a12862cf1550691bf7d483b24a57148a') in 0.184350 seconds 
-Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
-AssetImportWorker is now disconnected from the server
-Process exiting
-Exiting without the bug reporter. Application will terminate with return code 0
+  Time since last request: 361990.995455 seconds.
+  path: Assets/Scenes
+  artifactKey: Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes using Guid(6ea315d0fd7389c41b19996891e99ae3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc172811d573b296104adb4d2728db37') in 0.004250 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002589 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Refreshing native plugins compatible for Editor in 0.54 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.676 seconds
+Domain Reload Profiling:
+	ReloadAssembly (676ms)
+		BeginReloadAssembly (101ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (23ms)
+		EndReloadAssembly (513ms)
+			LoadAssemblies (65ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (171ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (224ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (17ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (39ms)
+				ProcessInitializeOnLoadAttributes (141ms)
+				ProcessInitializeOnLoadMethodAttributes (21ms)
+				AfterProcessingInitializeOnLoad (6ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.43 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3417 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 18 unused Assets / (24.7 KB). Loaded Objects now: 3906.
+Memory consumption went from 124.8 MB to 124.8 MB.
+Total: 2.472100 ms (FindLiveObjects: 0.180300 ms CreateObjectMapping: 0.063000 ms MarkObjects: 2.192800 ms  DeleteObjects: 0.034600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
