@@ -24,7 +24,24 @@ public class PlayerMove : MonoBehaviour
 
     [Header("animation (Animator)")]
     public Animator animator;                 
-    public string speedParam = "MovingSpeed"; 
+    public string speedParam = "MovingSpeed";
+
+    [Header("step up")]
+    public float stepHeight = 0.5f;     // 能跨的最大台階高度
+    public float stepCheckDist = 0.3f;   // 前方檢查距離
+    public float stepUpSpeed = 3f;       // 抬升速度
+    public LayerMask obstacleMask = ~0;  // 台階 / 牆 的 layer
+
+    [Header("step debug")]
+    public bool showStepDebug = true;
+    public bool verboseStepLog = false;
+
+    private bool stepLowHit;
+    private bool stepHighBlocked;
+    private string stepLowName = "-";
+    private float stepLowDist;
+
+
 
     private Rigidbody rb;
     private Camera cam;
@@ -103,6 +120,9 @@ public class PlayerMove : MonoBehaviour
             return;
         }
 
+       
+        // 4) step up try（新增）
+        TryStepUp();
         // 4) move
         rb.MovePosition(new Vector3(nextXZ.x, rb.position.y, nextXZ.z));
         blocked = false;
@@ -155,5 +175,62 @@ public class PlayerMove : MonoBehaviour
         if (isPushing)
             animator.SetFloat(speedParam, 0f);
     }
+
+    void TryStepUp()
+    {
+        // reset debug info every call
+        stepLowHit = false;
+        stepHighBlocked = false;
+        stepLowName = "-";
+        stepLowDist = 0f;
+
+        Vector3 dir = Vector3.ProjectOnPlane(moveDir, Vector3.up).normalized;
+        if (dir.sqrMagnitude < 1e-4f) return;
+
+        Vector3 lowOrigin = rb.position + Vector3.up * 0.05f;
+        Vector3 highOrigin = rb.position + Vector3.up * stepHeight;
+
+        // --- Debug rays (Scene view) ---
+        if (showStepDebug)
+        {
+            Debug.DrawRay(lowOrigin, dir * stepCheckDist, Color.red);
+            Debug.DrawRay(highOrigin, dir * stepCheckDist, Color.green);
+        }
+
+        // 1) Low ray: is there an obstacle in front near the feet?
+        if (Physics.Raycast(lowOrigin, dir, out RaycastHit lowHit,
+                            stepCheckDist, obstacleMask, QueryTriggerInteraction.Ignore))
+        {
+            stepLowHit = true;
+            stepLowName = lowHit.collider ? lowHit.collider.name : "(no collider)";
+            stepLowDist = lowHit.distance;
+
+            // 2) High ray: if high is ALSO blocked, it's a wall -> cannot step
+            bool blockedHigh = Physics.Raycast(highOrigin, dir, stepCheckDist,
+                                               obstacleMask, QueryTriggerInteraction.Ignore);
+            stepHighBlocked = blockedHigh;
+
+            if (blockedHigh)
+            {
+                if (verboseStepLog)
+                    Debug.Log($"[StepUp] WALL: low hit {stepLowName} dist={stepLowDist:F2}");
+                return;
+            }
+
+            // 3) Step up!
+            float up = stepUpSpeed * Time.fixedDeltaTime;
+            rb.MovePosition(rb.position + Vector3.up * up);
+
+            if (verboseStepLog)
+                Debug.Log($"[StepUp] STEP: low hit {stepLowName} dist={stepLowDist:F2} -> stepping up {up:F3}");
+        }
+        else
+        {
+            // no low obstacle -> normal movement
+            stepLowHit = false;
+        }
+    }
+
+
 
 }
