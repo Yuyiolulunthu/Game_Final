@@ -1468,34 +1468,6 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 112
   m_CollisionDetection: 0
---- !u!114 &414537201
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 414537194}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 58f02415a041599498081dedfd32773a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  groundMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  groundCheckDistance: 0
-  groundSnapSpeed: 12
-  maxStepUp: 0.5
-  maxStepDown: 0.6
-  stepCheckDist: 0.25
-  stepUpSpeed: 6
-  minMoveSpeedToAssist: 0.05
-  obstacleMask:
-    serializedVersion: 2
-    m_Bits: 4294967295
-  skin: 0.02
-  maxWallNormalY: 0.2
-  showDebug: 1
 --- !u!4 &446687006 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7038394024822766220, guid: 8eb0aedc6330428418aecffc7645f7d1, type: 3}
