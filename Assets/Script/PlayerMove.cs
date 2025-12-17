@@ -43,6 +43,7 @@ public class PlayerMove : MonoBehaviour
 
 
 
+
     private Rigidbody rb;
     private Camera cam;
     private Vector3 moveDir;
@@ -85,7 +86,8 @@ public class PlayerMove : MonoBehaviour
     }
 
     void FixedUpdate()
-    {           
+    {
+
         if (moveDir.sqrMagnitude < 1e-4f)
         { rb.velocity = new Vector3(0f, rb.velocity.y, 0f); blocked = false; return; }
 
