@@ -10,7 +10,7 @@ public class PlayerMove : MonoBehaviour
 
     [Header("shadow check")]
     public Shadow shadowChecker;       
-    public LayerMask groundMask = ~0;  
+    public LayerMask groundMask = 3;  
     public float footRayHeight = 2.0f; 
     public float footLift = 0.01f;    
     public PlayerShadowFromObject dynamicShadow;
@@ -104,7 +104,8 @@ public class PlayerMove : MonoBehaviour
             blocked = true; return;
         }
 
-        Vector3 footPoint = hit.point + Vector3.up * footLift;
+        Vector3 footPoint = hit.point;
+        // Vector3 footPoint = hit.point + Vector3.up * footLift;
 
         // 3) check in shadow
         bool inShadow = true;
@@ -122,7 +123,6 @@ public class PlayerMove : MonoBehaviour
             return;
         }
 
-       
         // 4) step up try（新增）
         TryStepUp();
         // 4) move
