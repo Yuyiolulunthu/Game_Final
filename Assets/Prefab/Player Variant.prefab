@@ -77,7 +77,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1034844629304111627, guid: 3140943fe59865544a622c4bb27280b2, type: 3}
       propertyPath: m_Name
-      value: Player
+      value: Player Variant
       objectReference: {fileID: 0}
     - target: {fileID: 1034844629304111627, guid: 3140943fe59865544a622c4bb27280b2, type: 3}
       propertyPath: m_Layer
@@ -277,10 +277,10 @@ CapsuleCollider:
   m_Material: {fileID: 0}
   m_IsTrigger: 0
   m_Enabled: 1
-  m_Radius: 0.68509823
-  m_Height: 1.3701963
+  m_Radius: 0.7234848
+  m_Height: 1.5476263
   m_Direction: 1
-  m_Center: {x: -0.22902198, y: 0.7009065, z: -0.08838975}
+  m_Center: {x: 0.031348914, y: 0.7009065, z: 0.13359994}
 --- !u!114 &2018130346
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -309,6 +309,14 @@ MonoBehaviour:
   pushingParam: IsPushing
   animator: {fileID: 3530802262421432055}
   speedParam: MovingSpeed
+  stepHeight: 0.8
+  stepCheckDist: 0.3
+  stepUpSpeed: 3
+  obstacleMask:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  showStepDebug: 1
+  verboseStepLog: 0
 --- !u!114 &2018130348
 MonoBehaviour:
   m_ObjectHideFlags: 0

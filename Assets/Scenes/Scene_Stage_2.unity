@@ -572,8 +572,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.8413324, y: 4.479657, z: 1.8413323}
-  m_Center: {x: 1.2351602e-22, y: 2.2398252, z: 0.00000032782552}
+  m_Size: {x: 0.6801284, y: 4.479657, z: 0.6312195}
+  m_Center: {x: 0.028567912, y: 2.2398255, z: 0.03369376}
 --- !u!1001 &228931822
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1234,7 +1234,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de097ab3939864a45b4c7a4bfe90edc8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 1
+  moveSpeed: 3
   drag: 8
   shadowChecker: {fileID: 1006774747}
   groundMask:
@@ -1644,8 +1644,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.8413323, y: 4.479657, z: 1.8413323}
-  m_Center: {x: 1.2351598e-22, y: 2.2398252, z: 0.00000032782552}
+  m_Size: {x: 0.6037052, y: 4.479657, z: 0.7387148}
+  m_Center: {x: 0.026098689, y: 2.2398255, z: 0.007524813}
 --- !u!54 &414537200
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -2031,8 +2031,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 1.8413324, y: 4.479657, z: 1.8413323}
-  m_Center: {x: 1.2351602e-22, y: 2.2398252, z: 0.00000032782552}
+  m_Size: {x: 0.68230414, y: 4.479657, z: 0.6349318}
+  m_Center: {x: 0.004555484, y: 2.2398255, z: -0.007480681}
 --- !u!54 &643949390
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -3430,7 +3430,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1615769082554995597, guid: 71cd7a39872427d4c8507f087e2c20dc, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 5
+      value: 5.25
       objectReference: {fileID: 0}
     - target: {fileID: 1615769082554995597, guid: 71cd7a39872427d4c8507f087e2c20dc, type: 3}
       propertyPath: m_LocalRotation.w
