@@ -41,7 +41,7 @@ public class TeleportPortal : MonoBehaviour
 
         lastTpTime[t] = Time.time;
 
-        Vector3 targetPos = otherPortal.transform.position + otherPortal.transform.forward * exitOffset;
+        Vector3 targetPos = otherPortal.transform.position + otherPortal.transform.right * exitOffset;
 
         Rigidbody rb = t.GetComponent<Rigidbody>();
         if (rb)
