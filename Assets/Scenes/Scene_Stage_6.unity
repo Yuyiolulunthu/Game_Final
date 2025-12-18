@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44821823, g: 0.49824375, b: 0.5755777, a: 1}
+  m_IndirectSpecularColor: {r: 0.44821775, g: 0.49824297, b: 0.57557625, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2341,6 +2341,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Building_Modular_Jetty_Walkway_Timber_Ladder_Tall_01.fbx (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 3610870032651491454, guid: 6ddd6006b0c3b224b98569cad08744b7, type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 4131968568037982916, guid: 6ddd6006b0c3b224b98569cad08744b7, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -2351,11 +2355,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4131968568037982916, guid: 6ddd6006b0c3b224b98569cad08744b7, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -1.33
+      value: -1.25
       objectReference: {fileID: 0}
     - target: {fileID: 4131968568037982916, guid: 6ddd6006b0c3b224b98569cad08744b7, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.71
+      value: 1.72
       objectReference: {fileID: 0}
     - target: {fileID: 4131968568037982916, guid: 6ddd6006b0c3b224b98569cad08744b7, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2415,11 +2419,11 @@ BoxCollider:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1293779916}
   m_Material: {fileID: 0}
-  m_IsTrigger: 0
+  m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.77994937, y: 8.0222435, z: 0.077843726}
-  m_Center: {x: 0.0000015769151, y: 4.0111217, z: 0.000002061928}
+  m_Size: {x: 0.77994937, y: 6.154192, z: 0.077843726}
+  m_Center: {x: 0.0000015795231, y: 4.9451594, z: 0.0000013135336}
 --- !u!114 &1293779922
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2434,8 +2438,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dropSpeed: 2
   playerTag: Player
+  enterPushDistance: 0.5
+  pushTowardLadder: 1
+  horizontalOnly: 1
+  relativeDirMultiplier: 2
+  updateBottomEveryFixed: 1
+  bottomEpsilon: 0.01
+  enterStayFrames: 3
+  switchCooldown: 0.15
+  bottomCooldown: 0.45
+  acquireTinyCooldown: 0.02
   showDebug: 0
   logInterval: 0.1
+  drawDebugLines: 1
+  debugLineDuration: 0.05
 --- !u!1001 &1297433899
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2817,8 +2833,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.77994937, y: 8.022244, z: 0.07784371}
-  m_Center: {x: 0.0000015646223, y: 4.011122, z: 0.0000020693992}
+  m_Size: {x: 0.77994937, y: 4.460326, z: 0.07784371}
+  m_Center: {x: 0.0008621422, y: 5.7927675, z: -0.010148541}
 --- !u!114 &1491804703
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2833,8 +2849,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dropSpeed: 2
   playerTag: Player
-  showDebug: 1
+  enterPushDistance: 0.2
+  pushTowardLadder: 1
+  horizontalOnly: 1
+  relativeDirMultiplier: 2
+  updateBottomEveryFixed: 1
+  bottomEpsilon: 0.01
+  enterStayFrames: 3
+  switchCooldown: 0.15
+  bottomCooldown: 0.45
+  acquireTinyCooldown: 0.02
+  showDebug: 0
   logInterval: 0.1
+  drawDebugLines: 1
+  debugLineDuration: 0.05
 --- !u!1001 &1494550630
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3829,8 +3857,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.7799493, y: 8.022243, z: 0.07784373}
-  m_Center: {x: 0.0000020433272, y: 4.0111213, z: 0.000002065459}
+  m_Size: {x: 0.7799493, y: 6.4410906, z: 0.07784373}
+  m_Center: {x: 0.0000020280384, y: 4.8016973, z: 0.0000020782652}
 --- !u!114 &1751629903
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3845,8 +3873,20 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   dropSpeed: 2
   playerTag: Player
-  showDebug: 1
+  enterPushDistance: 0.2
+  pushTowardLadder: 1
+  horizontalOnly: 1
+  relativeDirMultiplier: 2
+  updateBottomEveryFixed: 1
+  bottomEpsilon: 0.01
+  enterStayFrames: 3
+  switchCooldown: 0.15
+  bottomCooldown: 0.45
+  acquireTinyCooldown: 0.02
+  showDebug: 0
   logInterval: 0.1
+  drawDebugLines: 1
+  debugLineDuration: 0.05
 --- !u!1001 &1767856853
 PrefabInstance:
   m_ObjectHideFlags: 0

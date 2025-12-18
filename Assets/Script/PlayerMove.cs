@@ -27,7 +27,7 @@ public class PlayerMove : MonoBehaviour
     public string speedParam = "MovingSpeed";
 
     [Header("step up")]
-    public float stepHeight = 0.5f;     // 能跨的最大台階高度
+    public float stepHeight = 0.8f;     // 能跨的最大台階高度
     public float stepCheckDist = 0.3f;   // 前方檢查距離
     public float stepUpSpeed = 3f;       // 抬升速度
     public LayerMask obstacleMask = ~0;  // 台階 / 牆 的 layer
