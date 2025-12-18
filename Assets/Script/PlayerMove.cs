@@ -4,6 +4,8 @@ using UnityEngine.Rendering;
 [RequireComponent(typeof(Rigidbody))]
 public class PlayerMove : MonoBehaviour
 {
+    public static System.Action OnGameEnd;
+
     [Header("moving parameter")]
     public float moveSpeed = 1f;
     public float drag = 8f;
@@ -25,6 +27,7 @@ public class PlayerMove : MonoBehaviour
     [Header("animation (Animator)")]
     public Animator animator;                 
     public string speedParam = "MovingSpeed";
+    public string shadowParam = "InShadow";
 
     [Header("goal end")]
     public string goalTag = "Goal";      // Tag = Goal
@@ -131,14 +134,15 @@ public class PlayerMove : MonoBehaviour
             if (dynamicShadow.IsPointOnShadow(footPoint))
                 inShadow = true;
         }
-
+        
+        
         if (!inShadow)
         {
             rb.velocity = new Vector3(0f, rb.velocity.y, 0f);
             blocked = true;
             return;
         }
-
+        
         // 4) step up try（新增）
         TryStepUp();
         // 4) move
@@ -153,8 +157,8 @@ public class PlayerMove : MonoBehaviour
         if (Physics.Raycast(transform.position + Vector3.up * footRayHeight, Vector3.down,
                              out var hit, footRayHeight * 2f, groundMask))
             here = shadowChecker ? shadowChecker.IsInShadow(hit.point + Vector3.up * footLift) : true;
-
-        GUI.Label(new Rect(10,10,520,24), $"Here Shadow: {(here ? "YES":"NO")} | Blocked: {(blocked?"YES":"NO")} | Pushing: {(isPushing ? "YES" : "NO")}");
+        animator.SetBool(shadowParam, here);
+        // GUI.Label(new Rect(10,10,520,24), $"Here Shadow: {(here ? "YES":"NO")} | Blocked: {(blocked?"YES":"NO")} | Pushing: {(isPushing ? "YES" : "NO")}");
     }
 
     void OnCollisionStay(Collision other)
@@ -259,7 +263,8 @@ public class PlayerMove : MonoBehaviour
         if (animator) animator.SetBool(endParam, true);
 
         rb.velocity = new Vector3(0f, rb.velocity.y, 0f);
+        OnGameEnd?.Invoke();
     }
 
-
+    
 }
