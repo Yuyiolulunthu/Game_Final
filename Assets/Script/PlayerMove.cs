@@ -26,6 +26,11 @@ public class PlayerMove : MonoBehaviour
     public Animator animator;                 
     public string speedParam = "MovingSpeed";
 
+    [Header("goal end")]
+    public string goalTag = "Goal";      // Tag = Goal
+    public string endParam = "IsEnd";    
+    private bool reachedGoal = false;
+
     [Header("step up")]
     public float stepHeight = 0.8f;     // 能跨的最大台階高度
     public float stepCheckDist = 0.3f;   // 前方檢查距離
@@ -66,6 +71,12 @@ public class PlayerMove : MonoBehaviour
 
     void Update()
     {
+        if (reachedGoal)
+        {
+            moveDir = Vector3.zero;
+            if (animator) animator.SetFloat(speedParam, 0f);
+            return;
+        }
         float h = Input.GetAxisRaw("Horizontal");
         float v = Input.GetAxisRaw("Vertical");
         Vector3 input = new Vector3(h, 0f, v).normalized;
@@ -87,7 +98,12 @@ public class PlayerMove : MonoBehaviour
 
     void FixedUpdate()
     {
-
+        if (reachedGoal)
+        {
+            rb.velocity = new Vector3(0f, rb.velocity.y, 0f);
+            blocked = true;
+            return;
+        }
         if (moveDir.sqrMagnitude < 1e-4f)
         { rb.velocity = new Vector3(0f, rb.velocity.y, 0f); blocked = false; return; }
 
@@ -233,6 +249,17 @@ public class PlayerMove : MonoBehaviour
         }
     }
 
+    void OnTriggerEnter(Collider other)
+    {
+        if (reachedGoal) return;
+        if (!other.CompareTag(goalTag)) return;
+
+        reachedGoal = true;
+        SetPushing(false);
+        if (animator) animator.SetBool(endParam, true);
+
+        rb.velocity = new Vector3(0f, rb.velocity.y, 0f);
+    }
 
 
 }
