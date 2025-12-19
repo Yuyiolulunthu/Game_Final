@@ -7,29 +7,29 @@ public class Lighthouse : MonoBehaviour
     public Transform spotLight;
 
     [Header("Rotation Range (Local Euler Angles)")]
-    [Tooltip("°_ÂI¨¤«×¡]Local Euler¡^")]
+    [Tooltip("èµ·é»è§’åº¦ï¼ˆLocal Eulerï¼‰")]
     public Vector3 angleA = new Vector3(174.855f, 35.033f, 10.63699f);
 
-    [Tooltip("²×ÂI¨¤«×¡]Local Euler¡^")]
+    [Tooltip("çµ‚é»è§’åº¦ï¼ˆLocal Eulerï¼‰")]
     public Vector3 angleB = new Vector3(134.891f, 7.108002f, -0.757995f);
 
     [Header("Motion")]
-    [Tooltip("A->B ©Î B->A ¨«§¹¤@¦¸­n¦h¤[¡]¬í¡^")]
+    [Tooltip("A->B æˆ– B->A å–®ç¨‹è¦å¹¾ç§’ï¼ˆç§’ï¼‰")]
     [Min(0.01f)]
     public float duration = 3f;
 
-    [Tooltip("¬O§_¨Ó¦^Â\°Ê¡]A<->B¡^¡CÃö±¼«h¥u·| A->B ¨ì³»´N°±¡C")]
+    [Tooltip("æ˜¯å¦ä¾†å›é‹å‹•ï¼ˆA<->Bï¼‰ã€‚é—œé–‰å‰‡åªæœƒ A->B åˆ°åº•å°±åœã€‚")]
     public bool pingPong = true;
 
     [Header("Trigger")]
     public string playerTag = "Player";
 
     [Header("Preview")]
-    [Tooltip("¦b½s¿è¼Ò¦¡¤]§Y®É¹wÄı±ÛÂà¡]¤£¶i Play ¤]·|°Ê¡^")]
+    [Tooltip("åœ¨ç·¨è¼¯æ¨¡å¼å³æ™‚é è¦½è§’åº¦ï¼ˆä¸ç”¨ Play ä¹Ÿæœƒå‹•ï¼‰")]
     public bool previewInEditMode = false;
 
     [Range(0f, 1f)]
-    [Tooltip("¤â°Ê¹wÄı¦ì¸m¡G0=A, 1=B¡]¶È¦b¥¼¼½©ñ©Î¥¼±Ò¥Î±ÛÂà®É¤è«K¬İ¨¤«×¡^")]
+    [Tooltip("å‹•ç•«é è¦½ä½ç½®ï¼š0=A, 1=Bï¼ˆåƒ…åœ¨ç·¨è¼¯å™¨æˆ–æœªå•Ÿå‹•æ™‚æ–¹ä¾¿æŸ¥çœ‹è§’åº¦ï¼‰")]
     public float previewT = 0f;
 
     bool isActive = false;
@@ -45,7 +45,7 @@ public class Lighthouse : MonoBehaviour
     {
         if (spotLight != null)
         {
-            // ªì©l´N©ñ¦b A
+            // åˆå§‹åœåœ¨ A
             spotLight.localEulerAngles = angleA;
             t = 0f;
             forward = true;
@@ -56,7 +56,7 @@ public class Lighthouse : MonoBehaviour
     {
         if (spotLight == null) return;
 
-        // ½s¿è¼Ò¦¡¹wÄı¡G¥u­n§A¤Ä previewInEditMode¡A´N·|¸òµÛ previewT Åã¥Ü
+        // ç·¨è¼¯æ¨¡å¼é è¦½ï¼šåªè¦å‹¾é¸ previewInEditModeï¼Œå°±æœƒæ ¹æ“š previewT æ—‹è½‰
 #if UNITY_EDITOR
         if (!Application.isPlaying)
         {
@@ -68,7 +68,7 @@ public class Lighthouse : MonoBehaviour
 
         if (!isActive)
         {
-            // ¤£Âà®É¤]¥i¥H¥Î previewT ¤è«K§A¦b¹CÀ¸¤¤¤â°Ê½Õ¦ì¸m¡]¥i¿ï¡^
+            // åœæ­¢æ™‚ä¹Ÿå¯ä»¥ç”¨ previewT æ–¹ä¾¿åœ¨éŠæˆ²ä¸­èª¿æ•´ä½ç½®ï¼ˆå¯é¸ï¼‰
             // ApplyRotation(previewT);
             return;
         }
@@ -80,7 +80,7 @@ public class Lighthouse : MonoBehaviour
         {
             t = 1f;
             if (pingPong) forward = false;
-            else isActive = false; // ¥u¨«¤@¦¸´N°±
+            else isActive = false; // å–®ç¨‹ä¸€æ¬¡å°±åœ
         }
         else if (t <= 0f)
         {
@@ -109,7 +109,7 @@ public class Lighthouse : MonoBehaviour
         isActive = false;
     }
 
-    // ====== ¤U­±¬O§A­nªº¡u¤¶­±½Õ¾ã¨¤«×¡v¶W¦n¥Î¤u¨ã ======
+    // ====== ä»¥ä¸‹æ˜¯æ–¹ä¾¿åœ¨ç·¨è¼¯å™¨èª¿æ•´è§’åº¦çš„å·¥å…· ======
 
     [ContextMenu("Capture Angle A From Current Light")]
     void CaptureAngleAFromCurrent()
