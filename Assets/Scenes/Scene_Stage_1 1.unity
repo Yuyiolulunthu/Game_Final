@@ -2003,6 +2003,7 @@ MonoBehaviour:
   pushingParam: IsPushing
   animator: {fileID: 2018130341}
   speedParam: MovingSpeed
+  shadowParam: InShadow
   goalTag: Goal
   endParam: IsEnd
   stepHeight: 0.5
@@ -2013,6 +2014,17 @@ MonoBehaviour:
     m_Bits: 4294967295
   showStepDebug: 1
   verboseStepLog: 0
+  audioSource: {fileID: 0}
+  footstepSounds:
+  - {fileID: 8300000, guid: 7f864e56d904ab342b65f610b4b8cf77, type: 3}
+  footstepInterval: 0.35
+  footstepVolume: 0.5
+  pushStartSound: {fileID: 8300000, guid: c17f1142f1186fb44b80396d15702728, type: 3}
+  pushLoopSound: {fileID: 8300000, guid: 6b81479046727974ba0df0c4125817c8, type: 3}
+  pushVolume: 0.7
+  stepUpSound: {fileID: 8300000, guid: ab8d4c65e990e674e866052fa6c7bab1, type: 3}
+  stepUpVolume: 0.6
+  goalReachedSound: {fileID: 8300000, guid: 2c5208e5bcd8fa944984f888586c630b, type: 3}
 --- !u!4 &2018130347 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 1034844629304077867, guid: 3140943fe59865544a622c4bb27280b2, type: 3}
