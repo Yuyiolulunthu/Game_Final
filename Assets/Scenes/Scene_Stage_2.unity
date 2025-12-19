@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44677413, g: 0.49173826, b: 0.54859614, a: 1}
+  m_IndirectSpecularColor: {r: 0.44677365, g: 0.49173778, b: 0.5485951, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -587,6 +587,23 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.1649373, y: 0.4898145, z: 1.8413323}
   m_Center: {x: -0.022078978, y: 0.24490385, z: 0.00000029802322}
+--- !u!114 &201066036
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 201066025}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 945a558fd308ad943997d22e76778593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dustEffectPrefab: {fileID: 198426734445453958, guid: 3b89a0b81c18f8548ae1e630445434b9, type: 3}
+  moveThreshold: 0.01
+  useLocalPosition: 0
+  localSpawnOffset: {x: 0, y: 1.5, z: -2}
+  followTarget: 0
 --- !u!1001 &228931822
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1263,6 +1280,7 @@ MonoBehaviour:
   pushingParam: IsPushing
   animator: {fileID: 307452860}
   speedParam: MovingSpeed
+  shadowParam: InShadow
   goalTag: Goal
   endParam: IsEnd
   stepHeight: 0.5
@@ -1690,6 +1708,23 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1.2014818, y: 0.5028634, z: 1.8413323}
   m_Center: {x: 0.042224053, y: 0.25142798, z: 0.0000002980232}
+--- !u!114 &414537208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 414537194}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 945a558fd308ad943997d22e76778593, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  dustEffectPrefab: {fileID: 198426734445453958, guid: 3b89a0b81c18f8548ae1e630445434b9, type: 3}
+  moveThreshold: 0.01
+  useLocalPosition: 0
+  localSpawnOffset: {x: 0, y: 1.5, z: -2}
+  followTarget: 0
 --- !u!4 &446687006 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7038394024822766220, guid: 8eb0aedc6330428418aecffc7645f7d1, type: 3}
