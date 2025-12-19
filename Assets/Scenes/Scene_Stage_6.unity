@@ -646,6 +646,9 @@ MonoBehaviour:
   pushingParam: IsPushing
   animator: {fileID: 186868325}
   speedParam: MovingSpeed
+  shadowParam: InShadow
+  goalTag: Goal
+  endParam: IsEnd
   stepHeight: 0.5
   stepCheckDist: 0.3
   stepUpSpeed: 3
@@ -1636,6 +1639,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1814039930845200325, guid: dcc5d0601efd48b42bda7f966c59cac2, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9399727c6a1648546b2adf7eee448e4b, type: 2}
     - target: {fileID: 6063087042437631801, guid: dcc5d0601efd48b42bda7f966c59cac2, type: 3}
       propertyPath: m_Name
       value: Boardgame_Token_Purple_01_Atlased
@@ -4012,6 +4019,22 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 7756317874636040846, guid: dcc5d0601efd48b42bda7f966c59cac2, type: 3}
   m_PrefabInstance: {fileID: 626576513}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1797920991
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 780442548}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 824ec4afa867bb048bb6bb6fdc4ba9b0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  disappearHeight: 5.9
+  fadeDuration: 1
+  disappearEffect: {fileID: 198819010933878564, guid: 07581250636651942a7b6354aabb583c, type: 3}
+  useLocalY: 0
 --- !u!1001 &1843907109
 PrefabInstance:
   m_ObjectHideFlags: 0
