@@ -309,7 +309,7 @@ public class PlayerMove : MonoBehaviour
                              out var hit, footRayHeight * 2f, groundMask))
             here = shadowChecker ? shadowChecker.IsInShadow(hit.point + Vector3.up * footLift) : true;
         animator.SetBool(shadowParam, here);
-        GUI.Label(new Rect(10, 10, 520, 24), $"Here Shadow: {(here ? "YES" : "NO")} | Blocked: {(blocked ? "YES" : "NO")} | Pushing: {(isPushing ? "YES" : "NO")}");
+        // GUI.Label(new Rect(10, 10, 520, 24), $"Here Shadow: {(here ? "YES" : "NO")} | Blocked: {(blocked ? "YES" : "NO")} | Pushing: {(isPushing ? "YES" : "NO")}");
     }
 
     void OnCollisionStay(Collision other)

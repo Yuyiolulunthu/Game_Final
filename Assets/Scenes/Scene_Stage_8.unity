@@ -1315,6 +1315,18 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 6084660876978366627, guid: 97625d0fe0a61d94c91c7a13a9f81a1c, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 733.7695
+      objectReference: {fileID: 0}
+    - target: {fileID: 6084660876978366627, guid: 97625d0fe0a61d94c91c7a13a9f81a1c, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 137.5818
+      objectReference: {fileID: 0}
+    - target: {fileID: 6084660876978366627, guid: 97625d0fe0a61d94c91c7a13a9f81a1c, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -157.58179
+      objectReference: {fileID: 0}
     - target: {fileID: 6084660877351158514, guid: 97625d0fe0a61d94c91c7a13a9f81a1c, type: 3}
       propertyPath: m_Name
       value: ReCanvas
