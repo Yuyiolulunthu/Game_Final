@@ -2872,7 +2872,8 @@ MonoBehaviour:
   showStepDebug: 1
   verboseStepLog: 0
   audioSource: {fileID: 0}
-  footstepSounds: []
+  footstepSounds:
+  - {fileID: 8300000, guid: 7f864e56d904ab342b65f610b4b8cf77, type: 3}
   footstepInterval: 0.35
   footstepVolume: 0.5
   pushStartSound: {fileID: 8300000, guid: c17f1142f1186fb44b80396d15702728, type: 3}
