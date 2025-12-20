@@ -2478,20 +2478,6 @@ MonoBehaviour:
   maxIndex: 6
   backToScene: Stage-select
   delayBeforeReturn: 3
---- !u!114 &766817218
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 766817211}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9e8cc4a9c15a11343a6541d146c8b0c4, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerTag: Player
-  mainCamera: {fileID: 1692461879}
 --- !u!1001 &776279284
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3050,14 +3036,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1006774746}
-  m_LocalRotation: {x: 0.5678859, y: -0.72961956, z: 0.3344123, w: -0.1825633}
+  m_LocalRotation: {x: 0.5710401, y: -0.73544645, z: 0.32139516, w: -0.1724439}
   m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 7
-  m_LocalEulerAnglesHint: {x: 16.298, y: -222.32, z: -82.135}
+  m_LocalEulerAnglesHint: {x: 16.009, y: -220.222, z: -81.551}
 --- !u!4 &1013496463 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 8459803584467619887, guid: 7672fbd6991db9b4eb11362d5ce7ac5e, type: 3}
@@ -3649,7 +3635,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1615769082554995597, guid: 71cd7a39872427d4c8507f087e2c20dc, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.16
+      value: 2.65
       objectReference: {fileID: 0}
     - target: {fileID: 1615769082554995597, guid: 71cd7a39872427d4c8507f087e2c20dc, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3657,7 +3643,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1615769082554995597, guid: 71cd7a39872427d4c8507f087e2c20dc, type: 3}
       propertyPath: m_LocalPosition.z
-      value: 4
+      value: 4.07
       objectReference: {fileID: 0}
     - target: {fileID: 1615769082554995597, guid: 71cd7a39872427d4c8507f087e2c20dc, type: 3}
       propertyPath: m_LocalRotation.w
