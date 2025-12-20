@@ -841,6 +841,25 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2303452110a2504eaec494971bb950e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneBGMList:
+  - sceneName: Scene_Stage_01
+    bgmClip: {fileID: 8300000, guid: ddb16d6111e6dcf4290a6f4346deed42, type: 3}
+  - sceneName: Scene_Stage_02
+    bgmClip: {fileID: 8300000, guid: ddb16d6111e6dcf4290a6f4346deed42, type: 3}
+  - sceneName: Scene_Stage_03
+    bgmClip: {fileID: 8300000, guid: abc43c19e1b05db4993aee8a230c5a3f, type: 3}
+  - sceneName: Scene_Stage_04
+    bgmClip: {fileID: 8300000, guid: 78643d30c7ffb38468a4f61e78d7bfe5, type: 3}
+  - sceneName: Scene_Stage_05
+    bgmClip: {fileID: 8300000, guid: b9bf8f11690e86b4bbfcf8c7841957ac, type: 3}
+  - sceneName: Scene_Stage_06
+    bgmClip: {fileID: 8300000, guid: 5962aa7253d28e8459f1c343330a8afd, type: 3}
+  - sceneName: Scene_Stage_07
+    bgmClip: {fileID: 8300000, guid: ac4456301e5323942b51f9ef5794c9ea, type: 3}
+  - sceneName: Scene_Stage_08
+    bgmClip: {fileID: 8300000, guid: ddb16d6111e6dcf4290a6f4346deed42, type: 3}
+  - sceneName: Scene_Stage_09
+    bgmClip: {fileID: 8300000, guid: 5bc812203f1589d4cb898bbd05c2cfb3, type: 3}
 --- !u!82 &332112470
 AudioSource:
   m_ObjectHideFlags: 0

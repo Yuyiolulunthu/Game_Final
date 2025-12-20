@@ -412,6 +412,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e2303452110a2504eaec494971bb950e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  sceneBGMList:
+  - sceneName: Scene_Stage_01
+    bgmClip: {fileID: 8300000, guid: ddb16d6111e6dcf4290a6f4346deed42, type: 3}
 --- !u!82 &1000567049
 AudioSource:
   m_ObjectHideFlags: 0
@@ -422,7 +425,7 @@ AudioSource:
   m_Enabled: 1
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
-  m_audioClip: {fileID: 8300000, guid: a96f3a3473d85ac4f96d4e92c464cbba, type: 3}
+  m_audioClip: {fileID: 8300000, guid: 5bc812203f1589d4cb898bbd05c2cfb3, type: 3}
   m_PlayOnAwake: 1
   m_Volume: 0.8
   m_Pitch: 1
