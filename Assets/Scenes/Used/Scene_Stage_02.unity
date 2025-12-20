@@ -2480,11 +2480,25 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   playerTag: Player
-  target: {fileID: 0}
+  target: {fileID: 999235133}
   setToIndex: 2
   maxIndex: 6
   backToScene: Stage-select
   delayBeforeReturn: 3
+--- !u!114 &766817218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 766817211}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e8cc4a9c15a11343a6541d146c8b0c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTag: Player
+  mainCamera: {fileID: 1692461879}
 --- !u!1001 &776279284
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3901,6 +3915,7 @@ GameObject:
   - component: {fileID: 1692461876}
   - component: {fileID: 1692461875}
   - component: {fileID: 1692461878}
+  - component: {fileID: 1692461879}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -3989,6 +4004,23 @@ MonoBehaviour:
   player: {fileID: 307452861}
   zOffset: -8
   followSpeed: 10
+--- !u!114 &1692461879
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1692461874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63e0a01e6857dd940827783786bbf681, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTag: Player
+  zoomPosition: {x: 6.72345, y: 7.17543, z: 19.11142}
+  zoomEulerRotation: {x: -6.142, y: -60.401, z: 0}
+  moveDuration: 1
+  applyRotation: 1
 --- !u!4 &1717231954 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 22954715104824743, guid: 6fd5042511441df4a978654dce339c20, type: 3}
