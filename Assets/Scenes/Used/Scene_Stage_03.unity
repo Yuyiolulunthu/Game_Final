@@ -557,7 +557,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: de097ab3939864a45b4c7a4bfe90edc8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 1
+  moveSpeed: 5
   drag: 8
   shadowChecker: {fileID: 1713606426}
   groundMask:
