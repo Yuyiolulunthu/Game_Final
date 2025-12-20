@@ -22,7 +22,7 @@ public class PillarStepDown : MonoBehaviour
     void Start()
     {
         float progress = LevelProgressManager.Get(); // >= 1
-        int targetIndex = Mathf.Clamp(Mathf.RoundToInt(progress), 1, pillars.Count);
+        int targetIndex = Mathf.Clamp(Mathf.CeilToInt(progress), 1, pillars.Count);
 
         Debug.Log($"[Pillar] Enter Stage Select, targetIndex = {targetIndex}");
 
