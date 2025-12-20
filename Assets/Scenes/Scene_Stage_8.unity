@@ -1437,6 +1437,10 @@ PrefabInstance:
       propertyPath: m_Layer
       value: 8
       objectReference: {fileID: 0}
+    - target: {fileID: 7597782611038545497, guid: 0fe01505a925f3b44a0abfe8b97a7d48, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 8961116204869482437, guid: 0fe01505a925f3b44a0abfe8b97a7d48, type: 3}
       propertyPath: m_RootOrder
       value: 1
@@ -1999,7 +2003,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2602834444758753986, guid: 056b041039188ea4f94401e1192b0fb9, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 5.99
+      value: 6.61
       objectReference: {fileID: 0}
     - target: {fileID: 2602834444758753986, guid: 056b041039188ea4f94401e1192b0fb9, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2064,7 +2068,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2018130346, guid: 518c4fac3357346438a702ac051f93e5, type: 3}
       propertyPath: moveSpeed
-      value: 10
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 2018130346, guid: 518c4fac3357346438a702ac051f93e5, type: 3}
       propertyPath: stepUpSound
