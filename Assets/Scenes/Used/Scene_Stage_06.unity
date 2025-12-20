@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44980592, g: 0.4970618, b: 0.5604961, a: 1}
+  m_IndirectSpecularColor: {r: 0.44980645, g: 0.4970625, b: 0.5604971, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -2767,20 +2767,6 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 2602834444758753993, guid: 056b041039188ea4f94401e1192b0fb9, type: 3}
   m_PrefabInstance: {fileID: 1881275009}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1152533952
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1152533951}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0fde1ee18fbf5a64fbece211438606a1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerTag: Player
-  target: {fileID: 28427711}
 --- !u!114 &1152533953
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2795,6 +2781,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerTag: Player
   target: {fileID: 28427711}
+  setToIndex: 6
+  maxIndex: 6
+  backToScene: Stage-select
+  delayBeforeReturn: 3
 --- !u!1001 &1231346619
 PrefabInstance:
   m_ObjectHideFlags: 0

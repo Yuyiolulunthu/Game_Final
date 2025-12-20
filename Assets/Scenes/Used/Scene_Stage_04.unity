@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.4512595, g: 0.50004506, b: 0.56856215, a: 1}
+  m_IndirectSpecularColor: {r: 0.45126003, g: 0.5000456, b: 0.568563, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -1411,20 +1411,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerTag: Player
   target: {fileID: 1993264085}
---- !u!114 &549821798
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 549821796}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0fde1ee18fbf5a64fbece211438606a1, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  playerTag: Player
-  target: {fileID: 1993264085}
+  setToIndex: 4
+  maxIndex: 6
+  backToScene: Stage-select
+  delayBeforeReturn: 3
 --- !u!4 &573039936 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3156028889184162579, guid: ba1de1217e4ff1b4186ff3199acd3700, type: 3}
