@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.45126003, g: 0.5000456, b: 0.568563, a: 1}
+  m_IndirectSpecularColor: {r: 0.4512595, g: 0.50004506, b: 0.56856215, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -633,6 +633,7 @@ GameObject:
   - component: {fileID: 227563933}
   - component: {fileID: 227563932}
   - component: {fileID: 227563931}
+  - component: {fileID: 227563934}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -698,15 +699,32 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 227563930}
-  m_LocalRotation: {x: 0.2758022, y: -0.36807314, z: 0.11464424, w: 0.8805181}
-  m_LocalPosition: {x: 15.999064, y: 20.102726, z: -4.5373664}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalRotation: {x: 0.27580217, y: -0.36807317, z: 0.11464423, w: 0.880518}
+  m_LocalPosition: {x: 15.9990635, y: 20.102726, z: -4.537367}
+  m_LocalScale: {x: 1.000002, y: 0.99999994, z: 1.0000002}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1230807682}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 17.368, y: -52.275, z: 0}
+--- !u!114 &227563934
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 227563930}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63e0a01e6857dd940827783786bbf681, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTag: Player
+  zoomPosition: {x: 10.10516, y: 3.133648, z: 11.83316}
+  zoomEulerRotation: {x: -4.262, y: -61.432, z: 0}
+  moveDuration: 1
+  applyRotation: 1
 --- !u!4 &230161433 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7700258621285287385, guid: f2e6010894e4ede4c9c9d5abacb0885d, type: 3}
@@ -1415,6 +1433,20 @@ MonoBehaviour:
   maxIndex: 6
   backToScene: Stage-select
   delayBeforeReturn: 3
+--- !u!114 &549821798
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 549821796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9e8cc4a9c15a11343a6541d146c8b0c4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerTag: Player
+  mainCamera: {fileID: 227563934}
 --- !u!4 &573039936 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 3156028889184162579, guid: ba1de1217e4ff1b4186ff3199acd3700, type: 3}
