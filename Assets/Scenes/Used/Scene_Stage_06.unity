@@ -2783,7 +2783,7 @@ MonoBehaviour:
   target: {fileID: 28427711}
   setToIndex: 6
   maxIndex: 6
-  backToScene: Stage-select
+  backToScene: Stage-final
   delayBeforeReturn: 3
 --- !u!1001 &1231346619
 PrefabInstance:
