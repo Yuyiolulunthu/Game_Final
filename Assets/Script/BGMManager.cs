@@ -22,4 +22,13 @@ public class BGMManager : MonoBehaviour
         audioSource.loop = true;
         if (!audioSource.isPlaying) audioSource.Play();
     }
+
+    public static void RestartBGM()
+    {
+        if (instance != null && instance.audioSource != null)
+        {
+            instance.audioSource.Stop();
+            instance.audioSource.Play();
+        }
+    }
 }
