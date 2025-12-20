@@ -4,88 +4,99 @@ using UnityEngine;
 
 public class PillarStepDown : MonoBehaviour
 {
+    [Header("Pillars（順序 = index）")]
     public List<Transform> pillars;
+
+    [Header("動畫設定")]
     public float moveDistance = 2f;
     public float moveSpeed = 2f;
 
-    private int currentIndex;
+    // currentIndex = 目前「已升起」的柱子數量
+    // 下限 = 1
+    private int currentIndex = 1;
     private bool isMoving = false;
 
-    private const string SAVE_KEY = "LevelIndex";
-
+    /* ======================
+     * Start：全部在地底 → 升到 progress
+     * ====================== */
     void Start()
     {
-        currentIndex = PlayerPrefs.GetInt(SAVE_KEY, 0);
-        currentIndex = Mathf.Clamp(currentIndex, 0, pillars.Count);
+        float progress = LevelProgressManager.Get(); // >= 1
+        int targetIndex = Mathf.Clamp(Mathf.RoundToInt(progress), 1, pillars.Count);
 
-        // 啟動時直接套用狀態（不播動畫）
-        for (int i = 0; i < currentIndex; i++)
-        {
-            if (pillars[i] != null)
-                pillars[i].position += Vector3.down * moveDistance;
-        }
+        Debug.Log($"[Pillar] Enter Stage Select, targetIndex = {targetIndex}");
+
+        // ⭐ 保證所有柱子都在地底（設計基準）
+        // 這裡「不動位置」，假設你已經在場景中擺好地底狀態
+
+        // ⭐ 播放進場升起動畫
+        StartCoroutine(PlayEnterRise(targetIndex));
     }
 
+    IEnumerator PlayEnterRise(int targetIndex)
+    {
+        isMoving = true;
+
+        for (int i = 0; i < targetIndex; i++)
+        {
+            if (pillars[i] == null) continue;
+
+            yield return MovePillar(pillars[i], Vector3.up);
+        }
+
+        currentIndex = targetIndex;
+        isMoving = false;
+
+        Debug.Log($"[Pillar] Enter animation finished, currentIndex = {currentIndex}");
+    }
+
+    /* ======================
+     * Debug 操作
+     * ====================== */
     void Update()
     {
         if (isMoving) return;
 
-        // + 降
+        // + 再多升一根
         if (Input.GetKeyDown(KeyCode.KeypadPlus) || Input.GetKeyDown(KeyCode.Equals))
-        {
-            StepDown();
-        }
+            StepUpOne();
 
-        // - 升
+        // - 降一根
         if (Input.GetKeyDown(KeyCode.KeypadMinus) || Input.GetKeyDown(KeyCode.Minus))
-        {
-            StepUp();
-        }
+            StepDownOne();
 
-        // 0 重置
+        // 0 全部降回地底
         if (Input.GetKeyDown(KeyCode.Keypad0) || Input.GetKeyDown(KeyCode.Alpha0))
-        {
             ResetAll();
-        }
     }
 
-    /// <summary>
-    /// index +1，柱子下降
-    /// </summary>
-    void StepDown()
+    /* ======================
+     * 升 / 降 操作
+     * ====================== */
+
+    public void StepUpOne()
     {
-        if (currentIndex >= pillars.Count) return;
+        if (currentIndex >= pillars.Count)
+            return;
 
-        StartCoroutine(MovePillar(
-            pillars[currentIndex],
-            Vector3.down * moveDistance
-        ));
-
+        StartCoroutine(MovePillar(pillars[currentIndex], Vector3.up));
         currentIndex++;
-        SaveIndex();
+
+        SaveProgress();
     }
 
-    /// <summary>
-    /// index -1，柱子上升
-    /// </summary>
-    void StepUp()
+    public void StepDownOne()
     {
-        if (currentIndex <= 0) return;
+        if (currentIndex <= 1)
+            return;
 
         currentIndex--;
+        StartCoroutine(MovePillar(pillars[currentIndex], Vector3.down));
 
-        StartCoroutine(MovePillar(
-            pillars[currentIndex],
-            Vector3.up * moveDistance
-        ));
-
-        SaveIndex();
+        SaveProgress();
     }
 
-    /// <summary>
-    /// 全部重置（播動畫）
-    /// </summary>
-    void ResetAll()
+    public void ResetAll()
     {
         StopAllCoroutines();
         StartCoroutine(ResetCoroutine());
@@ -95,49 +106,47 @@ public class PillarStepDown : MonoBehaviour
     {
         isMoving = true;
 
-        for (int i = currentIndex - 1; i >= 0; i--)
+        // 全部降回地底
+        for (int i = currentIndex - 1; i > 0; i--)
         {
-            if (pillars[i] != null)
-            {
-                yield return StartCoroutine(
-                    MovePillar(pillars[i], Vector3.up * moveDistance)
-                );
-            }
+            if (pillars[i] == null) continue;
+            yield return MovePillar(pillars[i], Vector3.down);
         }
 
-        currentIndex = 0;
-        PlayerPrefs.DeleteKey(SAVE_KEY);
-        PlayerPrefs.Save();
+        currentIndex = 1;
+        LevelProgressManager.Reset();
 
         isMoving = false;
-        Debug.Log("DEBUG: Reset All");
+        Debug.Log("[Pillar] Reset to underground");
     }
 
-    IEnumerator MovePillar(Transform pillar, Vector3 offset)
+    /* ======================
+     * 單根動畫
+     * ====================== */
+
+    IEnumerator MovePillar(Transform pillar, Vector3 dir)
     {
-        if (pillar == null) yield break;
-
-        isMoving = true;
-
-        Vector3 startPos = pillar.position;
-        Vector3 targetPos = startPos + offset;
+        Vector3 start = pillar.position;
+        Vector3 target = start + dir * moveDistance;
 
         float t = 0f;
         while (t < 1f)
         {
             t += Time.deltaTime * moveSpeed;
-            pillar.position = Vector3.Lerp(startPos, targetPos, t);
+            pillar.position = Vector3.Lerp(start, target, t);
             yield return null;
         }
 
-        pillar.position = targetPos;
-        isMoving = false;
+        pillar.position = target;
     }
 
-    void SaveIndex()
+    /* ======================
+     * 存檔
+     * ====================== */
+
+    void SaveProgress()
     {
-        PlayerPrefs.SetInt(SAVE_KEY, currentIndex);
-        PlayerPrefs.Save();
-        Debug.Log($"DEBUG: Index = {currentIndex}");
+        LevelProgressManager.ForceSet(currentIndex);
+        Debug.Log($"[Pillar] Save progress = {currentIndex}");
     }
 }

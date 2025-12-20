@@ -97,7 +97,7 @@ LightmapSettings:
     m_ExportTrainingData: 0
     m_TrainingDataDestination: TrainingData
     m_LightProbeSampleCountMultiplier: 4
-  m_LightingDataAsset: {fileID: 0}
+  m_LightingDataAsset: {fileID: 112000000, guid: fc5fae748d04cf44e88a934814bd4edd, type: 2}
   m_LightingSettings: {fileID: 0}
 --- !u!196 &4
 NavMeshSettings:
@@ -2782,6 +2782,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerTag: Player
   target: {fileID: 28427711}
+  setToIndex: 6
+  maxIndex: 6
+  backToScene: Stage-select
+  delayBeforeReturn: 3
 --- !u!114 &1152533953
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2796,6 +2800,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   playerTag: Player
   target: {fileID: 0}
+  setToIndex: 0
+  maxIndex: 6
+  backToScene: Stage-select
+  delayBeforeReturn: 3
 --- !u!1001 &1231346619
 PrefabInstance:
   m_ObjectHideFlags: 0

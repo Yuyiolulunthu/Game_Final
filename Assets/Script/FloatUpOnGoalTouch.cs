@@ -5,40 +5,40 @@ using UnityEngine;
 public class FloatUpOnGoalTouch : MonoBehaviour
 {
     [Header("Trigger Condition")]
-    [Tooltip("­n¸I¨ìªº¥Ø¼Ğª«¥ó¦WºÙ¡]¹w³] Goal¡^")]
+    [Tooltip("è§¸ç™¼ç›®æ¨™ç‰©ä»¶åç¨±ï¼ˆé è¨­ Goalï¼‰")]
     public string goalObjectName = "Goal";
 
-    [Tooltip("ª±®a Tag¡]¹w³] Player¡^")]
+    [Tooltip("ç©å®¶ Tagï¼ˆé è¨­ Playerï¼‰")]
     public string playerTag = "Player";
 
     [Header("Float Up Motion")]
-    [Tooltip("©¹¤W¯B°_ªº¶ZÂ÷¡]¥@¬É®y¼Ğ¡^")]
+    [Tooltip("å‘ä¸Šæµ®èµ·çš„é«˜åº¦")]
     public float floatHeight = 1.5f;
 
-    [Tooltip("¤W¯B©Ò»İ®É¶¡¡]¬í¡^")]
+    [Tooltip("æµ®èµ·æ‰€éœ€æ™‚é–“ï¼ˆç§’ï¼‰")]
     public float floatDuration = 1.0f;
 
-    [Tooltip("¤W¯B¦±½u¡]¶V¥k¤W¶V§Ö/¶V¥­·Æ¡^")]
+    [Tooltip("æµ®èµ·å‹•ç•«æ›²ç·šï¼ˆæ§åˆ¶å¿«æ…¢ï¼‰")]
     public AnimationCurve easeCurve = AnimationCurve.EaseInOut(0, 0, 1, 1);
 
     [Header("VFX")]
-    [Tooltip("Ä²µo®É¼½©ñªº¯S®Ä Prefab¡]ParticleSystem¡^")]
+    [Tooltip("è§¸ç™¼æ™‚æ’­æ”¾çš„ç‰¹æ•ˆ Prefabï¼ˆParticleSystemï¼‰")]
     public ParticleSystem vfxPrefab;
 
-    [Tooltip("¯S®Ä¥Í¦¨¦ì¸m¡]¤£¶ñ«h¥Î¥»ª«¥ó¦ì¸m¡^")]
+    [Tooltip("ç‰¹æ•ˆç”Ÿæˆä½ç½®ï¼ˆå¯ç•™ç©ºï¼Œé è¨­ç‰©ä»¶æœ¬èº«ï¼‰")]
     public Transform vfxSpawnPoint;
 
-    [Tooltip("¯S®Ä¥Í¦¨®É¬O§_¸òµÛ¥»ª«¥ó")]
+    [Tooltip("ç‰¹æ•ˆæ˜¯å¦è·Ÿéš¨æ­¤ç‰©ä»¶")]
     public bool vfxFollowThisObject = true;
 
     [Header("Optional: Fade Out Then Disable")]
-    [Tooltip("¤W¯Bµ²§ô«á²H¥X¨Ã°±¥Îª«¥ó")]
+    [Tooltip("æµ®èµ·å®Œæˆå¾Œæ˜¯å¦æ·¡å‡ºä¸¦é—œé–‰ç‰©ä»¶")]
     public bool fadeOutAndDisable = false;
 
-    [Tooltip("²H¥X®É¶¡¡]¬í¡^")]
+    [Tooltip("æ·¡å‡ºæ™‚é–“ï¼ˆç§’ï¼‰")]
     public float fadeDuration = 0.5f;
 
-    // internal
+    // ===== Internal =====
     private bool triggered = false;
     private Vector3 startPos;
     private Vector3 endPos;
@@ -49,27 +49,31 @@ public class FloatUpOnGoalTouch : MonoBehaviour
         endPos = startPos + Vector3.up * floatHeight;
     }
 
-    // ¥Ñ Goal ª«¥óªº Collider/Trigger Ä²µo¡GGoal ¤W»İ¦³ Collider¡]¥i Trigger ©Î«D Trigger¡^
+    /*
+     * è‹¥ä½ å¸Œæœ›ã€Œç©å®¶ç›´æ¥ç¢°åˆ°é€™å€‹ç‰©ä»¶å°±è§¸ç™¼ã€
+     * å¯ä»¥æ‰“é–‹é€™æ®µé‚è¼¯
+     *ï¼ˆç›®å‰ä½ çš„æµç¨‹æ˜¯ç”± GoalTrigger ä¾†å‘¼å« TriggerByGoalï¼‰
+     */
     void OnTriggerEnter(Collider other)
     {
         if (triggered) return;
-
-        // ¥u±µ¨ü¡uPlayer¡v¶i¤J¥»ª«¥óªº trigger
         if (!other.CompareTag(playerTag)) return;
 
-        // ½T»{ª±®a²{¦b¸I¨ìªº¬O Goal¡]¥Î "ª±®a¥Ø«e¸I¨ìªº¬O Goal" ªº¤è¦¡°µ§P©w¡^
-        // ª`·N¡G³o­Ó¸}¥»±¾¦b¡u­n¤W¯Bªºª«¥ó¡v¤W¡A©Ò¥H¥²¶·¥Ñ Goal ¨ÓÄ²µo¥¦¤~¦X²z¡C
-        // ­Y§A§Æ±æ¥Ñ Goal ¨ÓÄ²µo¡A½Ğ§â¦¹¸}¥»¤]±¾¦b Goal¡A¨Ã¦b inspector «ü©w targetToFloat¡C
+        // è‹¥è¦ç›´æ¥è§¸ç™¼ï¼Œå–æ¶ˆè¨»è§£
+        // TriggerByGoal();
     }
 
-    // «ØÄ³°µªk¡G¥Ñ Goal Ä²µo¡]§óª½Æ[¡^
-    // ¤U­±´£¨Ñ¤@­Ó¤½¶}¤èªk¡AÅı Goal ª«¥ó¥h©I¥s
+    /// <summary>
+    /// ç”± Goal ç‰©ä»¶æˆ–å…¶ä»–è…³æœ¬å‘¼å«çš„æ­£å¼å…¥å£
+    /// </summary>
     public void TriggerByGoal()
     {
         if (triggered) return;
         triggered = true;
 
-        // ­«·s§ì¤@¦¸¡AÁ×§K§A¦b³õ´º¤¤²¾°Ê¹L¦¹ª«¥ó
+        Debug.Log("[FloatUp] Triggered");
+
+        // é‡æ–°å–å¾—èµ·é»ï¼ˆé¿å…ç‰©ä»¶å·²è¢«ç§»å‹•éï¼‰
         startPos = transform.position;
         endPos = startPos + Vector3.up * floatHeight;
 
@@ -88,16 +92,17 @@ public class FloatUpOnGoalTouch : MonoBehaviour
         ParticleSystem vfx = Instantiate(vfxPrefab, pos, Quaternion.identity, parent);
         vfx.Play();
 
-        // ¦Û°Ê²M±¼¯S®Äª«¥ó
+        // è‡ªå‹•éŠ·æ¯€ç‰¹æ•ˆ
         float life = 2f;
         var main = vfx.main;
         life = main.duration + main.startLifetime.constantMax;
         Destroy(vfx.gameObject, life + 0.2f);
     }
 
-    private System.Collections.IEnumerator FloatRoutine()
+    private IEnumerator FloatRoutine()
     {
         float t = 0f;
+
         while (t < floatDuration)
         {
             t += Time.deltaTime;
@@ -114,9 +119,9 @@ public class FloatUpOnGoalTouch : MonoBehaviour
             yield return FadeOutThenDisable();
     }
 
-    private System.Collections.IEnumerator FadeOutThenDisable()
+    private IEnumerator FadeOutThenDisable()
     {
-        // §ä©Ò¦³ Renderer¡]¥]§t¤lª«¥ó¡^
+        // å–å¾—æ‰€æœ‰ Rendererï¼ˆåŒ…å«å­ç‰©ä»¶ï¼‰
         var renderers = GetComponentsInChildren<Renderer>(true);
         if (renderers == null || renderers.Length == 0)
         {
@@ -124,18 +129,17 @@ public class FloatUpOnGoalTouch : MonoBehaviour
             yield break;
         }
 
-        // ¥u³B²z¦³ _Color ªº§÷½è¡]±`¨£©ó Standard/URP Lit¡^
         float t = 0f;
 
-        // ¥ı§â©Ò¦³§÷½è§ì¥X¨Ó¡]Á×§K¨C frame new¡^
-        var mats = new System.Collections.Generic.List<Material>();
+        // æ”¶é›†æ‰€æœ‰æè³ªï¼ˆé¿å…æ¯å¹€ newï¼‰
+        var mats = new List<Material>();
         foreach (var r in renderers)
         {
-            foreach (var m in r.materials) // material => ·| instantiate¡A¾A¦X°µ¿W¥ß²H¥X
+            foreach (var m in r.materials)
                 mats.Add(m);
         }
 
-        // °O¿ıªì©lÃC¦â
+        // è¨˜éŒ„åŸå§‹é¡è‰²
         Color[] startColors = new Color[mats.Count];
         for (int i = 0; i < mats.Count; i++)
         {
@@ -146,13 +150,13 @@ public class FloatUpOnGoalTouch : MonoBehaviour
         {
             t += Time.deltaTime;
             float u = Mathf.Clamp01(t / fadeDuration);
-            float a = 1f - u;
+            float alpha = 1f - u;
 
             for (int i = 0; i < mats.Count; i++)
             {
                 if (!mats[i] || !mats[i].HasProperty("_Color")) continue;
                 Color c = startColors[i];
-                c.a = a;
+                c.a = alpha;
                 mats[i].color = c;
             }
 
@@ -162,4 +166,3 @@ public class FloatUpOnGoalTouch : MonoBehaviour
         gameObject.SetActive(false);
     }
 }
-

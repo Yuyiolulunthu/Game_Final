@@ -1,6 +1,6 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 [RequireComponent(typeof(Collider))]
 public class GoalTriggerFloatTarget : MonoBehaviour
@@ -9,19 +9,51 @@ public class GoalTriggerFloatTarget : MonoBehaviour
     public string playerTag = "Player";
 
     [Header("Target To Float")]
-    public FloatUpOnGoalTouch target; // §â­n¤W¯Bªºª«¥ó¡]¤W­±¨º¤ä¸}¥»¡^©ì¶i¨Ó
+    public FloatUpOnGoalTouch target;
+
+    [Header("Progress")]
+    [Tooltip("é€™ä¸€é—œçš„ indexï¼ˆç¬¬ 0 é—œå¡« 0ï¼Œç¬¬ 1 é—œå¡« 1ï¼‰")]
+    public int setToIndex = 0;
+
+    [Tooltip("æœ€å¤§ indexï¼ˆæŸ±å­æ•¸é‡ï¼‰")]
+    public int maxIndex = 6;
+
+    [Header("Scene")]
+    public string backToScene = "Stage-select";
+
+    [Header("Delay")]
+    public float delayBeforeReturn = 3f;
+
+    private bool triggered = false;
 
     void Reset()
     {
-        // Goal «ØÄ³¥Î Trigger
         GetComponent<Collider>().isTrigger = true;
     }
 
     void OnTriggerEnter(Collider other)
     {
+        if (triggered) return;
         if (!other.CompareTag(playerTag)) return;
         if (target == null) return;
 
+        triggered = true;
+
+        Debug.Log("[GoalTrigger] Player reached goal");
+
         target.TriggerByGoal();
+        StartCoroutine(CompleteAfterDelay());
+    }
+
+    IEnumerator CompleteAfterDelay()
+    {
+        yield return new WaitForSeconds(delayBeforeReturn);
+
+        // â­ é—œå¡å®Œæˆç‹€æ…‹ï¼ˆ.5ï¼‰
+        float targetProgress = setToIndex + 0.5f;
+
+        LevelProgressManager.SetTo(targetProgress, maxIndex);
+
+        SceneManager.LoadScene(backToScene);
     }
 }
