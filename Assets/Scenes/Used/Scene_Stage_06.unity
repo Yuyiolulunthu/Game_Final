@@ -1898,14 +1898,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 612248213}
-  m_LocalRotation: {x: -0.000000014666291, y: 0.6578144, z: -0.0000000026815088, w: 0.75318015}
-  m_LocalPosition: {x: -1.02, y: 1.61, z: 0.09}
+  m_LocalRotation: {x: -0.000000012595947, y: -0.027466267, z: 0.000000007977008, w: 0.9996228}
+  m_LocalPosition: {x: -1.0200015, y: 1.6099985, z: 0.089998074}
   m_LocalScale: {x: 0.8518465, y: 1.0989012, z: 0.88803655}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 806054123}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -40.412, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -3.148, z: 0}
 --- !u!4 &637305153 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6829554291616002384, guid: 6878f3fb05209dd439d2d3cc24ef9728, type: 3}
@@ -3229,19 +3229,19 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1910824806366049513, guid: 25a72a2babac86a4c83411a1f2f4621f, type: 3}
       propertyPath: m_LocalScale.z
-      value: 0.3
+      value: 0.22073402
       objectReference: {fileID: 0}
     - target: {fileID: 1910824806366049513, guid: 25a72a2babac86a4c83411a1f2f4621f, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.121001326
+      value: -0.11031
       objectReference: {fileID: 0}
     - target: {fileID: 1910824806366049513, guid: 25a72a2babac86a4c83411a1f2f4621f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.5199966
+      value: 1.52
       objectReference: {fileID: 0}
     - target: {fileID: 1910824806366049513, guid: 25a72a2babac86a4c83411a1f2f4621f, type: 3}
       propertyPath: m_LocalPosition.z
-      value: -0.45999897
+      value: -0.46508
       objectReference: {fileID: 0}
     - target: {fileID: 1910824806366049513, guid: 25a72a2babac86a4c83411a1f2f4621f, type: 3}
       propertyPath: m_LocalRotation.w
@@ -3424,7 +3424,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!65 &1534377189
 BoxCollider:
@@ -3450,8 +3450,8 @@ BoxCollider:
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 2.3253007, y: 0.63266873, z: 2.1434596}
-  m_Center: {x: -0.0055806655, y: 0.31630027, z: 0.15117176}
+  m_Size: {x: 2.3253007, y: 4.640422, z: 2.1434596}
+  m_Center: {x: -0.0055806995, y: 2.3201766, z: 0.15117164}
 --- !u!1001 &1561210290
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4418,14 +4418,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1858216396}
-  m_LocalRotation: {x: -0.000000014666291, y: 0.6578144, z: -0.0000000026815088, w: 0.75318015}
-  m_LocalPosition: {x: 0.05, y: 1.95, z: 0.243}
+  m_LocalRotation: {x: -0.000000012856537, y: 0.006093352, z: 0.000000007549836, w: 0.99998146}
+  m_LocalPosition: {x: 0.26, y: 2.73, z: -0.53}
   m_LocalScale: {x: 0.8518465, y: 1.0989012, z: 0.88803655}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 10795007}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -40.412, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0.698, z: 0}
 --- !u!1001 &1881275009
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4880,14 +4880,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2032688165}
-  m_LocalRotation: {x: -0.000000014666291, y: 0.6578144, z: -0.0000000026815088, w: 0.75318015}
-  m_LocalPosition: {x: -1.2, y: 1.5, z: 0.44}
+  m_LocalRotation: {x: -0.000000012424311, y: -0.04861504, z: 0.00000000824179, w: 0.9988177}
+  m_LocalPosition: {x: -1.0399969, y: 1.6099985, z: -0.12999739}
   m_LocalScale: {x: 0.8518465, y: 1.0989012, z: 0.88803655}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2037105837}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: -40.412, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: -5.573, z: 0}
 --- !u!1 &2036309428 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: ab6148297ca538b47be1d29c61d13411, type: 3}
