@@ -31,13 +31,13 @@ public class PillarStepDown : MonoBehaviour
         if (isMoving) return;
 
         // + 降
-        if (Input.GetKeyDown(KeyCode.KeypadPlus))
+        if (Input.GetKeyDown(KeyCode.KeypadPlus) || Input.GetKeyDown(KeyCode.Equals))
         {
             StepDown();
         }
 
         // - 升
-        if (Input.GetKeyDown(KeyCode.KeypadMinus))
+        if (Input.GetKeyDown(KeyCode.KeypadMinus) || Input.GetKeyDown(KeyCode.Minus))
         {
             StepUp();
         }
