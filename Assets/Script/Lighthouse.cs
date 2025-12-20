@@ -8,10 +8,10 @@ public class Lighthouse : MonoBehaviour
 
     [Header("Rotation Range (Local Euler Angles)")]
     [Tooltip("起點角度（Local Euler）")]
-    public Vector3 angleA = new Vector3(174.855f, 35.033f, 10.63699f);
+    public Vector3 angleA = new Vector3(6.808f, 401.503f, 214.627f);
 
     [Tooltip("終點角度（Local Euler）")]
-    public Vector3 angleB = new Vector3(134.891f, 7.108002f, -0.757995f);
+    public Vector3 angleB = new Vector3(40.973f, 420.63f, 258.001f);
 
     [Header("Motion")]
     [Tooltip("A->B 或 B->A 單程要幾秒（秒）")]
