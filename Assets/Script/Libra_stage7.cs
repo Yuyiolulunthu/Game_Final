@@ -34,10 +34,11 @@ public class Libra_stage7 : MonoBehaviour
     {
         float currentX = GetLibraX();
         float deltaX = currentX - lastLibraX;  // libra x 的變化量
+        if(deltaX<0) deltaX=-1*deltaX;
         lastLibraX = currentX;
 
         // libra.x -1 => object1.y +1  (反向)  所以 object1DeltaY = -deltaX * ratio
-        float deltaY1 = -deltaX * ratio;
+        float deltaY1 = +deltaX * ratio;
         float deltaY2 = +deltaX * ratio; // object2 方向相反
 
         ApplyDeltaY(object1, deltaY1);
