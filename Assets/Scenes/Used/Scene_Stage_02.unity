@@ -1573,7 +1573,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2762266721775177007, guid: 493e56345f9c85c4a89a753e9ecc28fa, type: 3}
       propertyPath: m_text
-      value: Pillars may be helpful.
+      value: Don't be greedy.
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 493e56345f9c85c4a89a753e9ecc28fa, type: 3}
